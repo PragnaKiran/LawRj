@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <!-- Background transparent/white -->
+  <!-- Scales of Justice Icon -->
+  <g transform="translate(15, 12)" fill="#1a2b5e">
+    <rect x="22" y="8" width="2" height="40" rx="1"/>
+    <rect x="8" y="8" width="30" height="2.5" rx="1"/>
+    <line x1="10" y1="10" x2="10" y2="30" stroke="#1a2b5e" stroke-width="1.5"/>
+    <line x1="36" y1="10" x2="36" y2="30" stroke="#1a2b5e" stroke-width="1.5"/>
+    <ellipse cx="10" cy="32" rx="9" ry="3.5" fill="none" stroke="#1a2b5e" stroke-width="1.5"/>
+    <ellipse cx="36" cy="32" rx="9" ry="3.5" fill="none" stroke="#1a2b5e" stroke-width="1.5"/>
+    <rect x="17" y="48" width="12" height="2.5" rx="1"/>
+    <circle cx="23" cy="8" r="2.5" fill="#e8901a"/>
+  </g>
+  <!-- LawRj Text -->
+  <text x="72" y="46" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#1a2b5e" letter-spacing="1">LawRj</text>
+  <!-- Consultancy subtext -->
+  <text x="73" y="62" font-family="Arial, sans-serif" font-size="11" font-weight="400" fill="#e8901a" letter-spacing="3">CONSULTANCY</text>
+  <!-- Divider -->
+  <rect x="68" y="20" width="1.5" height="45" fill="#1a2b5e" opacity="0.4"/>
+</svg>

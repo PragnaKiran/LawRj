@@ -1,0 +1,270 @@
+/* =====================================================
+   LawRJ Global Startup Counsel & Advisory (Idea to IPO)
+   Brand Palette extracted from Sudarshana Chakra LawRJ Emblem:
+   - Deep Royal Midnight Navy: #0B1B3D / #102454 / #071126
+   - Radiant Sunburst Gold: #D4AF37 / #F3C644 / #C59B27 / #E5A93C
+   - Jewel Accents: Ruby #9E1A36, Emerald #0D6E55
+   - Clean Premium Canvas: #FFFFFF / #F8FAFC
+   ===================================================== */
+
+:root {
+  --color-primary: #D4AF37;
+  --color-primary-gold: #F3C644;
+  --color-primary-dark: #A9801A;
+  --color-navy: #0B1B3D;
+  --color-navy-dark: #071126;
+  --color-navy-light: #162E66;
+  --color-bg-light: #F8FAFC;
+  --color-text-main: #1E293B;
+  --color-text-muted: #64748B;
+  --color-gold-gradient: linear-gradient(135deg, #F3C644 0%, #D4AF37 50%, #A9801A 100%);
+  --color-navy-gradient: linear-gradient(135deg, #0B1B3D 0%, #162E66 60%, #071126 100%);
+  --gold-glow: 0 0 20px rgba(212, 175, 55, 0.35);
+}
+
+/* Base styling enhancements */
+body {
+  font-family: var(--font-primary, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+  color: var(--color-text-main);
+  background-color: #ffffff;
+}
+
+/* Primary Button with Gold Gradient and Refined Luxury Glow */
+.tmp-btn.btn-primary,
+.bg--primary,
+.subscribe-area .tmp-btn.btn-primary {
+  background: var(--color-gold-gradient) !important;
+  color: #071126 !important;
+  border: 1px solid rgba(243, 198, 68, 0.4) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.25) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.tmp-btn.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(212, 175, 55, 0.4) !important;
+  color: #000000 !important;
+}
+
+.tmp-btn.btn-secondary {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  backdrop-filter: blur(10px);
+}
+
+.tmp-btn.btn-secondary:hover {
+  background: rgba(212, 175, 55, 0.15) !important;
+  border-color: var(--color-primary-gold) !important;
+  color: var(--color-primary-gold) !important;
+}
+
+/* Header Enhancements */
+.header-top-one {
+  background: #071126 !important;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.header-top-one .left-top {
+  color: #e2e8f0 !important;
+  font-weight: 500;
+}
+
+.header-top-one a, 
+.header-top-one p {
+  color: #cbd5e1 !important;
+}
+
+.header-top-one .location-area i,
+.header-top-one .working-time i {
+  color: var(--color-primary-gold) !important;
+}
+
+.header-mida-area {
+  padding: 18px 0;
+}
+
+.header--sticky.sticky {
+  background: rgba(11, 27, 61, 0.95) !important;
+  backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 10px 30px rgba(7, 17, 38, 0.3);
+}
+
+.header-nav.main-nav-one ul.parent-nav > li > a {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.header--sticky.sticky .header-nav.main-nav-one ul.parent-nav > li > a {
+  color: #f8fafc;
+}
+
+.header-nav.main-nav-one ul.parent-nav > li > a:hover,
+.header-nav.main-nav-one ul.parent-nav > li.active > a {
+  color: var(--color-primary-gold) !important;
+}
+
+.submenu {
+  background: #0B1B3D !important;
+  border: 1px solid rgba(212, 175, 55, 0.25) !important;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.3) !important;
+  border-radius: 8px;
+}
+
+.submenu li a {
+  color: #e2e8f0 !important;
+  transition: all 0.2s ease;
+}
+
+.submenu li a:hover {
+  color: var(--color-primary-gold) !important;
+  padding-left: 10px;
+}
+
+/* Logo image wrapper styles to ensure crisp rendering */
+.logo img, .header-mida-area img {
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover img {
+  transform: scale(1.02);
+}
+
+/* Sections & Typography */
+.section-sub-title span,
+.section-sub-title .subtitle {
+  color: var(--color-primary-dark) !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase;
+}
+
+/* Progress bar styling */
+.progress-bar.bg--primary {
+  background: var(--color-gold-gradient) !important;
+}
+
+/* Cards & Badges */
+.card-bg-color,
+.single-services .services-inner {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  transition: all 0.35s ease;
+}
+
+.single-services .services-inner:hover {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 16px 36px rgba(11, 27, 61, 0.08) !important;
+  transform: translateY(-4px);
+}
+
+.services-content .icon.angle-roted {
+  color: var(--color-navy) !important;
+  border-color: rgba(212, 175, 55, 0.4) !important;
+}
+
+.services-content .icon.angle-roted:hover {
+  background: var(--color-gold-gradient) !important;
+  color: #071126 !important;
+}
+
+/* Footer Styling */
+.bg-color-footer {
+  background: #071126 !important;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.single-footer-wrapper .description {
+  color: #94a3b8 !important;
+}
+
+.ft-title {
+  color: #ffffff !important;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.ft-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 32px;
+  height: 2px;
+  background: var(--color-gold-gradient);
+}
+
+.ft-link li a {
+  color: #94a3b8 !important;
+  transition: all 0.25s ease;
+}
+
+.ft-link li a:hover {
+  color: var(--color-primary-gold) !important;
+  transform: translateX(4px);
+}
+
+.copyright-area-one {
+  background: #030814 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Side navigation panel */
+#side-hide {
+  background: #0B1B3D !important;
+}
+
+#side-hide .title {
+  color: #ffffff !important;
+}
+
+#side-hide .disc {
+  color: #94a3b8 !important;
+}
+
+/* Global Floating WhatsApp Contact */
+.lawrj-whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 28px;
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.45);
+  z-index: 9999;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.lawrj-whatsapp-float:hover {
+  transform: scale(1.12);
+  color: white;
+  box-shadow: 0 12px 35px rgba(37, 211, 102, 0.6);
+}
+
+/* Global Jurisdiction Badges */
+.jurisdiction-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #D4AF37;
+}

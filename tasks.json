@@ -24,6 +24,12 @@
       "project_id": "PRJ-02",
       "priority": 3,
       "name": "Satish Yadav Matter"
+    },
+    {
+      "id": "SUB-014",
+      "project_id": "PRJ-02",
+      "priority": 4,
+      "name": "LawRJ Web Platform & Legal Tech Infrastructure"
     }
   ],
   "tasks": [
@@ -312,6 +318,182 @@
       "est_hours": "2.0",
       "actual_hours": "1.0",
       "notes": "Mr. Saurabh Vyas was unavailable; Viral Vyas has taken direct in-house responsibility for the planning and execution of all associated mortgage release tasks."
+    },
+    {
+      "task_id": "TSK-IT-001",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 1,
+      "priority_matrix": "2-4-1",
+      "sort_key": [
+        2,
+        4,
+        1
+      ],
+      "task_name": "Hero Banner Refactor & Delaware De-Biasing (BannerOne.jsx)",
+      "status": "To Do",
+      "est_hours": "2.0",
+      "actual_hours": "",
+      "notes": "Eliminate Delaware bias; present jurisdiction-agnostic venture architecture with verified metrics."
+    },
+    {
+      "task_id": "TSK-IT-002",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 2,
+      "priority_matrix": "2-4-2",
+      "sort_key": [
+        2,
+        4,
+        2
+      ],
+      "task_name": "4 Core Practice Pillars Presentation (ServiceOne.jsx)",
+      "status": "To Do",
+      "est_hours": "3.0",
+      "actual_hours": "",
+      "notes": "Deploy 4 immutable pillars: Corporate Structuring, VC Financing, Enterprise SaaS Contracts, and Inbound Tech GCCs."
+    },
+    {
+      "task_id": "TSK-IT-003",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 3,
+      "priority_matrix": "2-4-3",
+      "sort_key": [
+        2,
+        4,
+        3
+      ],
+      "task_name": "Structured Founder Scoping Intake Form (ContactOne.jsx)",
+      "status": "To Do",
+      "est_hours": "3.0",
+      "actual_hours": "",
+      "notes": "Structured intake: stage, requirement dropdown, target jurisdictions, timeline, mutual NDA checkbox."
+    },
+    {
+      "task_id": "TSK-IT-004",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 4,
+      "priority_matrix": "2-4-4",
+      "sort_key": [
+        2,
+        4,
+        4
+      ],
+      "task_name": "Strategic About Section & Bilateral Bridge Copy (AboutOne.jsx)",
+      "status": "To Do",
+      "est_hours": "1.5",
+      "actual_hours": "",
+      "notes": "Objective advisory positioning and India-Global cross-border tech bridge."
+    },
+    {
+      "task_id": "TSK-IT-005",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 5,
+      "priority_matrix": "2-4-5",
+      "sort_key": [
+        2,
+        4,
+        5
+      ],
+      "task_name": "Statutory Non-Litigation Disclaimers & DPDP Notice (FooterOne.jsx)",
+      "status": "To Do",
+      "est_hours": "1.5",
+      "actual_hours": "",
+      "notes": "Advocates Act 1961 regulatory compliance notice and zero-tracker privacy rules."
+    },
+    {
+      "task_id": "TSK-IT-006",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 6,
+      "priority_matrix": "2-4-6",
+      "sort_key": [
+        2,
+        4,
+        6
+      ],
+      "task_name": "Schema.org LegalService JSON-LD Structured Data (layout.js)",
+      "status": "To Do",
+      "est_hours": "1.5",
+      "actual_hours": "",
+      "notes": "Technical SEO structured data injection for venture legal search indexation."
+    },
+    {
+      "task_id": "TSK-IT-007",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 7,
+      "priority_matrix": "2-4-7",
+      "sort_key": [
+        2,
+        4,
+        7
+      ],
+      "task_name": "Diagnostic Test Suites Compilation (\u00bbChapel)",
+      "status": "To Do",
+      "est_hours": "3.0",
+      "actual_hours": "",
+      "notes": "Automate Gherkin criteria verification to enforce 80% statement test coverage gate."
+    },
+    {
+      "task_id": "TSK-IT-008",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 8,
+      "priority_matrix": "2-4-8",
+      "sort_key": [
+        2,
+        4,
+        8
+      ],
+      "task_name": "Firebase Hosting Production Deployment (\u00bbUhura)",
+      "status": "To Do",
+      "est_hours": "1.0",
+      "actual_hours": "",
+      "notes": "Execute npm run build, verify static export in out/, and ship live via firebase deploy."
     }
   ]
 }

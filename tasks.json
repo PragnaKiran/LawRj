@@ -1,0 +1,317 @@
+{
+  "project_id": "PRJ-02",
+  "project_name": "LawRJ",
+  "base_priority": 2,
+  "entity_id": "ENT-09",
+  "status": "Active",
+  "discord_thread_id": "1554908155484446740",
+  "updated_at": "2026-10-01T06:39:56.177740+00:00",
+  "subprojects": [
+    {
+      "id": "SUB-005",
+      "project_id": "PRJ-02",
+      "priority": 1,
+      "name": "Chirag Patel Probate"
+    },
+    {
+      "id": "SUB-006",
+      "project_id": "PRJ-02",
+      "priority": 2,
+      "name": "Chirag Patel Sale Deed"
+    },
+    {
+      "id": "SUB-007",
+      "project_id": "PRJ-02",
+      "priority": 3,
+      "name": "Satish Yadav Matter"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "TSK-034",
+      "scheduled_date": "2026-08-14",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "",
+      "sub_project_name": "",
+      "project_priority": 2,
+      "sub_project_priority": 0,
+      "task_priority": 1,
+      "priority_matrix": "2-0-1",
+      "sort_key": [
+        2,
+        0,
+        1
+      ],
+      "task_name": "Chirag Patel Anand Court Hearing",
+      "status": "Completed",
+      "est_hours": "",
+      "actual_hours": "4.0",
+      "notes": "Next hearing Oct 8, 2026"
+    },
+    {
+      "task_id": "TSK-035",
+      "scheduled_date": "2026-08-29",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-005",
+      "sub_project_name": "Chirag Patel Probate",
+      "project_priority": 2,
+      "sub_project_priority": 1,
+      "task_priority": 1,
+      "priority_matrix": "2-1-1",
+      "sort_key": [
+        2,
+        1,
+        1
+      ],
+      "task_name": "Chirag Patel Probate Public Notice",
+      "status": "In Progress",
+      "est_hours": "1.5",
+      "actual_hours": "1.0",
+      "notes": "Probate notice ad estimate approved by Viral with Adv. Harish Patel. System changed: Anand Court now issuing printed notices. Anand Court visit scheduled for Sept 7, 2026."
+    },
+    {
+      "task_id": "TSK-016",
+      "scheduled_date": "2026-08-05",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-005",
+      "sub_project_name": "Chirag Patel Probate",
+      "project_priority": 2,
+      "sub_project_priority": 1,
+      "task_priority": 2,
+      "priority_matrix": "2-1-2",
+      "sort_key": [
+        2,
+        1,
+        2
+      ],
+      "task_name": "Review Inheritance Case for Unit 104 (Chirag Patel Ref)",
+      "status": "Completed",
+      "est_hours": "1.5",
+      "actual_hours": "1.5",
+      "notes": "Owner deceased without 1st level heirs; 2nd/3rd level heirs claiming inheritance"
+    },
+    {
+      "task_id": "TSK-017",
+      "scheduled_date": "2026-08-05",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-005",
+      "sub_project_name": "Chirag Patel Probate",
+      "project_priority": 2,
+      "sub_project_priority": 1,
+      "task_priority": 2,
+      "priority_matrix": "2-1-2",
+      "sort_key": [
+        2,
+        1,
+        2
+      ],
+      "task_name": "Review Inheritance Case for Unit 201 (Chirag Patel Ref)",
+      "status": "Completed",
+      "est_hours": "1.5",
+      "actual_hours": "1.5",
+      "notes": "Owner deceased without 1st level heirs; 2nd/3rd level heirs claiming inheritance"
+    },
+    {
+      "task_id": "TSK-023",
+      "scheduled_date": "2026-08-23",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-005",
+      "sub_project_name": "Chirag Patel Probate",
+      "project_priority": 2,
+      "sub_project_priority": 1,
+      "task_priority": 2,
+      "priority_matrix": "2-1-2",
+      "sort_key": [
+        2,
+        1,
+        2
+      ],
+      "task_name": "Chirag Patel Sync (Unit 104 & 201 Inheritance Cases)",
+      "status": "Cancelled",
+      "est_hours": "1.0",
+      "actual_hours": "",
+      "notes": "Cancelled and marked lost per ViKi instruction."
+    },
+    {
+      "task_id": "TSK-047",
+      "scheduled_date": "2026-08-31",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-005",
+      "sub_project_name": "Chirag Patel Probate",
+      "project_priority": 2,
+      "sub_project_priority": 1,
+      "task_priority": 2,
+      "priority_matrix": "2-1-2",
+      "sort_key": [
+        2,
+        1,
+        2
+      ],
+      "task_name": "Malav Parikh Follow-up Meeting on Bhanumatiben Units",
+      "status": "Cancelled",
+      "est_hours": "1.5",
+      "actual_hours": "1.0",
+      "notes": "Strategy and title documentation for Bhanumatiben's units (Unit 104) deemed no longer viable; task cancelled."
+    },
+    {
+      "task_id": "TSK-048",
+      "scheduled_date": "2026-08-27",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-005",
+      "sub_project_name": "Chirag Patel Probate",
+      "project_priority": 2,
+      "sub_project_priority": 1,
+      "task_priority": 2,
+      "priority_matrix": "2-1-2",
+      "sort_key": [
+        2,
+        1,
+        2
+      ],
+      "task_name": "Kushumben Hierarchy Succession Documents Follow-up",
+      "status": "Cancelled",
+      "est_hours": "1.0",
+      "actual_hours": "0.5",
+      "notes": "Gathering family documentation deemed no longer viable; task cancelled."
+    },
+    {
+      "task_id": "TSK-054",
+      "scheduled_date": "2026-10-08",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-005",
+      "sub_project_name": "Chirag Patel Probate",
+      "project_priority": 2,
+      "sub_project_priority": 1,
+      "task_priority": 8,
+      "priority_matrix": "2-1-8",
+      "sort_key": [
+        2,
+        1,
+        8
+      ],
+      "task_name": "Visit Anand Court to Collect Printed Probate Public Notice",
+      "status": "To Do",
+      "est_hours": "4.0",
+      "actual_hours": "",
+      "notes": "local junior assistant will oversee"
+    },
+    {
+      "task_id": "TSK-014",
+      "scheduled_date": "2026-08-31",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-006",
+      "sub_project_name": "Chirag Patel Sale Deed",
+      "project_priority": 2,
+      "sub_project_priority": 2,
+      "task_priority": 1,
+      "priority_matrix": "2-2-1",
+      "sort_key": [
+        2,
+        2,
+        1
+      ],
+      "task_name": "Chirag Patel Disturbed Areas Act NOC",
+      "status": "Completed",
+      "est_hours": "0.5",
+      "actual_hours": "0.5",
+      "notes": "Completed prior to August 31, 2026 sale deed execution at SRO Naroda. Decoupled from AnyRoR tracking."
+    },
+    {
+      "task_id": "TSK-049",
+      "scheduled_date": "2026-08-31",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-006",
+      "sub_project_name": "Chirag Patel Sale Deed",
+      "project_priority": 2,
+      "sub_project_priority": 2,
+      "task_priority": 1,
+      "priority_matrix": "2-2-1",
+      "sort_key": [
+        2,
+        2,
+        1
+      ],
+      "task_name": "Chirag Patel Sale Deed Execution (Sub-Registrar Office with Adv Harish)",
+      "status": "Completed",
+      "est_hours": "4.0",
+      "actual_hours": "4.0",
+      "notes": "Sale deed successfully registered and concluded. Collection from Sub-Registrar office scheduled for Monday noon."
+    },
+    {
+      "task_id": "TSK-053",
+      "scheduled_date": "2026-09-07",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-006",
+      "sub_project_name": "Chirag Patel Sale Deed",
+      "project_priority": 2,
+      "sub_project_priority": 2,
+      "task_priority": 1,
+      "priority_matrix": "2-2-1",
+      "sort_key": [
+        2,
+        2,
+        1
+      ],
+      "task_name": "Collect Registered Sale Deed of Chirag Patel (Sub-Registrar Office)",
+      "status": "Completed",
+      "est_hours": "1.5",
+      "actual_hours": "1.5",
+      "notes": ""
+    },
+    {
+      "task_id": "TSK-058",
+      "scheduled_date": "2026-10-30",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-006",
+      "sub_project_name": "Chirag Patel Sale Deed",
+      "project_priority": 2,
+      "sub_project_priority": 2,
+      "task_priority": 1,
+      "priority_matrix": "2-2-1",
+      "sort_key": [
+        2,
+        2,
+        1
+      ],
+      "task_name": "payment reminder for Chirag Patel",
+      "status": "To Do",
+      "est_hours": "",
+      "actual_hours": "",
+      "notes": "Sale deed finalized; meeting to settle payments rescheduled to end of October 2026."
+    },
+    {
+      "task_id": "TSK-013",
+      "scheduled_date": "2026-09-02",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-006",
+      "sub_project_name": "Chirag Patel Sale Deed",
+      "project_priority": 2,
+      "sub_project_priority": 2,
+      "task_priority": 4,
+      "priority_matrix": "2-2-4",
+      "sort_key": [
+        2,
+        2,
+        4
+      ],
+      "task_name": "Removing mortgage for Chirag Patel Flats (Advocate Saurabh Vyas)",
+      "status": "Cancelled",
+      "est_hours": "2.0",
+      "actual_hours": "1.0",
+      "notes": "Mr. Saurabh Vyas was unavailable; Viral Vyas has taken direct in-house responsibility for the planning and execution of all associated mortgage release tasks."
+    }
+  ]
+}

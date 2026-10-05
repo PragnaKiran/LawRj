@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "name": "LawRJ Design System Tokens",
+  "version": "1.0.0",
+  "author": "Lieutenant Hikaru Sulu [Agent 11], Chief Helmsman & UI/UX Designer",
+  "color": {
+    "brand": {
+      "primary": "#071126",
+      "primarySurface": "#0D1B3E",
+      "primaryElevated": "#13234E",
+      "goldPrimary": "#D4AF37",
+      "goldBright": "#F3C644",
+      "goldMuted": "rgba(212, 175, 55, 0.2)"
+    },
+    "text": {
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8",
+      "muted": "#64748B",
+      "contrastInverse": "#071126"
+    },
+    "status": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#3B82F6"
+    },
+    "border": {
+      "subtle": "rgba(148, 163, 184, 0.15)",
+      "goldAccent": "rgba(212, 175, 55, 0.4)",
+      "focus": "#D4AF37"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": "var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "serif": "'Playfair Display', Georgia, Cambria, serif",
+      "mono": "var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace"
+    },
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem"
+    },
+    "fontWeight": {
+      "regular": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700"
+    },
+    "lineHeight": {
+      "tight": "1.2",
+      "normal": "1.5",
+      "relaxed": "1.75"
+    }
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "6": "24px",
+    "8": "32px",
+    "12": "48px",
+    "16": "64px",
+    "24": "96px",
+    "32": "128px"
+  },
+  "breakpoints": {
+    "mobile": "320px",
+    "tablet": "768px",
+    "desktop": "1024px",
+    "wide": "1440px"
+  },
+  "layout": {
+    "maxWidth": "1280px",
+    "gridColumns": 12,
+    "gutter": "24px"
+  },
+  "standards": {
+    "wcag": "AAA Compliant (Body contrast >= 7:1)",
+    "aesthetic": "Strictly Flat 2D (Zero 3D mockups, Zero angled frames)"
+  }
+}

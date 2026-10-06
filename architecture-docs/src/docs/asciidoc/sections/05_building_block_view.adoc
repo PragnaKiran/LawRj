@@ -1,0 +1,6 @@
+=== Level 1: Whitebox Overall System
+* **Header / Navigation (`HeaderOne.jsx`):** Multi-device navigation, practice taxonomy, direct WhatsApp badge.
+* **Hero Section (`BannerOne.jsx`):** Global venture architecture positioning, M+ metrics, primary/secondary CTAs.
+* **Practice Pillars (`ServiceOne.jsx`):** 4 immutable practice areas with structured briefs.
+* **Founder Scoping Funnel (`ContactOne.jsx`):** Scoping intake with stage, requirement, timeline, and M-NDA checkbox.
+* **Statutory Footer (`FooterOne.jsx`):** Advocates Act disclaimer, practice coordinates, navigation.

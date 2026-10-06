@@ -1,0 +1,4 @@
+=== Quality Tree
+* **Performance:** Lighthouse score >= 90; FCP <= 0.8s; LCP <= 1.8s; CLS <= 0.05.
+* **Security:** A+ rating on Mozilla Observatory; zero CSP violations.
+* **Accessibility:** WCAG 2.1 AAA contrast on body copy (>= 7:1); full keyboard navigation.

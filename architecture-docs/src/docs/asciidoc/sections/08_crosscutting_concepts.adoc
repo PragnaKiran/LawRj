@@ -1,0 +1,8 @@
+=== Security & Data Protection
+* Strict CSP preventing XSS and injection.
+* HSTS Preload enforcement for 2 years (`max-age=63072000; includeSubDomains; preload`).
+* Permissions-Policy disabling camera, microphone, geolocation, and payment APIs.
+
+=== SEO & Discoverability
+* Schema.org `LegalService` JSON-LD injected in root HTML head.
+* OpenGraph and Twitter Card metadata configured for clean link previews.

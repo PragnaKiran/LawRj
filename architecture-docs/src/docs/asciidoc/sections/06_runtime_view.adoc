@@ -1,0 +1,5 @@
+=== Scenario 1: Founder Briefing Submission
+1. Founder inputs startup details and acknowledges the commercial advisory disclaimer.
+2. Form validator executes regex and schema checks.
+3. Controller dispatches encrypted JSON payload to EmailJS serverless endpoint.
+4. UI transitions to Populated / Success state with high-priority WhatsApp escalation option.

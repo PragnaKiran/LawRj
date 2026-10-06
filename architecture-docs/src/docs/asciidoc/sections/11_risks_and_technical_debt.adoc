@@ -1,0 +1,5 @@
+=== Risk Management
+* **Risk 1: EmailJS Free-Tier Limit Breach (200/mo):**
+  * *Mitigation:* Dual honeypots block bot spam; direct WhatsApp bypass handles urgent founders.
+* **Risk 2: Outdated Next.js Dependencies:**
+  * *Mitigation:* Dependabot scans and periodic npm audit patching via Starfleet QA gate.

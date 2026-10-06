@@ -1,0 +1,44 @@
+= LawRJ Global Venture Architecture & Legal Tech Platform
+:toc: left
+:toclevels: 3
+:sectnums:
+:icons: font
+:source-highlighter: highlightjs
+Dr. Richard Daystrom [Agent 04] <daystrom@enterprise.fleet>
+v1.0.0, 2026-10-06
+
+== Introduction and Goals
+include::sections/01_introduction_and_goals.adoc[]
+
+== Architecture Constraints
+include::sections/02_architecture_constraints.adoc[]
+
+== Context and Scope
+include::sections/03_context_and_scope.adoc[]
+
+== Solution Strategy
+include::sections/04_solution_strategy.adoc[]
+
+== Building Block View
+include::sections/05_building_block_view.adoc[]
+
+== Runtime View
+include::sections/06_runtime_view.adoc[]
+
+== Deployment View
+include::sections/07_deployment_view.adoc[]
+
+== Crosscutting Concepts
+include::sections/08_crosscutting_concepts.adoc[]
+
+== Architecture Decisions (ADRs)
+include::sections/09_architecture_decisions.adoc[]
+
+== Quality Requirements
+include::sections/10_quality_requirements.adoc[]
+
+== Risks and Technical Debt
+include::sections/11_risks_and_technical_debt.adoc[]
+
+== Glossary
+include::sections/12_glossary.adoc[]

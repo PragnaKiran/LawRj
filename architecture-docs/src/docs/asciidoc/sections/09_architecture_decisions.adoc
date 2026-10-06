@@ -1,0 +1,9 @@
+=== ADR-001: Next.js Static Export over SSR
+* **Status:** Accepted.
+* **Context:** Operating within Spark Free Tier mandates zero runtime server expenses.
+* **Decision:** Enforce `output: 'export'` in `next.config.mjs`.
+
+=== ADR-002: Direct WhatsApp Escalation for Attorney-Client Privilege
+* **Status:** Accepted.
+* **Context:** Founders in active financing rounds require immediate, encrypted communication.
+* **Decision:** Provide direct link to `https://wa.me/919327000022` with pre-filled scoping text.

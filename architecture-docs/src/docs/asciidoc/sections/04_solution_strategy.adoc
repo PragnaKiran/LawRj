@@ -1,0 +1,5 @@
+=== Core Strategic Decisions
+1. **Decoupling Non-IT Practice:** Offline litigation (Anand Court probate, SRO Naroda deeds) is isolated from the IT Fleet preview.
+2. **Jurisdiction-Agnostic Re-Platforming:** Eradication of Delaware-only bias; presenting 4 Core Practice Pillars.
+3. **Zero Trust Network Access (ZTNA):** Rigid Content Security Policy and modern browser security headers.
+4. **3-Tier CDN Caching:** Tier-1 immutable hashed assets, Tier-2 edge shared revalidation, Tier-3 metadata routes.

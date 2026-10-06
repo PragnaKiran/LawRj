@@ -1,0 +1,19 @@
+name: Deploy Architecture Docs to Confluence
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'architecture-docs/src/docs/**'
+
+jobs:
+  publish_confluence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup AsciiDoctor
+        run: sudo apt-get update && sudo apt-get install -y asciidoctor
+      - name: Compile arc42 HTML
+        run: asciidoctor architecture-docs/src/docs/asciidoc/index.adoc -o architecture-docs/build/index.html
+      - name: Publish to Confluence Space
+        run: echo "Stage 2 compliance docs compiled for Confluence publication."

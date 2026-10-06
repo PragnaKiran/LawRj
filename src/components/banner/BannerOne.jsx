@@ -12,71 +12,87 @@ import Image from 'next/image';
 const bannerSlides = [
   {
     bgImage: "/assets/images/banner/01.jpg",
-    badge: "GLOBAL VENTURE COUNSEL",
+    badge: "GLOBAL VENTURE ARCHITECTURE",
     badgeIcon: "fa-solid fa-earth-americas",
-    titleStart: "Strategic Venture Architecture for Startups in the ",
-    titleHighlight: "US, UK, SG, AU & CA",
+    titleStart: "Jurisdiction-Agnostic Corporate Structuring for ",
+    titleHighlight: "High-Growth Startups Worldwide",
     titleEnd: "",
-    desc: "From initial cross-border incorporation and clean cap-table founder vesting to Series A institutional SAFE rounds, commercial SaaS agreements, and direct local corporate banking setups.",
+    desc: "We architect optimized multi-entity corporate holding and operating structures across premier international venture jurisdictions—tailored precisely to founder tax residency, investor mandates, and cross-border IP protection (Singapore, UAE/ADGM/DIFC, United Kingdom, United States, Cayman Islands, and India).",
     primaryBtn: { text: "Schedule Strategy Call", href: "/Contact" },
-    secondaryBtn: { text: "Explore Venture Services", href: "/Service" },
-    statNumber: "5 Hubs",
-    statLabel: "US, UK, SG, AU & CA",
-    trustHighlight: "Verified corporate registration and local banking execution across premier international technology ecosystems.",
-    clientAvatar: "/assets/images/team/team-1.png",
-    clientQuote: "Flawless cross-border structuring and Delaware C-Corp execution.",
-    clientAuthor: "Venture-Backed Founder"
+    secondaryBtn: { 
+      text: "Confidential WhatsApp Line", 
+      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+    },
+    statNumber: "$150M+",
+    statLabel: "International Transactions",
+    trustHighlight: "Structured across premier international technology ecosystems and venture syndicates.",
+    cardRole: "PRINCIPAL COUNSEL",
+    cardTitle: "Advocate Viral Vyas",
+    cardCredential: "High Court of Gujarat • Global Venture Architect",
+    cardFocus: "Objective, jurisdiction-agnostic entity architecture designed for investor diligence and international scale."
   },
   {
     bgImage: "/assets/images/banner/startup.jpg",
-    badge: "CAPITAL & SAFE ROUNDS",
-    badgeIcon: "fa-solid fa-file-invoice-dollar",
-    titleStart: "Silicon Valley & London Standard ",
-    titleHighlight: "SAFE, KISS & Equity Structuring",
+    badge: "VENTURE CAPITAL & CAP-TABLE",
+    badgeIcon: "fa-solid fa-chart-pie",
+    titleStart: "Venture Capital Financing & ",
+    titleHighlight: "Cap-Table Governance",
     titleEnd: "",
-    desc: "Avoid costly cap-table dilution traps. We draft and negotiate Y-Combinator Post-Money SAFEs, 500 Global KISS agreements, convertible notes, and priced institutional Seed & Series A rounds.",
+    desc: "Protect founder equity and prevent dilutive traps. We structure Y-Combinator Post-Money SAFEs (with Valuation Caps & MFN terms), 500 Global KISS agreements, convertible notes, and priced institutional Seed & Series A rounds.",
     primaryBtn: { text: "Review Financing Terms", href: "/ServiceDetails?service=financing" },
-    secondaryBtn: { text: "Direct WhatsApp Line", href: "https://wa.me/919327000022" },
-    statNumber: "100+",
-    statLabel: "Venture Deals Closed",
-    trustHighlight: "Handled over $150M+ in international client funding and cross-border investor transactions.",
-    clientAvatar: "/assets/images/team/team-2.png",
-    clientQuote: "Saved us months of friction when closing our international seed round.",
-    clientAuthor: "Techstars Alum"
+    secondaryBtn: { 
+      text: "Confidential WhatsApp Line", 
+      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+    },
+    statNumber: "Global Reach",
+    statLabel: "Entity Domiciles Structured",
+    trustHighlight: "Singapore, ADGM/DIFC, UK Ltd, Delaware C-Corp, Netherlands B.V., and India Pvt Ltd.",
+    cardRole: "CAP-TABLE ARCHITECTURE",
+    cardTitle: "Institutional Diligence",
+    cardCredential: "SAFE • KISS • Priced Equity • ESOP Pools",
+    cardFocus: "4-year vesting schedules, 1-year cliff terms, and investor side-letter negotiation."
   },
   {
     bgImage: "/assets/images/banner/02.jpg",
-    badge: "BANKING & CROSS-BORDER EXPANSION",
-    badgeIcon: "fa-solid fa-building-columns",
-    titleStart: "Verified Local Business Setup & ",
-    titleHighlight: "Corporate Banking Infrastructure",
+    badge: "COMMERCIAL CONTRACTS & DATA PRIVACY",
+    badgeIcon: "fa-solid fa-file-shield",
+    titleStart: "Enterprise B2B SaaS Contracts & ",
+    titleHighlight: "Global Privacy Architecture",
     titleEnd: "",
-    desc: "Eliminate foreign banking hurdles. We facilitate local business registrations and corporate bank accounts in the US (Mercury, Brex), UK (Barclays), Singapore (DBS), and Australia (CommBank).",
-    primaryBtn: { text: "Inquire Banking Setup", href: "/ServiceDetails?service=banking" },
-    secondaryBtn: { text: "Multi-Jurisdiction Hubs", href: "/About" },
-    statNumber: "100%",
-    statLabel: "Bank Account Success",
-    trustHighlight: "Direct multi-jurisdictional presence enabling smooth cross-border treasury operations and commercial contracts.",
-    clientAvatar: "/assets/images/team/team-3.png",
-    clientQuote: "Opened our US and UK accounts without needing to fly overseas.",
-    clientAuthor: "B2B SaaS Founder"
+    desc: "Arm your software venture with sales-enabling Master Services Agreements (MSAs), Service Level Agreements (SLAs) with 99.9% uptime commitments, and DPAs compliant with India DPDP Act 2023, GDPR, and CCPA.",
+    primaryBtn: { text: "Explore Contract Suite", href: "/ServiceDetails?service=contracts" },
+    secondaryBtn: { 
+      text: "Confidential WhatsApp Line", 
+      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+    },
+    statNumber: "300+",
+    statLabel: "Enterprise MSAs & Agreements",
+    trustHighlight: "Procurement-ready commercial contract architecture satisfying Tier-1 enterprise security reviews.",
+    cardRole: "COMMERCIAL CONTRACTS",
+    cardTitle: "Enterprise SaaS Enablement",
+    cardCredential: "DPDP Act 2023 • GDPR • CCPA • Enterprise SLAs",
+    cardFocus: "Accelerating enterprise sales cycles with balanced, procurement-tested master agreements."
   },
   {
     bgImage: "/assets/images/banner/03.jpg",
-    badge: "COMMERCIAL & ENTERPRISE CONTRACTS",
-    badgeIcon: "fa-solid fa-shield-halved",
-    titleStart: "Enterprise B2B SaaS Architecture & ",
-    titleHighlight: "Global Data Protection (GDPR/CCPA)",
+    badge: "CROSS-BORDER BILATERAL BRIDGE",
+    badgeIcon: "fa-solid fa-bridge-water",
+    titleStart: "Cross-Border Market Expansion & ",
+    titleHighlight: "Inbound Tech Engineering Hubs",
     titleEnd: "",
-    desc: "Arm your software venture with sales-enabling Master Services Agreements (MSA), Service Level Agreements (SLA), and bulletproof DPAs compliant with US, European, and Asian privacy laws.",
-    primaryBtn: { text: "Explore Contract Suite", href: "/ServiceDetails?service=contracts" },
-    secondaryBtn: { text: "Talk to Specialist", href: "/Contact" },
-    statNumber: "300+",
-    statLabel: "Enterprise MSAs Drafted",
-    trustHighlight: "Production-ready commercial contracts that satisfy stringent Fortune 500 procurement teams.",
-    clientAvatar: "/assets/images/team/team-4.png",
-    clientQuote: "Closed our first $100K enterprise customer with their MSA draft.",
-    clientAuthor: "Enterprise Software CEO"
+    desc: "The bilateral highway between global technology centers and India. Advisory for international ventures establishing engineering Global Capability Centers (GCCs), RBI/FEMA inbound FDI compliance, and cross-border holding flips.",
+    primaryBtn: { text: "Explore Bilateral Bridge", href: "/ServiceDetails?service=india-bridge" },
+    secondaryBtn: { 
+      text: "Confidential WhatsApp Line", 
+      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+    },
+    statNumber: "Bilateral Hub",
+    statLabel: "Inbound GCC & Outbound Flips",
+    trustHighlight: "FEMA / FDI compliance, transfer pricing documentation, and seamless inward capital deployment.",
+    cardRole: "CROSS-BORDER BRIDGE",
+    cardTitle: "Bilateral Tech Hub Lead",
+    cardCredential: "India Tech Hubs • RBI / FEMA • Global Flips",
+    cardFocus: "Guiding international founders and institutional investors through Indian regulatory corridors."
   }
 ];
 
@@ -246,10 +262,12 @@ const BannerOne = () => {
                         <span style={{ color: '#94a3b8', fontSize: '12px', fontWeight: '700', letterSpacing: '1px' }}>
                           LOCAL CORPORATE PRESENCE:
                         </span>
-                        <div className="d-flex gap-2">
+                        <div className="d-flex gap-2 flex-wrap">
                           <span className="badge" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', fontSize: '12px', fontWeight: '500' }}>🇺🇸 US</span>
                           <span className="badge" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', fontSize: '12px', fontWeight: '500' }}>🇬🇧 UK</span>
                           <span className="badge" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', fontSize: '12px', fontWeight: '500' }}>🇸🇬 SG</span>
+                          <span className="badge" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', fontSize: '12px', fontWeight: '500' }}>🇦🇪 UAE</span>
+                          <span className="badge" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', fontSize: '12px', fontWeight: '500' }}>🇮🇳 IN</span>
                           <span className="badge" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', fontSize: '12px', fontWeight: '500' }}>🇦🇺 AU</span>
                           <span className="badge" style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', fontSize: '12px', fontWeight: '500' }}>🇨🇦 CA</span>
                         </div>
@@ -270,7 +288,7 @@ const BannerOne = () => {
                           />
                         </div>
                         <span className="badge" style={{ background: 'rgba(16, 185, 129, 0.2)', color: '#34d399', border: '1px solid rgba(16, 185, 129, 0.4)', padding: '6px 12px', fontSize: '12px' }}>
-                          Proven Track Record
+                          Institutional Track Record
                         </span>
                       </div>
 
@@ -284,24 +302,25 @@ const BannerOne = () => {
                         </div>
                       </div>
 
-                      {/* Human Representation & Founder Feedback */}
-                      <div className="d-flex align-items-center gap-3 p-3 rounded-3" style={{ background: 'rgba(7, 17, 38, 0.6)', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
-                        <div className="lawrj-hero-avatar-ring">
-                          <Image
-                            src={slide.clientAvatar}
-                            width={60}
-                            height={60}
-                            alt={slide.clientAuthor}
-                          />
-                        </div>
-                        <div>
-                          <p style={{ margin: 0, fontSize: '13px', color: '#e2e8f0', fontStyle: 'italic', lineHeight: '1.5' }}>
-                            "{slide.clientQuote}"
-                          </p>
-                          <span style={{ fontSize: '11px', color: '#F3C644', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.5px', display: 'block', marginTop: '4px' }}>
-                            — {slide.clientAuthor}
+                      {/* Institutional Advisory & Direct Counsel Credentials */}
+                      <div className="p-3 rounded-3" style={{ background: 'rgba(7, 17, 38, 0.75)', border: '1px solid rgba(212, 175, 55, 0.25)' }}>
+                        <div className="d-flex align-items-center justify-content-between mb-2">
+                          <span style={{ fontSize: '11px', color: '#F3C644', fontWeight: '800', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                            {slide.cardRole}
+                          </span>
+                          <span className="badge" style={{ background: 'rgba(212, 175, 55, 0.15)', color: '#F3C644', border: '1px solid rgba(212, 175, 55, 0.3)', fontSize: '10px' }}>
+                            Verified Authority
                           </span>
                         </div>
+                        <div style={{ fontSize: '15px', color: '#ffffff', fontWeight: '700', marginBottom: '2px' }}>
+                          {slide.cardTitle}
+                        </div>
+                        <div style={{ fontSize: '12px', color: '#94a3b8', marginBottom: '8px' }}>
+                          {slide.cardCredential}
+                        </div>
+                        <p style={{ margin: 0, fontSize: '12.5px', color: '#cbd5e1', lineHeight: '1.5' }}>
+                          "{slide.cardFocus}"
+                        </p>
                       </div>
 
                       <div className="mt-4 pt-2">

@@ -1,0 +1,8 @@
+=== Technical Constraints
+* **Next.js Static Export:** The frontend must compile via `npm run build` into static HTML/CSS/JS in `out/`.
+* **Zero Runtime Node.js:** No SSR or Edge compute containers allowed in production to maintain zsh.00 cloud overhead.
+* **Firebase Hosting CDN:** Pure static asset delivery with immutable caching headers.
+
+=== Regulatory & Legal Constraints
+* **Advocates Act, 1961 Compliance:** Must prominently display statutory non-solicitation, commercial corporate consultancy, and non-litigation notices.
+* **DPDP Act 2023 / GDPR Compliance:** Strict zero-tracker policy. Zero client telemetry leaked to ad networks.

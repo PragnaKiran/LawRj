@@ -125,79 +125,77 @@ const AboutOne = ({ id }) => {
             {/* Strategic Content */}
             <div className="col-lg-6">
               <div className="lawrj-about-badge">
-                <i className="fa-solid fa-earth-americas" style={{ color: '#D4AF37' }}></i>
-                INTERNATIONAL VENTURE ARCHITECTURE
+                <i className="fa-solid fa-scale-balanced" style={{ color: '#D4AF37' }}></i>
+                OBJECTIVE VENTURE ARCHITECTURE
               </div>
               <h2 className="lawrj-about-title">
-                Building Global Legal Infrastructure for High-Growth Startups
+                Jurisdiction-Agnostic Advisory & The Bilateral Tech Bridge
               </h2>
               <p className="lawrj-about-lead">
-                Scaling from zero to a venture-backed enterprise requires seamless corporate alignment across top capital ecosystems.
+                Rather than forcing every startup into Delaware confirmation bias, we systematically evaluate founder tax residency, investor domiciles, and commercial footprints.
               </p>
               <p className="lawrj-about-body">
-                Founded to eliminate cross-border friction for visionary entrepreneurs, <strong>LawRJ</strong> engineers complete international governance, Delaware flips, Singapore holding structures, YC SAFE financings, corporate banking integrations, and intellectual property consolidations.
-              </p>
-              <p className="lawrj-about-body">
-                Unlike fragmented local law firms that understand only their domestic rules, we orchestrate unified regulatory strategy across the <strong>United States, United Kingdom, Canada, Australia, and Singapore</strong>—backed by active local corporate presence and established banking relationships.
+                Founded by <strong>Advocate Viral Vyas</strong>, LawRJ delivers institutional legal engineering across <strong>Singapore, UAE (ADGM/DIFC), United Kingdom, United States, Netherlands, and India</strong>. We eliminate cross-border friction by aligning corporate governance, YC Post-Money SAFEs, commercial SaaS contracts, and bilateral engineering hubs.
               </p>
 
-              {/* Hub Cards / Why Choose Us */}
+              {/* Bilateral Inbound / Outbound Tech Bridge Cards */}
               <div className="row g-3 mt-2">
-                <div className="col-sm-6">
-                  <div className="d-flex align-items-center gap-3 p-3 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
-                    <div style={{ width: '42px', height: '42px', borderRadius: '10px', background: 'rgba(212, 175, 55, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#D4AF37', fontSize: '18px' }}>
-                      <i className="fa-solid fa-rocket"></i>
+                <div className="col-12">
+                  <div className="d-flex align-items-start gap-3 p-3 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
+                    <div style={{ width: '42px', height: '42px', borderRadius: '10px', background: 'rgba(212, 175, 55, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#D4AF37', fontSize: '18px', flexShrink: 0 }}>
+                      <i className="fa-solid fa-arrow-right-to-bracket"></i>
                     </div>
                     <div>
-                      <h6 style={{ margin: 0, fontSize: '15px', color: '#0B1B3D', fontWeight: '700' }}>Idea to IPO</h6>
-                      <span style={{ fontSize: '12px', color: '#64748B' }}>Full-Lifecycle Strategy</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-sm-6">
-                  <div className="d-flex align-items-center gap-3 p-3 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
-                    <div style={{ width: '42px', height: '42px', borderRadius: '10px', background: 'rgba(16, 185, 129, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#10b981', fontSize: '18px' }}>
-                      <i className="fa-solid fa-building-columns"></i>
-                    </div>
-                    <div>
-                      <h6 style={{ margin: 0, fontSize: '15px', color: '#0B1B3D', fontWeight: '700' }}>Local Entity Presence</h6>
-                      <span style={{ fontSize: '12px', color: '#64748B' }}>Direct Banking in 5 Hubs</span>
+                      <h6 style={{ margin: 0, fontSize: '14.5px', color: '#0B1B3D', fontWeight: '700' }}>
+                        Inbound to India: Engineering GCCs & FEMA Inflow
+                      </h6>
+                      <span style={{ fontSize: '12.5px', color: '#64748B', lineHeight: '1.5', display: 'block', marginTop: '2px' }}>
+                        We assist US, UK, European and Singapore tech ventures establishing wholly-owned engineering Global Capability Centers (GCCs) in India, ensuring RBI FEMA compliance, transfer pricing documentation, and inward capital structuring.
+                      </span>
                     </div>
                   </div>
                 </div>
 
                 <div className="col-12">
-                  <div className="d-flex align-items-center gap-3 p-3 rounded-3" style={{ background: 'linear-gradient(135deg, rgba(11,27,61,0.04) 0%, rgba(212,175,55,0.06) 100%)', border: '1px solid rgba(212, 175, 55, 0.25)' }}>
-                    <div style={{ width: '42px', height: '42px', borderRadius: '10px', background: 'rgba(11, 27, 61, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#0B1B3D', fontSize: '18px', flexShrink: 0 }}>
-                      <i className="fa-solid fa-bridge-water"></i>
+                  <div className="d-flex align-items-start gap-3 p-3 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
+                    <div style={{ width: '42px', height: '42px', borderRadius: '10px', background: 'rgba(16, 185, 129, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#10b981', fontSize: '18px', flexShrink: 0 }}>
+                      <i className="fa-solid fa-arrow-up-right-from-square"></i>
                     </div>
                     <div>
                       <h6 style={{ margin: 0, fontSize: '14.5px', color: '#0B1B3D', fontWeight: '700' }}>
-                        Western Startup to Indian Market Bridge
+                        Outbound to World: Cap-Table Flips & Global Funding
                       </h6>
-                      <span style={{ fontSize: '12.5px', color: '#475569', lineHeight: '1.5', display: 'block', marginTop: '2px' }}>
-                        We serve as a strategic legal bridge helping US, UK & global tech startups enter India for market expansion, GCC tech hubs, local regulatory compliance, and seamless cross-border operations.
+                      <span style={{ fontSize: '12.5px', color: '#64748B', lineHeight: '1.5', display: 'block', marginTop: '2px' }}>
+                        We structure cross-border holding company flips, international IP consolidations, and YC Post-Money SAFE financings across Delaware, Singapore, and London for high-growth tech scale-ups.
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Compliance Transparency */}
+              {/* Statutory Advocates Act Disclaimer */}
               <div className="lawrj-disclaimer-box">
-                <h6 style={{ fontSize: '13px', fontWeight: '700', color: '#0B1B3D', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                  Global Advisory Compliance & Regulatory Integrity
+                <h6 style={{ fontSize: '12.5px', fontWeight: '700', color: '#0B1B3D', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                  Statutory Regulatory Notice (Advocates Act, 1961 Compliance)
                 </h6>
-                <p style={{ fontSize: '12.5px', color: '#64748B', lineHeight: '1.6', margin: 0 }}>
-                  LawRJ operates as an international corporate consulting, regulatory advisory, and cross-border commercial documentation practice. We provide corporate structuring, venture transactions, and business governance. In accordance with the Advocates Act (India) and international legal practice regulations, we do not operate as a domestic litigation law firm or court advocates.
+                <p style={{ fontSize: '12px', color: '#64748B', lineHeight: '1.6', margin: 0 }}>
+                  LawRJ operates as a strategic commercial venture architecture consultancy and cross-border corporate advisory practice. The materials on this website are provided for general informational purposes only and do not constitute formal legal solicitation, advertisement, or an attorney-client relationship. Visitors requiring formal litigation representation before the High Court of Gujarat or Indian district courts must engage through direct individual vakalatnama in compliance with Bar Council regulations.
                 </p>
               </div>
 
-              <div className="mt-4 pt-2">
+              <div className="d-flex align-items-center gap-3 mt-4 pt-2 flex-wrap">
                 <Link href="/Contact" className="tmp-btn btn-primary">
-                  Book Confidential Briefing
+                  Schedule Strategy Call
                 </Link>
+                <a 
+                  href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+                  className="tmp-btn btn-secondary" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-whatsapp" style={{ color: '#25D366', marginRight: '6px' }}></i>
+                  Confidential WhatsApp Line
+                </a>
               </div>
             </div>
           </div>

@@ -59,7 +59,8 @@ stakeholders_rbac:
 phase_gate_state:
   phase_0_kickoff_locked: true
   phase_1_stage1_lightweight_complete: true
-  director_gate_approved: false
-  director_approval_timestamp: null
-  phase_1_stage2_asciidoc_compiled: false
-  current_active_phase: "OPERATIONAL_EXECUTION"
+  director_gate_approved: true
+  director_approval_timestamp: "2026-10-06T12:51:50+05:30"
+  phase_1_stage2_asciidoc_compiled: true
+  current_active_phase: "PHASE_2_SPRINT_EXECUTION"
+

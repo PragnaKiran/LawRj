@@ -1,0 +1,4 @@
+=== Infrastructure Architecture
+* **Hosting Platform:** Google Cloud / Firebase Hosting (`law-rj` project).
+* **Edge CDN:** 300+ global Points of Presence (PoPs) with automated Brotli compression.
+* **Continuous Delivery:** GitHub Actions workflow triggered on push to `main` or `production`.

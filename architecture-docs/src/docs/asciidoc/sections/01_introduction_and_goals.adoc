@@ -1,0 +1,16 @@
+=== Requirements Overview
+LawRJ operates as a high-authority, jurisdiction-agnostic commercial venture architecture consultancy and cross-border corporate advisory practice. The digital platform serves high-growth founders, institutional venture funds, and B2B SaaS ventures across premier venture hubs (Singapore, UAE/ADGM, UK, US, Cayman Islands, and India).
+
+=== Quality Goals
+[cols="1,2,3",options="header"]
+|===
+| Priority | Quality Goal | Scenario
+| 1 | Performance & Latency | Largest Contentful Paint (LCP) <= 1.8s globally via edge CDN caching.
+| 2 | Confidentiality & ZTNA | Zero third-party ad tracking; strict CSP; full DPDP Act 2023 compliance.
+| 3 | Fiscal Zero-Leakage | Zero runtime server infrastructure (zsh.00 compute cost on Firebase Spark plan).
+|===
+
+=== Stakeholders
+* **Fleet Admiral (Director Viral Vyas):** Principal Advocate & Venture Architect (Admin).
+* **Cross-Border Founders:** Primary clients seeking multi-entity corporate structuring and SAFEs.
+* **Starfleet IT Fleet:** Bridge officers executing autonomous engineering lifecycle.

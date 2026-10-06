@@ -1,0 +1,7 @@
+=== Glossary of Terms
+* **ZTNA:** Zero Trust Network Access.
+* **SAFE:** Simple Agreement for Future Equity (Y-Combinator standard).
+* **KISS:** Keep It Simple Security (500 Global standard).
+* **MSA:** Master Services Agreement.
+* **DPA:** Data Processing Agreement (DPDP Act 2023 / GDPR).
+* **GCC:** Global Capability Center (inbound technology engineering hub in India).

@@ -1,0 +1,5 @@
+=== Business Context
+The system interfaces directly with global tech founders, venture capitalists, search engine crawlers, WhatsApp Cloud, and the EmailJS serverless gateway.
+
+=== Technical Context
+All inbound visitor traffic terminates at Firebase Global CDN edge nodes over TLS 1.3 (Port 443). Client-side logic handles form validation and routes confidential inquiries to encrypted endpoints.

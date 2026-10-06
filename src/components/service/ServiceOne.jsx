@@ -1,66 +1,74 @@
 "use client";
 import Link from 'next/link';
 
-const services = [
+const pillars = [
   {
     id: "inception",
-    stage: "STAGE 01",
-    title: "Inception & Incorporation",
-    subtitle: "US, UK, SG, AU & CA Entity Setup",
-    desc: "Delaware C-Corps, UK Private Limited, Singapore Pte Ltd, and Australian Pty Ltd formation. Founder vesting agreements, IP assignments, 83(b) tax elections, and clean cap-table architecture.",
-    iconClass: "fa-solid fa-seedling",
-    tags: ["Delaware C-Corp", "UK Ltd", "Singapore Pte Ltd", "Founder Vesting"],
+    pillarId: "PIL-01",
+    badge: "PILLAR 01",
+    title: "Global Corporate Structuring & Holding Architecture",
+    subtitle: "Multi-Jurisdiction Holding & Subsidiary Formations",
+    desc: "Objective corporate architecture tailored to founder residency and international capital requirements. We engineer holding and operating entities across Singapore, UAE (ADGM/DIFC), United Kingdom, United States (Delaware C-Corp), Netherlands, and Cayman Islands.",
+    iconClass: "fa-solid fa-earth-americas",
+    highlights: [
+      "Multi-entity holding and operating structure design",
+      "Singapore Pte Ltd, ADGM, DIFC, UK Ltd & Delaware setups",
+      "Intellectual Property (IP) assignment, transfer & licensing",
+      "Cross-border governance charters & banking integrations"
+    ],
+    tags: ["Singapore Pte Ltd", "UAE (ADGM/DIFC)", "Delaware C-Corp", "UK Ltd", "IP Assignment"],
     delay: 100,
   },
   {
     id: "financing",
-    stage: "STAGE 02",
-    title: "Seed & Venture Capital Rounds",
-    subtitle: "SAFE, KISS & Priced Equity",
-    desc: "Y-Combinator standard Post-Money SAFEs, 500 Global KISS notes, convertible promissory instruments, investor side letters, cap table waterfall modelling, and Series Seed / Series A documentation.",
+    pillarId: "PIL-02",
+    badge: "PILLAR 02",
+    title: "Venture Capital Financing & Cap-Table Governance",
+    subtitle: "YC Post-Money SAFEs, KISS Notes & Priced Rounds",
+    desc: "Protect founder control and eliminate cap-table dilution traps. We structure Y-Combinator Post-Money SAFEs (with Valuation Caps and Discounts), 500 Global KISS notes, convertible bridge debt, and institutional priced Seed & Series A rounds.",
     iconClass: "fa-solid fa-chart-pie",
-    tags: ["YC SAFE Notes", "KISS Agreements", "Priced Series A", "Cap Tables"],
+    highlights: [
+      "YC Post-Money SAFEs: Valuation Cap and Discount terms",
+      "500 Global KISS: Convertible equity & debt instruments",
+      "Priced Equity Rounds: Shareholders' Agreements (SHA/SSA)",
+      "Founder Equity Protection: 4-year vesting, 1-year cliff, acceleration"
+    ],
+    tags: ["YC Post-Money SAFE", "500 Global KISS", "Priced Series A (SHA/SSA)", "Founder Vesting (4-Yr/1-Yr Cliff)"],
     delay: 200,
   },
   {
     id: "contracts",
-    stage: "STAGE 03",
-    title: "Enterprise Commercial Contracts",
-    subtitle: "B2B SaaS & Tech Architecture",
-    desc: "Production-ready Master Services Agreements (MSA), Data Processing Addendums (DPA) aligned with GDPR, CCPA & Singapore PDPA, Service Level Agreements (SLA), and enterprise procurement contracts.",
+    pillarId: "PIL-03",
+    badge: "PILLAR 03",
+    title: "Enterprise B2B SaaS Contracts & Global Privacy",
+    subtitle: "Sales-Enabling MSAs, 99.9% SLAs & DPDP / GDPR",
+    desc: "Production-grade commercial contracting suites designed to navigate Fortune 500 procurement smoothly. We draft sales-enabling Master Services Agreements (MSAs), Service Level Agreements (SLAs), and global Data Processing Addenda (DPAs).",
     iconClass: "fa-solid fa-file-shield",
-    tags: ["SaaS MSA", "GDPR / CCPA DPA", "Enterprise SLAs", "API Licensing"],
+    highlights: [
+      "Sales-enabling Master Services Agreements (MSAs)",
+      "Service Level Agreements (SLAs) with 99.9% uptime guarantees",
+      "Data Processing Addenda (DPAs) compliant with DPDP Act 2023",
+      "European GDPR & California CCPA statutory compliance frameworks"
+    ],
+    tags: ["Enterprise MSAs", "99.9% Uptime SLAs", "DPDP Act 2023 Addenda", "GDPR & CCPA DPAs"],
     delay: 300,
   },
   {
-    id: "banking",
-    stage: "STAGE 04",
-    title: "Cross-Border Structuring & Banking",
-    subtitle: "Local Business Setup & Accounts",
-    desc: "Establishment of corporate bank accounts in the US (Mercury, Brex), UK, Singapore (DBS), and Australia. Intercompany transfer pricing agreements, subsidiary setup, and cross-border currency compliance.",
-    iconClass: "fa-solid fa-building-columns",
-    tags: ["US / UK Bank Accounts", "Intercompany Agreements", "Transfer Pricing", "Holding Co Flip"],
+    id: "india-bridge",
+    pillarId: "PIL-04",
+    badge: "PILLAR 04",
+    title: "Cross-Border Market Expansion & Inbound Tech Hubs",
+    subtitle: "India Engineering GCC Hubs & FEMA Inbound FDI",
+    desc: "The bilateral corridor bridging global technology companies and the Indian ecosystem. We structure engineering Global Capability Centers (GCCs), navigate RBI/FEMA inbound FDI compliance, and assist Indian technology scale-ups expanding into Western markets.",
+    iconClass: "fa-solid fa-bridge-water",
+    highlights: [
+      "India Tech Engineering Global Capability Center (GCC) incorporation",
+      "Inbound FDI compliance, RBI reporting (FC-GPR) & FEMA routing",
+      "Domestic Indian tech scale-up outbound holding flips",
+      "Transfer pricing documentation & intercompany service agreements"
+    ],
+    tags: ["India Tech GCC Hubs", "Inbound FDI (FEMA)", "Outbound Flips", "Transfer Pricing"],
     delay: 400,
-  },
-  {
-    id: "esop",
-    stage: "STAGE 05",
-    title: "Global Talent & IP Strategy",
-    subtitle: "Cross-Border ESOPs & Proprietary IP",
-    desc: "International stock option plans (ESOP / RSUs), contractor-to-employee risk shielding, overseas direct investment (ODI) clearances, and ironclad proprietary technology assignments.",
-    iconClass: "fa-solid fa-users-gear",
-    tags: ["International ESOP", "Patent & IP Assignment", "EOR Compliance", "Trade Secrets"],
-    delay: 500,
-  },
-  {
-    id: "preipo",
-    stage: "STAGE 06",
-    title: "M&A, Governance & Pre-IPO",
-    subtitle: "Strategic Liquidity & Exits",
-    desc: "Data-room sanitization, investor due-diligence audit defense, secondary share transactions, strategic acquihire advisory, Board of Directors governance charters, and dual-listing readiness.",
-    iconClass: "fa-solid fa-trophy",
-    tags: ["Data Room Sanitization", "M&A Term Sheets", "Secondary Exits", "Board Governance"],
-    delay: 600,
   },
 ];
 
@@ -72,7 +80,7 @@ function ServiceOne() {
           background: #ffffff;
           border: 1px solid #E2E8F0;
           border-radius: 16px;
-          padding: 32px 28px;
+          padding: 34px 30px;
           height: 100%;
           display: flex;
           flex-direction: column;
@@ -82,7 +90,7 @@ function ServiceOne() {
         }
         .lawrj-service-card:hover {
           border-color: #D4AF37;
-          box-shadow: 0 16px 40px rgba(11, 27, 61, 0.08);
+          box-shadow: 0 20px 45px rgba(11, 27, 61, 0.09);
           transform: translateY(-5px);
         }
         .lawrj-service-card::before {
@@ -92,7 +100,7 @@ function ServiceOne() {
           left: 0;
           width: 4px;
           height: 0;
-          background: var(--color-gold-gradient);
+          background: linear-gradient(135deg, #F3C644 0%, #D4AF37 50%, #E5A93C 100%);
           transition: height 0.3s ease;
         }
         .lawrj-service-card:hover::before {
@@ -123,16 +131,17 @@ function ServiceOne() {
           transition: all 0.3s ease;
         }
         .lawrj-service-card:hover .lawrj-service-icon-box {
-          background: var(--color-gold-gradient);
+          background: linear-gradient(135deg, #F3C644 0%, #D4AF37 100%);
           color: #071126;
           box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
         }
         .lawrj-service-title {
-          font-size: 20px;
+          font-size: 21px;
           font-weight: 700;
           color: #0B1B3D;
           margin-bottom: 6px;
           font-family: Georgia, serif;
+          line-height: 1.3;
         }
         .lawrj-service-sub {
           font-size: 13px;
@@ -145,8 +154,28 @@ function ServiceOne() {
           color: #64748B;
           font-size: 14px;
           line-height: 1.7;
-          margin-bottom: 20px;
+          margin-bottom: 18px;
+        }
+        .lawrj-service-highlights {
+          list-style: none;
+          padding: 0;
+          margin: 0 0 20px 0;
           flex-grow: 1;
+        }
+        .lawrj-service-highlights li {
+          font-size: 13px;
+          color: #334155;
+          margin-bottom: 8px;
+          display: flex;
+          align-items: flex-start;
+          gap: 8px;
+          line-height: 1.5;
+        }
+        .lawrj-service-highlights li i {
+          color: #D4AF37;
+          font-size: 12px;
+          margin-top: 4px;
+          flex-shrink: 0;
         }
         .lawrj-tag-container {
           display: flex;
@@ -184,32 +213,43 @@ function ServiceOne() {
             <div className="col-lg-12">
               <div className="section-head text-center">
                 <div className="section-sub-title center-title">
-                  <span>VENTURE LIFECYCLE</span>
+                  <span>CORE PRACTICE TAXONOMY</span>
                 </div>
                 <h2 className="title" data-aos="fade-up" data-aos-delay="100">
-                  Comprehensive Legal Architecture: Idea to IPO
+                  Institutional Venture Infrastructure Across Four Strategic Pillars
                 </h2>
-                <p style={{ maxWidth: 650, margin: '0 auto 10px', color: '#64748B', fontSize: 16 }}>
-                  From early founder equity and SAFE rounds to cross-border local bank accounts, international customer contracts, and institutional exit governance.
+                <p style={{ maxWidth: 700, margin: '0 auto 10px', color: '#64748B', fontSize: 16 }}>
+                  Specialized venture legal engineering designed for cross-border founders, institutional investors, and enterprise tech scale-ups.
                 </p>
               </div>
             </div>
           </div>
 
           <div className="row g-4 mt-2">
-            {services.map((item) => (
-              <div key={item.id} className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={item.delay}>
+            {pillars.map((item) => (
+              <div key={item.id} className="col-lg-6" data-aos="fade-up" data-aos-delay={item.delay}>
                 <div className="lawrj-service-card">
-                  <div>
-                    <span className="lawrj-stage-badge">{item.stage}</span>
-                    <div className="lawrj-service-icon-box">
-                      <i className={item.iconClass}></i>
-                    </div>
+                  <div className="d-flex align-items-center justify-content-between mb-2">
+                    <span className="lawrj-stage-badge">{item.badge}</span>
+                    <span style={{ fontSize: '12px', fontWeight: '700', color: '#94A3B8' }}>{item.pillarId}</span>
+                  </div>
+
+                  <div className="lawrj-service-icon-box">
+                    <i className={item.iconClass}></i>
                   </div>
                   
                   <h3 className="lawrj-service-title">{item.title}</h3>
                   <span className="lawrj-service-sub">{item.subtitle}</span>
                   <p className="lawrj-service-desc">{item.desc}</p>
+
+                  <ul className="lawrj-service-highlights">
+                    {item.highlights.map((point, pIdx) => (
+                      <li key={pIdx}>
+                        <i className="fa-solid fa-circle-check"></i>
+                        <span>{point}</span>
+                      </li>
+                    ))}
+                  </ul>
                   
                   <div className="lawrj-tag-container">
                     {item.tags.map((tag, idx) => (
@@ -217,8 +257,8 @@ function ServiceOne() {
                     ))}
                   </div>
 
-                  <Link href={`/ServiceDetails?service=${item.id}`} className="lawrj-service-link">
-                    Explore Stage Details <i className="fa-solid fa-arrow-right" style={{ color: '#D4AF37' }}></i>
+                  <Link href={`/ServiceDetails?service=${item.id}&pillar=${item.pillarId}`} className="lawrj-service-link">
+                    Explore Practice Details <i className="fa-solid fa-arrow-right" style={{ color: '#D4AF37' }}></i>
                   </Link>
                 </div>
               </div>
@@ -229,18 +269,18 @@ function ServiceOne() {
             <div className="col-lg-12">
               <div className="p-4 rounded-4 text-center" style={{ background: 'linear-gradient(135deg, #0B1B3D 0%, #162E66 100%)', color: '#fff', border: '1px solid rgba(212,175,55,0.3)' }}>
                 <h4 style={{ color: '#ffffff', fontWeight: '700', marginBottom: '8px' }}>
-                  Planning an Overseas Holding Company Flip or Round Raise?
+                  Structuring an Institutional Round or International Tech Hub?
                 </h4>
-                <p style={{ color: '#cbd5e1', maxWidth: '600px', margin: '0 auto 18px', fontSize: '15px' }}>
-                  Speak directly with our cross-border venture leads. We set up compliant Delaware, Singapore, or UK holding structures with verified local commercial banking.
+                <p style={{ color: '#cbd5e1', maxWidth: '640px', margin: '0 auto 18px', fontSize: '15px' }}>
+                  Speak directly with Advocate Viral Vyas. We engineer compliant multi-entity holding structures, YC SAFEs, and bilateral engineering GCCs.
                 </p>
                 <div className="d-flex justify-content-center gap-3 flex-wrap">
                   <Link href="/Contact" className="tmp-btn btn-primary">
-                    Book Founder Briefing
+                    Schedule Founder Strategy Call
                   </Link>
-                  <a href="https://wa.me/919327000022" className="tmp-btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." className="tmp-btn btn-secondary" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-whatsapp" style={{ color: '#25D366', marginRight: '6px' }}></i>
-                    WhatsApp Fast Track
+                    Confidential WhatsApp Line
                   </a>
                 </div>
               </div>

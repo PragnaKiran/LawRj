@@ -59,59 +59,59 @@ function Header() {
           </div>
         </div>
 
-        {/* Main Header Bar */}
+        {/* Main Header Bar - Redesigned Slim Modern Profile */}
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="main-header-one-wrapper">
-                <div className="header-mida-area d-flex align-items-center justify-content-between py-3">
+                <div className="header-mida-area d-flex align-items-center justify-content-between py-2" style={{ borderBottom: '1px solid rgba(226, 232, 240, 0.8)' }}>
                   <div className="logo-area-start">
                     <Link className="logo d-flex align-items-center" href="/">
-                      <div style={{ background: '#ffffff', padding: '8px 18px', borderRadius: '10px', boxShadow: '0 4px 14px rgba(11, 27, 61, 0.08)', display: 'inline-flex', alignItems: 'center' }}>
+                      <div style={{ background: '#ffffff', padding: '6px 14px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(11, 27, 61, 0.06)', display: 'inline-flex', alignItems: 'center' }}>
                         <Image
-                          width={220}
-                          height={68}
+                          width={190}
+                          height={58}
                           alt="LawRJ - Law Rights Justice"
                           src="/assets/images/logo/lawrj-logo.png"
                           priority
-                          style={{ height: 'auto', width: '190px', objectFit: 'contain' }}
+                          style={{ height: 'auto', width: '165px', objectFit: 'contain' }}
                         />
                       </div>
                     </Link>
                   </div>
                   
-                  <div className="mid-header-center d-none d-lg-flex align-items-center gap-4">
-                    <div className="d-flex align-items-center gap-3 px-3 py-2 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
-                      <div style={{ width: '38px', height: '38px', borderRadius: '50%', background: 'rgba(212, 175, 55, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#D4AF37', fontSize: '16px' }}>
-                        <i className="fa-solid fa-seedling"></i>
+                  <div className="mid-header-center d-none d-lg-flex align-items-center gap-3">
+                    <div className="d-flex align-items-center gap-2 px-3 py-1 rounded-3" style={{ background: 'rgba(212, 175, 55, 0.08)', border: '1px solid rgba(212, 175, 55, 0.25)' }}>
+                      <div style={{ width: '30px', height: '30px', borderRadius: '50%', background: 'rgba(212, 175, 55, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#D4AF37', fontSize: '13px' }}>
+                        <i className="fa-solid fa-briefcase"></i>
                       </div>
                       <div>
-                        <span style={{ fontSize: '11px', color: '#A9801A', display: 'block', fontWeight: '800', letterSpacing: '0.8px', textTransform: 'uppercase' }}>
-                          IDEA TO IPO — YOUR PARTNERS
+                        <span style={{ fontSize: '10.5px', color: '#855E0E', display: 'block', fontWeight: '800', letterSpacing: '0.6px', textTransform: 'uppercase' }}>
+                          VENTURE LEGAL ARCHITECTURE
                         </span>
-                        <span style={{ fontSize: '13px', color: '#0B1B3D', fontWeight: '700' }}>
-                          Global Venture Legal & Corporate Counsel
+                        <span style={{ fontSize: '12.5px', color: '#0B1B3D', fontWeight: '700' }}>
+                          Idea to IPO Counsel
                         </span>
                       </div>
                     </div>
 
-                    <div className="d-flex align-items-center gap-3 px-3 py-2 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
-                      <div style={{ width: '38px', height: '38px', borderRadius: '50%', background: 'rgba(16, 185, 129, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#10b981', fontSize: '16px' }}>
+                    <div className="d-flex align-items-center gap-2 px-3 py-1 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
+                      <div style={{ width: '30px', height: '30px', borderRadius: '50%', background: 'rgba(16, 185, 129, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#10b981', fontSize: '13px' }}>
                         <i className="fa-solid fa-headset"></i>
                       </div>
                       <div>
-                        <span style={{ fontSize: '11px', color: '#64748B', display: 'block', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                          Confidential Direct Line
+                        <span style={{ fontSize: '10.5px', color: '#64748B', display: 'block', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                          Direct Helpline
                         </span>
-                        <a href="tel:+919327000022" style={{ fontSize: '13px', color: '#0B1B3D', fontWeight: '700', textDecoration: 'none' }}>
-                          Helpline: +91 93270 00022
+                        <a href="tel:+919327000022" style={{ fontSize: '12.5px', color: '#0B1B3D', fontWeight: '700', textDecoration: 'none' }}>
+                          +91 93270 00022
                         </a>
                       </div>
                     </div>
                   </div>
 
-                  <div className="d-flex align-items-center gap-3">
-                    <Link className="tmp-btn btn-primary" href="/Contact" style={{ padding: '12px 24px', fontSize: '14px' }}>
+                  <div className="d-flex align-items-center gap-2">
+                    <Link className="tmp-btn btn-primary" href="/Contact" style={{ padding: '9px 18px', fontSize: '13px', fontWeight: '700' }}>
                       Schedule Consultation
                     </Link>
                   </div>

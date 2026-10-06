@@ -112,7 +112,7 @@ const BannerOne = () => {
         .lawrj-hero-backdrop {
           position: absolute;
           inset: 0;
-          background: linear-gradient(90deg, rgba(7, 17, 38, 0.94) 0%, rgba(11, 27, 61, 0.88) 55%, rgba(7, 17, 38, 0.72) 100%);
+          background: linear-gradient(90deg, rgba(7, 17, 38, 0.82) 0%, rgba(11, 27, 61, 0.68) 55%, rgba(7, 17, 38, 0.52) 100%);
           z-index: 1;
         }
         .lawrj-hero-pattern {

@@ -36,7 +36,7 @@ function Header() {
                     </span>
                     <div className="location-area d-none d-md-flex align-items-center gap-2">
                       <span style={{ fontSize: '12.5px', color: '#cbd5e1', fontWeight: '500' }}>
-                        🇺🇸 United States &nbsp;•&nbsp; 🇬🇧 United Kingdom &nbsp;•&nbsp; 🇸🇬 Singapore &nbsp;•&nbsp; 🇦🇺 Australia &nbsp;•&nbsp; 🇨🇦 Canada
+                        🇸🇬 Singapore &nbsp;•&nbsp; 🇦🇪 UAE (ADGM/DIFC) &nbsp;•&nbsp; 🇬🇧 United Kingdom &nbsp;•&nbsp; 🇺🇸 United States &nbsp;•&nbsp; 🇮🇳 India
                       </span>
                     </div>
                   </div>
@@ -135,14 +135,14 @@ function Header() {
                   <Nav />
                   <div className="actions-area d-flex align-items-center gap-3">
                     <a
-                      href="https://wa.me/919327000022"
+                      href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ."
                       target="_blank"
                       rel="noopener noreferrer"
                       className="d-none d-md-flex align-items-center gap-2 px-3 py-2 rounded text-decoration-none"
                       style={{ background: 'rgba(37, 211, 102, 0.15)', border: '1px solid rgba(37, 211, 102, 0.4)', color: '#16a34a', fontSize: '13px', fontWeight: '700' }}
                     >
                       <i className="fa-brands fa-whatsapp" style={{ fontSize: '16px' }}></i>
-                      WhatsApp
+                      WhatsApp Line
                     </a>
                     <div className="tmp-side-collups-area" id="side-collups" onClick={handleMenuToggle} style={{ cursor: 'pointer' }}>
                       <svg fill="none" height="18" viewBox="0 0 20 16" width="22" xmlns="http://www.w3.org/2000/svg">

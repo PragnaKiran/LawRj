@@ -67,17 +67,15 @@ function Footer() {
                 </div>
               </div>
 
-              {/* Idea to IPO Lifecycle */}
+              {/* 4 Core Practice Pillars */}
               <div className="col-lg-3 col-md-6">
                 <div className="single-footer-wrapper pl-30 pl_md--0 pl_sm--0">
-                  <h5 className="ft-title">Idea to IPO Stages</h5>
+                  <h5 className="ft-title">Practice Pillars</h5>
                   <ul className="ft-link">
-                    <li><Link href="/ServiceDetails?service=inception">1. Entity Incorporation (US/UK/SG/AU/CA)</Link></li>
-                    <li><Link href="/ServiceDetails?service=financing">2. Seed & VC SAFE Financing</Link></li>
-                    <li><Link href="/ServiceDetails?service=contracts">3. Commercial SaaS & Tech Contracts</Link></li>
-                    <li><Link href="/ServiceDetails?service=banking">4. Cross-Border Banking & Tax</Link></li>
-                    <li><Link href="/ServiceDetails?service=esop">5. Global ESOP & IP Protection</Link></li>
-                    <li><Link href="/ServiceDetails?service=preipo">6. M&A Readiness & Governance</Link></li>
+                    <li><Link href="/ServiceDetails?service=inception&pillar=PIL-01">1. Holding & Corporate Structuring</Link></li>
+                    <li><Link href="/ServiceDetails?service=financing&pillar=PIL-02">2. VC Financing & Cap-Table</Link></li>
+                    <li><Link href="/ServiceDetails?service=contracts&pillar=PIL-03">3. B2B SaaS Contracts & DPDP</Link></li>
+                    <li><Link href="/ServiceDetails?service=india-bridge&pillar=PIL-04">4. Inbound Tech GCCs & FDI</Link></li>
                   </ul>
                 </div>
               </div>
@@ -85,13 +83,13 @@ function Footer() {
               {/* Target Jurisdictions */}
               <div className="col-lg-2 col-md-6">
                 <div className="single-footer-wrapper">
-                  <h5 className="ft-title">Key Jurisdictions</h5>
+                  <h5 className="ft-title">Key Domiciles</h5>
                   <ul className="ft-link">
-                    <li><Link href="/ServiceDetails?service=us">🇺🇸 United States</Link></li>
-                    <li><Link href="/ServiceDetails?service=uk">🇬🇧 United Kingdom</Link></li>
                     <li><Link href="/ServiceDetails?service=sg">🇸🇬 Singapore</Link></li>
-                    <li><Link href="/ServiceDetails?service=au">🇦🇺 Australia</Link></li>
-                    <li><Link href="/ServiceDetails?service=ca">🇨🇦 Canada</Link></li>
+                    <li><Link href="/ServiceDetails?service=inception">🇦🇪 UAE (ADGM/DIFC)</Link></li>
+                    <li><Link href="/ServiceDetails?service=uk">🇬🇧 United Kingdom</Link></li>
+                    <li><Link href="/ServiceDetails?service=us">🇺🇸 United States</Link></li>
+                    <li><Link href="/ServiceDetails?service=india-bridge">🇮🇳 India Tech Hubs</Link></li>
                   </ul>
                 </div>
               </div>
@@ -99,14 +97,14 @@ function Footer() {
               {/* Global Contact & HQ */}
               <div className="col-lg-3 col-md-6">
                 <div className="single-footer-wrapper">
-                  <h5 className="ft-title">Corporate Contact</h5>
+                  <h5 className="ft-title">Principal Chambers</h5>
                   <ul className="ft-link">
                     <li>
                       <div className="d-flex align-items-start gap-2">
-                        <i className="fa-solid fa-globe mt-1" style={{ color: '#D4AF37' }}></i>
+                        <i className="fa-solid fa-scale-balanced mt-1" style={{ color: '#D4AF37' }}></i>
                         <div>
-                          <span style={{ color: '#e2e8f0', fontWeight: '600', fontSize: '14px', display: 'block' }}>Official Portal</span>
-                          <a href="https://lawrj.com" style={{ color: '#94a3b8', fontSize: '13px' }}>LAWRJ.COM</a>
+                          <span style={{ color: '#e2e8f0', fontWeight: '600', fontSize: '14px', display: 'block' }}>Advocate Viral Vyas</span>
+                          <span style={{ color: '#94a3b8', fontSize: '12px' }}>High Court of Gujarat</span>
                         </div>
                       </div>
                     </li>
@@ -123,7 +121,7 @@ function Footer() {
                       <div className="d-flex align-items-start gap-2">
                         <i className="fa-solid fa-location-dot mt-1" style={{ color: '#D4AF37' }}></i>
                         <p style={{ margin: 0, color: '#94a3b8', fontSize: '13px', lineHeight: '1.6' }}>
-                          404, Devkuvar 7, B/H Apollo International School, Tragad, Ahmedabad-382470
+                          404, Devkuvar 7, Tragad, Ahmedabad-382470, Gujarat
                         </p>
                       </div>
                     </li>
@@ -141,12 +139,12 @@ function Footer() {
           <div className="row align-items-center">
             <div className="col-lg-8 mb-3 mb-lg-0">
               <p style={{ margin: 0, fontSize: '12px', color: '#64748B', lineHeight: '1.6' }}>
-                <strong style={{ color: '#94a3b8' }}>Regulatory Compliance Notice:</strong> LawRJ provides commercial corporate structuring, venture transactions, cross-border corporate governance, and commercial contracting consultancy. In strict accordance with the Advocates Act (India) and international legal practice regulations, LawRJ does not practice domestic court litigation or court appearance advocacy.
+                <strong style={{ color: '#94a3b8' }}>Statutory Regulatory Notice (Advocates Act, 1961 Compliance):</strong> LawRJ operates as a strategic commercial venture architecture consultancy and cross-border corporate advisory practice. The materials on this website are provided for general informational purposes only and do not constitute formal legal solicitation, advertisement, or an attorney-client relationship. Visitors requiring formal litigation representation before the High Court of Gujarat or Indian district courts must engage through direct individual vakalatnama in compliance with Bar Council regulations. Zero client intake data is monetized or tracked.
               </p>
             </div>
             <div className="col-lg-4 text-lg-end">
-              <p style={{ margin: 0, fontSize: '13px', color: '#94a3b8' }}>
-                © {new Date().getFullYear()} <strong style={{ color: '#F3C644' }}>LawRJ.COM</strong>. All Rights Reserved.
+              <p style={{ margin: 0, fontSize: '12.5px', color: '#94a3b8' }}>
+                © 2026 <strong style={{ color: '#F3C644' }}>LawRJ.COM</strong>. All Rights Reserved. Entity ID: ENT-09. DPDP Act 2023 Compliant.
               </p>
             </div>
           </div>

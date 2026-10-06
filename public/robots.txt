@@ -1,0 +1,13 @@
+# Robots.txt for LawRJ Global Venture Platform
+User-agent: *
+Allow: /
+Allow: /About
+Allow: /Service
+Allow: /ServiceDetails
+Allow: /Contact
+Allow: /FaqOne
+
+Disallow: /api/
+Disallow: /_next/
+
+Sitemap: https://law-rj.web.app/sitemap.xml

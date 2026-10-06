@@ -26,12 +26,10 @@ function Nav() {
               </span>
             </Link>
             <ul className="submenu">
-              <li><Link href="/ServiceDetails?service=inception">Entity Formation & Founder Equity</Link></li>
-              <li><Link href="/ServiceDetails?service=financing">Seed & VC SAFE Financing</Link></li>
-              <li><Link href="/ServiceDetails?service=contracts">Commercial SaaS & Enterprise Contracts</Link></li>
-              <li><Link href="/ServiceDetails?service=banking">Cross-Border Banking & Tax Routing</Link></li>
-              <li><Link href="/ServiceDetails?service=esop">Global Talent, ESOPs & IP Protection</Link></li>
-              <li><Link href="/ServiceDetails?service=preipo">M&A Strategy, Diligence & Pre-IPO</Link></li>
+              <li><Link href="/ServiceDetails?service=inception&pillar=PIL-01">1. Global Holding & Entity Structuring</Link></li>
+              <li><Link href="/ServiceDetails?service=financing&pillar=PIL-02">2. VC Financing & Cap-Table</Link></li>
+              <li><Link href="/ServiceDetails?service=contracts&pillar=PIL-03">3. Enterprise SaaS MSAs & Privacy</Link></li>
+              <li><Link href="/ServiceDetails?service=india-bridge&pillar=PIL-04">4. Inbound India GCC Tech Hubs</Link></li>
             </ul>
           </li>
           <li className="has-dropdown">
@@ -46,11 +44,11 @@ function Nav() {
               </span>
             </Link>
             <ul className="submenu">
+              <li><Link href="/ServiceDetails?service=sg">🇸🇬 Singapore (ACRA HoldCo)</Link></li>
+              <li><Link href="/ServiceDetails?service=inception">🇦🇪 UAE (ADGM & DIFC)</Link></li>
+              <li><Link href="/ServiceDetails?service=uk">🇬🇧 United Kingdom (London Ltd)</Link></li>
               <li><Link href="/ServiceDetails?service=us">🇺🇸 United States (Delaware C-Corp)</Link></li>
-              <li><Link href="/ServiceDetails?service=uk">🇬🇧 United Kingdom (London Tech Ltd)</Link></li>
-              <li><Link href="/ServiceDetails?service=sg">🇸🇬 Singapore (Southeast Asia HoldCo)</Link></li>
-              <li><Link href="/ServiceDetails?service=au">🇦🇺 Australia (Sydney & Melbourne Pty Ltd)</Link></li>
-              <li><Link href="/ServiceDetails?service=ca">🇨🇦 Canada (Federal & Provincial Tech Corp)</Link></li>
+              <li><Link href="/ServiceDetails?service=india-bridge">🇮🇳 India (Tech GCC & Operating Co)</Link></li>
             </ul>
           </li>
           <li>

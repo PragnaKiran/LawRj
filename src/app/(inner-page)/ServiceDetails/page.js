@@ -219,7 +219,14 @@ const serviceData = {
 
 function ServiceDetailsContent() {
   const params = useSearchParams();
-  const serviceKey = params.get('service') || 'inception';
+  const rawKey = params.get('service') || params.get('pillar') || 'inception';
+  const pillarMap = {
+    'PIL-01': 'inception',
+    'PIL-02': 'financing',
+    'PIL-03': 'contracts',
+    'PIL-04': 'india-bridge',
+  };
+  const serviceKey = pillarMap[rawKey] || rawKey;
   const item = serviceData[serviceKey] || serviceData.inception;
 
   return (

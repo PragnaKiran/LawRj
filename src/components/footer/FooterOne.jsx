@@ -7,23 +7,45 @@ function Footer() {
     <div>
       <footer className="footer-area footer-style-one-wrapper bg-color-footer tmp-section-gap" style={{ background: '#071126', borderTop: '1px solid rgba(212, 175, 55, 0.2)' }}>
         <div className="container">
-          {/* Newsletter / Founder Briefing */}
+          {/* Newsletter / Founder Briefing - Compact Horizontal Redesign */}
           <div className="row">
             <div className="col-lg-12">
-              <div className="subscribe-area subscribe-style-1 mb-5" style={{ background: 'linear-gradient(135deg, #0B1B3D 0%, #162E66 100%)', border: '1px solid rgba(212, 175, 55, 0.3)', borderRadius: '16px', padding: '40px' }}>
-                <div className="subscribe-inner">
-                  <div className="title" style={{ color: '#ffffff', fontSize: '24px', fontWeight: '800', fontFamily: 'Georgia, serif' }}>
-                    Subscribe to Global Startup Legal & Regulatory Briefings
+              <div className="subscribe-area subscribe-style-1 mb-4" style={{
+                background: 'linear-gradient(135deg, #0B1B3D 0%, #162E66 100%)',
+                border: '1px solid rgba(212, 175, 55, 0.35)',
+                borderRadius: '14px',
+                padding: '24px 32px'
+              }}>
+                <div className="row align-items-center g-3">
+                  <div className="col-lg-6">
+                    <h5 style={{ color: '#ffffff', fontSize: '18px', fontWeight: '800', fontFamily: 'Georgia, serif', margin: 0 }}>
+                      Global Startup Legal & Regulatory Briefings
+                    </h5>
+                    <p style={{ color: '#cbd5e1', fontSize: '12.5px', margin: '4px 0 0 0', lineHeight: '1.4' }}>
+                      Delaware corporate updates, YC SAFE best practices, cross-border tax treaties & venture compliance.
+                    </p>
                   </div>
-                  <p style={{ color: '#cbd5e1', fontSize: '14px', maxWidth: '650px', margin: '8px auto 24px' }}>
-                    Receive timely analysis on Delaware corporate updates, cross-border tax treaties, YC SAFE best practices, and venture capital regulations across the US, UK, Canada, Australia, and Singapore.
-                  </p>
-                  <form action="#" className="newsletter-form-1 mt-3">
-                    <input type="email" placeholder="Enter your work email address" required style={{ background: 'rgba(255,255,255,0.08)', color: '#fff', border: '1px solid rgba(255,255,255,0.2)' }} />
-                    <button type="submit" className="tmp-btn btn-primary">
-                      Subscribe Briefings <i className="fa-sharp fa-regular fa-paper-plane ms-1" />
-                    </button>
-                  </form>
+                  <div className="col-lg-6">
+                    <form action="#" className="d-flex align-items-center gap-2 flex-wrap flex-sm-nowrap">
+                      <input
+                        type="email"
+                        placeholder="Enter your work email address"
+                        required
+                        style={{
+                          background: 'rgba(255,255,255,0.08)',
+                          color: '#fff',
+                          border: '1px solid rgba(255,255,255,0.2)',
+                          padding: '10px 14px',
+                          borderRadius: '8px',
+                          fontSize: '13px',
+                          flexGrow: 1
+                        }}
+                      />
+                      <button type="submit" className="tmp-btn btn-primary" style={{ padding: '10px 18px', fontSize: '13px', whiteSpace: 'nowrap' }}>
+                        Subscribe <i className="fa-sharp fa-regular fa-paper-plane ms-1" />
+                      </button>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -133,19 +155,19 @@ function Footer() {
         </div>
       </footer>
 
-      {/* Regulatory Transparency & Copyright Bar */}
-      <div className="copyright-area-one py-4" style={{ background: '#030814', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+      {/* Clean Copyright Bar */}
+      <div className="copyright-area-one py-3" style={{ background: '#030814', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-8 mb-3 mb-lg-0">
-              <p style={{ margin: 0, fontSize: '12px', color: '#64748B', lineHeight: '1.6' }}>
-                <strong style={{ color: '#94a3b8' }}>Statutory Regulatory Notice (Advocates Act, 1961 Compliance):</strong> LawRJ operates as a strategic commercial venture architecture consultancy and cross-border corporate advisory practice. The materials on this website are provided for general informational purposes only and do not constitute formal legal solicitation, advertisement, or an attorney-client relationship. Visitors requiring formal litigation representation before the High Court of Gujarat or Indian district courts must engage through direct individual vakalatnama in compliance with Bar Council regulations. Zero client intake data is monetized or tracked.
-              </p>
+            <div className="col-md-6 text-center text-md-start mb-2 mb-md-0">
+              <span style={{ fontSize: '12px', color: '#94a3b8' }}>
+                Institutional Venture Architecture & Cross-Border Advisory
+              </span>
             </div>
-            <div className="col-lg-4 text-lg-end">
-              <p style={{ margin: 0, fontSize: '12.5px', color: '#94a3b8' }}>
+            <div className="col-md-6 text-center text-md-end">
+              <span style={{ fontSize: '12px', color: '#94a3b8' }}>
                 © 2026 <strong style={{ color: '#F3C644' }}>LawRJ.COM</strong>. All Rights Reserved. DPDP Act 2023 Compliant.
-              </p>
+              </span>
             </div>
           </div>
         </div>

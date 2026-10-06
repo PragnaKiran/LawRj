@@ -197,9 +197,9 @@ const BannerOne = () => {
           border-radius: 6px;
         }
         @media(max-width: 991px) {
-          .lawrj-hero-title { font-size: 34px; }
-          .lawrj-hero-slide { min-height: 640px; }
-          .lawrj-glass-feature-card { margin-top: 30px; }
+          .lawrj-hero-title { font-size: 32px; }
+          .lawrj-hero-slide { min-height: 500px; }
+          .lawrj-glass-feature-card { margin-top: 24px; padding: 22px; }
         }
       `}</style>
 

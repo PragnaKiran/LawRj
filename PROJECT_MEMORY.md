@@ -53,8 +53,8 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Converted first-person boasting ('we handled', '100% success', fake testimonials) into objective market realities, cross-border transaction archetypes, and global venture standards.
 * [x] **`[2-4-12]` `TSK-IT-012` — Starfleet Diagnostic QA Calibration & Preview Redeployment (`»Chapel, »Uhura`)** (`Completed` | `tests/diagnostic-qa.test.mjs` & Firebase | Actual: `1.0h`)
   * *Notes:* Updated automated test assertions for zero personal name, zero ENT-09 leak, and objective market truth metrics (28/28 passing). Re-exported static build (34/34 pages) and redeployed to Firebase preview channel dev ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
-* [ ] **`[2-4-0]` `TSK-UI-001` — WhatsApp Click-to-Chat Link Standardization & Audit (`»Spock, »Kirk`)** (`To Do` | `src/components/` | Est: `1.0h`)
-  * *Notes:* Ensure all WhatsApp CTA links rigorously adhere to canonical standard (`https://wa.me/919327000022?text=...`) without hardcoded personal references.
+* [x] **`[2-4-0]` `TSK-UI-001` — WhatsApp Click-to-Chat Link Standardization & Audit (`»Spock, »Kirk`)** (`Completed` | `src/components/` | Actual: `0.5h`)
+  * *Notes:* Standardized all WhatsApp CTA links across all components to canonical format (`https://wa.me/919327000022?text=...`) and verified zero personal phone number leakage.
 * [x] **`[2-4-1]` `TSK-UI-002` — Excessive Margin & Space Optimization Audit (`»Sulu, »Kirk`)** (`Completed` | `lawrj-custom.css` | Actual: `1.5h`)
   * *Notes:* Reduced global section gap padding from 120px to 60px (and 45px on mobile). Scaled down about wrapper, hero banner content padding, and title bottom margins for maximum screen utility and modern information density.
 * [x] **`[2-4-2]` `TSK-UI-003` — Button Background & Text Contrast Rectification (`»Sulu, »Spock`)** (`Completed` | `lawrj-custom.css` | Actual: `1.0h`)
@@ -65,18 +65,18 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Lowered dark gradient backdrop density (from 0.94/0.88 down to 0.82/0.68/0.52); background architecture and corridor imagery now clearly discernible while retaining crystal-clear text readability. Re-exported static build and deployed to dev preview channel ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
 * [x] **`[2-4-5]` `TSK-UI-006` — Single-Row Unified Header Layout Consolidation (`»Sulu, »Kirk`)** (`Completed` | `src/components/header/HeaderOne.jsx` | Actual: `1.0h`)
   * *Notes:* Eradicated redundant middle badge cards ('VENTURE LEGAL ARCHITECTURE' and 'DIRECT HELPLINE'), lifted primary navigation (`<Nav />`) and right-side action buttons directly into the white header bar alongside the LawRJ logo, and eliminated the secondary lower nav row completely. Verified with 28/28 tests and deployed to preview channel dev ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
-* [ ] **`[2-4-6]` `TSK-UI-007` — Deduplicate Corporate Presence Badges in Hero Banner (`»Sulu, »DeSalle`)** (`In Progress` | `src/components/banner/BannerOne.jsx` | Est: `1.0h`)
-  * *Notes:* Resolve duplicate/stacked 'LOCAL CORPORATE PRESENCE' flag badge row beneath the CTA buttons in the hero slider, ensuring a single clean bottom presence row renders cleanly across all slides and device sizes.
-* [ ] **`[2-4-7]` `TSK-UI-008` — Global Vertical Spacing Compression by 50% (`»Sulu, »Kirk`)** (`To Do` | `public/assets/css/lawrj-custom.css` | Est: `2.0h`)
-  * *Notes:* Halve all section gaps, margins, and transition padding globally across all home page sections per image 1 feedback. [GitHub Issue #16](https://github.com/PragnaKiran/LawRj/issues/16).
-* [ ] **`[2-4-8]` `TSK-UI-009` — Extract Statutory Notice into Floating Cookie/Regulatory Consent Modal (`»DeSalle, »Cogley`)** (`To Do` | `src/components/` & new modal | Est: `2.0h`)
-  * *Notes:* Remove inline static disclaimers from About and Footer; implement floating cookie/consent banner with acknowledgement button per image 2 feedback. [GitHub Issue #17](https://github.com/PragnaKiran/LawRj/issues/17).
-* [ ] **`[2-4-9]` `TSK-UI-010` — Relocate Floating Action Trigger to Left Side (`»Sulu`)** (`To Do` | `src/components/footer/BackToTop.jsx` | Est: `0.5h`)
-  * *Notes:* Move floating trigger button from bottom-right to bottom-left (`left: 30px`) per image 2 feedback. [GitHub Issue #18](https://github.com/PragnaKiran/LawRj/issues/18).
-* [ ] **`[2-4-10]` `TSK-UI-011` — Redesign Footer & Compact Horizontal Newsletter Subscription Box (`»Sulu, »DeSalle`)** (`To Do` | `src/components/footer/FooterOne.jsx` | Est: `1.5h`)
-  * *Notes:* Refactor newsletter into sleek 2-column horizontal box, eradicate redundant footer disclaimer text, and compress footer padding per images 3 & 4 feedback. [GitHub Issue #19](https://github.com/PragnaKiran/LawRj/issues/19).
-* [ ] **`[2-4-11]` `TSK-UI-012` — Eliminate Dead Space in Contact Section Left Column (`»Sulu, »DeSalle`)** (`To Do` | `src/components/contact/ContactOne.jsx` | Est: `1.0h`)
-  * *Notes:* Optimize ContactOne left column card height to eliminate empty dark blue space per image 5 feedback. [GitHub Issue #20](https://github.com/PragnaKiran/LawRj/issues/20).
+* [x] **`[2-4-6]` `TSK-UI-007` — Deduplicate Corporate Presence Badges in Hero Banner (`»Sulu, »DeSalle`)** (`Completed` | `src/components/banner/BannerOne.jsx` | Actual: `0.5h`)
+  * *Notes:* Verified and preserved single clean bottom presence row in hero banner across all slides; optimized hero container height.
+* [x] **`[2-4-7]` `TSK-UI-008` — Global Vertical Spacing Compression by 50% (`»Sulu, »Kirk`)** (`Completed` | `public/assets/css/lawrj-custom.css` | Actual: `1.0h`)
+  * *Notes:* Halved all section gaps (`tmp-section-gap` from 60px to 30px / 22px mobile), hero padding, and header margins per image 1 feedback. [GitHub Issue #16](https://github.com/PragnaKiran/LawRj/issues/16).
+* [x] **`[2-4-8]` `TSK-UI-009` — Extract Statutory Notice into Floating Cookie/Regulatory Consent Modal (`»DeSalle, »Cogley`)** (`Completed` | `src/components/consent/RegulatoryConsent.jsx` | Actual: `1.5h`)
+  * *Notes:* Extracted inline static disclaimer into a floating, responsive RegulatoryConsent banner with acknowledgement button and localStorage persistence; cleaned About section. [GitHub Issue #17](https://github.com/PragnaKiran/LawRj/issues/17).
+* [x] **`[2-4-9]` `TSK-UI-010` — Relocate Floating Action Trigger to Left Side (`»Sulu`)** (`Completed` | `src/components/footer/BackToTop.jsx` | Actual: `0.5h`)
+  * *Notes:* Relocated floating trigger widget from bottom-right to bottom-left (`left: 30px`) to prevent UI crowding per image 2 feedback. [GitHub Issue #18](https://github.com/PragnaKiran/LawRj/issues/18).
+* [x] **`[2-4-10]` `TSK-UI-011` — Redesign Footer & Compact Horizontal Newsletter Subscription Box (`»Sulu, »DeSalle`)** (`Completed` | `src/components/footer/FooterOne.jsx` | Actual: `1.0h`)
+  * *Notes:* Refactored newsletter into sleek 2-column horizontal box, eradicated redundant footer disclaimer text, and compressed footer height per images 3 & 4 feedback. [GitHub Issue #19](https://github.com/PragnaKiran/LawRj/issues/19).
+* [x] **`[2-4-11]` `TSK-UI-012` — Eliminate Dead Space in Contact Section Left Column (`»Sulu, »DeSalle`)** (`Completed` | `src/components/contact/ContactOne.jsx` | Actual: `0.5h`)
+  * *Notes:* Rebalanced ContactOne left card with practice standards, eliminating empty dark blue void per image 5 feedback. [GitHub Issue #20](https://github.com/PragnaKiran/LawRj/issues/20).
 
 ### 🏛️ B. External Operational Legal Track (Preserved on Master Ledger | Offline Execution)
 * [ ] **`[2-1-1]` `TSK-035` — Chirag Patel Probate Public Notice** (`In Progress` | Scheduled: `2026-08-29` | Est: `1.5h`)

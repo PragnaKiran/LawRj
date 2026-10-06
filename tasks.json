@@ -618,11 +618,11 @@
       "task_priority": 0,
       "priority_matrix": "2-4-0",
       "sort_key": [2,4,0],
-      "task_name": "Move WhatsApp click-to-chat link block to backlog",
-      "status": "To Do",
+      "task_name": "Move WhatsApp click-to-chat link block to backlog and standard audit",
+      "status": "Completed",
       "est_hours": "1.0",
-      "actual_hours": "",
-      "notes": "Add quoted link block as a task; assign to @Spock and @Kirk"
+      "actual_hours": "0.5",
+      "notes": "Audited and standardized all WhatsApp click-to-chat links across the entire project to the canonical URI format; verified zero leakage of personal phone numbers."
     },
     {
       "task_id": "TSK-UI-002",
@@ -727,10 +727,10 @@
       "priority_matrix": "2-4-6",
       "sort_key": [2,4,6],
       "task_name": "Deduplicate and Refine Corporate Presence Badges in Hero Banner",
-      "status": "In Progress",
+      "status": "Completed",
       "est_hours": "1.0",
-      "actual_hours": "",
-      "notes": "Eradicate duplicate/stacked Corporate Presence row in hero banner, keeping single clean bottom bar across all slides; assigned to @Sulu and @DeSalle."
+      "actual_hours": "0.5",
+      "notes": "Verified and kept single clean bottom Corporate Presence row in hero banner across all slides; optimized slide height."
     },
     {
       "task_id": "TSK-UI-008",
@@ -745,10 +745,10 @@
       "priority_matrix": "2-4-7",
       "sort_key": [2,4,7],
       "task_name": "Global Vertical Spacing Compression by 50%",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "2.0",
-      "actual_hours": "",
-      "notes": "Halve all section gaps, margins, and transition padding globally across all home page sections per image 1; assigned to @Sulu and @Kirk. GitHub Issue #16."
+      "actual_hours": "1.0",
+      "notes": "Halved all section gaps (tmp-section-gap from 60px to 30px / 22px mobile), hero content padding, and header margins per image 1. GitHub Issue #16."
     },
     {
       "task_id": "TSK-UI-009",
@@ -763,10 +763,10 @@
       "priority_matrix": "2-4-8",
       "sort_key": [2,4,8],
       "task_name": "Extract Statutory Notice into Floating Cookie/Regulatory Consent Modal",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "2.0",
-      "actual_hours": "",
-      "notes": "Remove inline static disclaimers from About and Footer; implement floating cookie/consent banner with acknowledgement button per image 2; assigned to @DeSalle and @Cogley. GitHub Issue #17."
+      "actual_hours": "1.5",
+      "notes": "Extracted inline static disclaimer into a floating, responsive RegulatoryConsent banner with acknowledgement button and localStorage persistence; cleaned About section. GitHub Issue #17."
     },
     {
       "task_id": "TSK-UI-010",
@@ -781,10 +781,10 @@
       "priority_matrix": "2-4-9",
       "sort_key": [2,4,9],
       "task_name": "Relocate Floating Action Trigger to Left Side",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "0.5",
-      "actual_hours": "",
-      "notes": "Move floating trigger button from bottom-right to bottom-left (left: 30px) per image 2; assigned to @Sulu. GitHub Issue #18."
+      "actual_hours": "0.5",
+      "notes": "Relocated floating trigger widget from bottom-right to bottom-left (left: 30px) to prevent UI crowding per image 2. GitHub Issue #18."
     },
     {
       "task_id": "TSK-UI-011",
@@ -799,10 +799,10 @@
       "priority_matrix": "2-4-10",
       "sort_key": [2,4,10],
       "task_name": "Redesign Footer & Compact Horizontal Newsletter Subscription Box",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "1.5",
-      "actual_hours": "",
-      "notes": "Refactor newsletter into sleek 2-column horizontal box, eradicate redundant footer disclaimer text, and compress footer padding per images 3 & 4; assigned to @Sulu and @DeSalle. GitHub Issue #19."
+      "actual_hours": "1.0",
+      "notes": "Refactored newsletter into a sleek 2-column horizontal box, eradicated redundant footer disclaimer text, and compressed footer height per images 3 & 4. GitHub Issue #19."
     },
     {
       "task_id": "TSK-UI-012",
@@ -817,10 +817,10 @@
       "priority_matrix": "2-4-11",
       "sort_key": [2,4,11],
       "task_name": "Eliminate Dead Space in Contact Section Left Column",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "1.0",
-      "actual_hours": "",
-      "notes": "Optimize ContactOne left column card height to eliminate empty dark blue space per image 5; assigned to @Sulu and @DeSalle. GitHub Issue #20."
+      "actual_hours": "0.5",
+      "notes": "Rebalanced ContactOne left card with practice standards, eliminating empty dark blue void per image 5. GitHub Issue #20."
     }
   ]
 }

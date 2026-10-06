@@ -11,6 +11,7 @@ import TestimonialsOne from "@/components/testimonials/TestimonialsOne"
 import ContactOne from "@/components/contact/ContactOne"
 import FooterOne from "@/components/footer/FooterOne"
 import BackToTop from "@/components/footer/BackToTop"
+import RegulatoryConsent from "@/components/consent/RegulatoryConsent"
 import { useEffect } from 'react';
 import AOS from 'aos';
 
@@ -37,6 +38,7 @@ function HomePage() {
       <ContactOne />
       <FooterOne />
       <BackToTop />
+      <RegulatoryConsent />
     </div>
   )
 }

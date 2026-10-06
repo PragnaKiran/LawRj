@@ -159,13 +159,14 @@ describe('Starfleet Diagnostic QA Acceptance Suite (»Chapel)', () => {
     const aboutPath = path.join(ROOT, 'src/components/about/AboutOne.jsx');
     const footerContent = fs.readFileSync(footerPath, 'utf8');
     const contactContent = fs.readFileSync(contactPath, 'utf8');
-    const aboutContent = fs.readFileSync(aboutPath, 'utf8');
+    const consentPath = path.join(ROOT, 'src/components/consent/RegulatoryConsent.jsx');
+    const consentContent = fs.readFileSync(consentPath, 'utf8');
 
-    it('Scenario 1: Prominent footer disclaimer presence', () => {
-      assert.ok(footerContent.includes('Advocates Act'), 'Footer references Advocates Act');
-      assert.ok(footerContent.includes('Bar Council regulations'), 'Footer references Bar Council');
-      assert.ok(footerContent.includes('individual vakalatnama'), 'Footer mentions individual vakalatnama');
-      assert.ok(footerContent.includes('DPDP Act 2023'), 'Footer references DPDP Act 2023');
+    it('Scenario 1: Floating Regulatory Consent Modal disclaimer presence', () => {
+      assert.ok(consentContent.includes('Advocates Act, 1961 Compliance'), 'Consent modal references Advocates Act');
+      assert.ok(consentContent.includes('REGULATORY DISCLOSURE & COOKIE CONSENT'), 'Consent modal has compliance title');
+      assert.ok(consentContent.includes('Acknowledge & Proceed'), 'Consent modal has acknowledge CTA');
+      assert.ok(footerContent.includes('DPDP Act 2023 Compliant'), 'Footer references DPDP Act 2023');
     });
 
     it('Scenario 2: Form submission disclaimer gating', () => {
@@ -173,8 +174,10 @@ describe('Starfleet Diagnostic QA Acceptance Suite (»Chapel)', () => {
       assert.ok(contactContent.includes('Bar Council of India'), 'Form references Bar Council');
     });
 
-    it('Scenario 3: About section compliance box', () => {
-      assert.ok(aboutContent.includes('Advocates Act, 1961 Compliance'), 'About section has Advocates Act notice');
+    it('Scenario 3: Regulatory consent component integration on home page', () => {
+      const pagePath = path.join(ROOT, 'src/app/page.js');
+      const pageContent = fs.readFileSync(pagePath, 'utf8');
+      assert.ok(pageContent.includes('RegulatoryConsent'), 'HomePage mounts RegulatoryConsent component');
     });
   });
 

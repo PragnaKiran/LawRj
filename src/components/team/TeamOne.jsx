@@ -126,8 +126,8 @@ function TeamOne() {
                   </div>
                   <div className="lawrj-team-socials">
                     <a href="#"><i className="fa-brands fa-linkedin-in" /></a>
-                    <a href="https://wa.me/917990000000"><i className="fa-brands fa-whatsapp" /></a>
-                    <a href="mailto:info@lawrj.in"><i className="fa-regular fa-envelope" /></a>
+                    <a href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."><i className="fa-brands fa-whatsapp" /></a>
+                    <a href="mailto:i@lawrj.com"><i className="fa-regular fa-envelope" /></a>
                   </div>
                 </div>
               </div>

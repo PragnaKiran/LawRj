@@ -226,14 +226,35 @@ function ContactOne() {
                     </div>
                   </div>
                 </div>
+
+                {/* Institutional Advisory Standards */}
+                <div className="p-3 rounded-3 mb-3" style={{ background: 'rgba(255, 255, 255, 0.04)', border: '1px solid rgba(212, 175, 55, 0.2)' }}>
+                  <span style={{ fontSize: '11px', color: '#F3C644', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.8px', display: 'block', marginBottom: '8px' }}>
+                    Institutional Delivery Standards
+                  </span>
+                  <div className="d-flex flex-column gap-2" style={{ fontSize: '12.5px', color: '#cbd5e1' }}>
+                    <div className="d-flex align-items-center gap-2">
+                      <i className="fa-solid fa-circle-check" style={{ color: '#10b981', fontSize: '12px' }}></i>
+                      <span>4-Hour First Response on Cross-Border SAFEs</span>
+                    </div>
+                    <div className="d-flex align-items-center gap-2">
+                      <i className="fa-solid fa-circle-check" style={{ color: '#10b981', fontSize: '12px' }}></i>
+                      <span>Mutual NDA Gating Provided Upon Request</span>
+                    </div>
+                    <div className="d-flex align-items-center gap-2">
+                      <i className="fa-solid fa-circle-check" style={{ color: '#10b981', fontSize: '12px' }}></i>
+                      <span>Zero Third-Party Telemetry or Ad Retargeting</span>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               {/* Direct WhatsApp Callout Box */}
-              <div style={{ padding: '18px', background: 'rgba(255,255,255,0.05)', borderRadius: '12px', border: '1px solid rgba(212, 175, 55, 0.25)', marginTop: '20px' }}>
-                <span style={{ fontSize: '12px', color: '#F3C644', fontWeight: '700', display: 'block', marginBottom: '6px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+              <div style={{ padding: '16px', background: 'rgba(255,255,255,0.05)', borderRadius: '12px', border: '1px solid rgba(212, 175, 55, 0.25)', marginTop: '10px' }}>
+                <span style={{ fontSize: '11.5px', color: '#F3C644', fontWeight: '700', display: 'block', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
                   Fast-Track Strategic Escalation:
                 </span>
-                <p style={{ fontSize: '12.5px', color: '#cbd5e1', lineHeight: '1.5', margin: '0 0 12px 0' }}>
+                <p style={{ fontSize: '12px', color: '#cbd5e1', lineHeight: '1.4', margin: '0 0 10px 0' }}>
                   Closing an urgent SAFE round or require immediate M-NDA execution? Reach our desk directly via encrypted channel.
                 </p>
                 <a

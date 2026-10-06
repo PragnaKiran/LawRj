@@ -173,17 +173,7 @@ const AboutOne = ({ id }) => {
                 </div>
               </div>
 
-              {/* Statutory Advocates Act Disclaimer */}
-              <div className="lawrj-disclaimer-box">
-                <h6 style={{ fontSize: '12.5px', fontWeight: '700', color: '#0B1B3D', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                  Statutory Regulatory Notice (Advocates Act, 1961 Compliance)
-                </h6>
-                <p style={{ fontSize: '12px', color: '#64748B', lineHeight: '1.6', margin: 0 }}>
-                  LawRJ operates as a strategic commercial venture architecture consultancy and cross-border corporate advisory practice. The materials on this website are provided for general informational purposes only and do not constitute formal legal solicitation, advertisement, or an attorney-client relationship. Visitors requiring formal litigation representation before the High Court of Gujarat or Indian district courts must engage through direct individual vakalatnama in compliance with Bar Council regulations.
-                </p>
-              </div>
-
-              <div className="d-flex align-items-center gap-3 mt-4 pt-2 flex-wrap">
+              <div className="d-flex align-items-center gap-3 mt-4 pt-1 flex-wrap">
                 <Link href="/Contact" className="tmp-btn btn-primary">
                   Schedule Strategy Call
                 </Link>

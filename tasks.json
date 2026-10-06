@@ -637,10 +637,10 @@
       "priority_matrix": "2-4-1",
       "sort_key": [2,4,1],
       "task_name": "Reduce excessive margin spaces across UI",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "2.0",
-      "actual_hours": "",
-      "notes": "Optimize CSS margin/padding; assign to @Sulu and @Kirk"
+      "actual_hours": "1.5",
+      "notes": "Reduced global section gap padding from 120px to 60px (and 45px on mobile). Scaled down about wrapper, hero banner content padding, and title bottom margins for maximum screen utility and modern information density."
     },
     {
       "task_id": "TSK-UI-003",
@@ -655,10 +655,10 @@
       "priority_matrix": "2-4-2",
       "sort_key": [2,4,2],
       "task_name": "Improve button colour contrast and visibility",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "1.5",
-      "actual_hours": "",
-      "notes": "Review button UI for contrast; assign to @Sulu and @Spock"
+      "actual_hours": "1.0",
+      "notes": "Eradicated dark sliding hover overlays (::after) that caused button text unreadability; deployed crisp, high-contrast gold primary buttons (#071126 text on #D4AF37) and deep navy secondary buttons with golden borders (#ffffff on #0B1B3D). Passed WCAG AA contrast standards."
     },
     {
       "task_id": "TSK-UI-004",

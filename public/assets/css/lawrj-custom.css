@@ -29,36 +29,110 @@ body {
   background-color: #ffffff;
 }
 
-/* Primary Button with Gold Gradient and Refined Luxury Glow */
+/* Primary Button with High-Contrast Solid Finish and Crisp Typography */
 .tmp-btn.btn-primary,
 .bg--primary,
 .subscribe-area .tmp-btn.btn-primary {
-  background: var(--color-gold-gradient) !important;
+  background: #D4AF37 !important;
+  background-image: linear-gradient(135deg, #F3C644 0%, #D4AF37 50%, #C59B27 100%) !important;
   color: #071126 !important;
-  border: 1px solid rgba(243, 198, 68, 0.4) !important;
+  border: 1px solid #B88E1C !important;
   font-weight: 700 !important;
   letter-spacing: 0.5px !important;
-  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.25) !important;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.28) !important;
+  transition: all 0.25s ease !important;
+  text-decoration: none !important;
+}
+
+.tmp-btn.btn-primary::after {
+  display: none !important; /* Disable dark sliding overlay that obscured text */
 }
 
 .tmp-btn.btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(212, 175, 55, 0.4) !important;
+  background: #E5A93C !important;
   color: #000000 !important;
+  box-shadow: 0 8px 22px rgba(212, 175, 55, 0.45) !important;
 }
 
 .tmp-btn.btn-secondary {
-  background: rgba(255, 255, 255, 0.08) !important;
+  background: #0B1B3D !important;
   color: #ffffff !important;
-  border: 1px solid rgba(212, 175, 55, 0.4) !important;
-  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.5) !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 12px rgba(11, 27, 61, 0.15) !important;
+  transition: all 0.25s ease !important;
+  text-decoration: none !important;
+}
+
+.tmp-btn.btn-secondary::after {
+  display: none !important;
 }
 
 .tmp-btn.btn-secondary:hover {
-  background: rgba(212, 175, 55, 0.15) !important;
-  border-color: var(--color-primary-gold) !important;
-  color: var(--color-primary-gold) !important;
+  background: #162E66 !important;
+  border-color: #F3C644 !important;
+  color: #F3C644 !important;
+  box-shadow: 0 6px 18px rgba(11, 27, 61, 0.25) !important;
+}
+
+/* =====================================================
+   DEEP SPACE COMPRESSION & SECTION PADDING OPTIMIZATION
+   Reduces oversized empty white space across desktop & mobile
+   ===================================================== */
+.tmp-section-gap {
+  padding: 60px 0 !important;
+}
+
+.tmp-section-gapBottom {
+  padding-bottom: 60px !important;
+}
+
+.tmp-section-gapTop {
+  padding-top: 60px !important;
+}
+
+.lawrj-about-wrapper {
+  padding: 60px 0 !important;
+}
+
+.lawrj-hero-content {
+  padding: 60px 0 !important;
+}
+
+.lawrj-hero-slide {
+  min-height: 600px !important;
+}
+
+.section-head {
+  margin-bottom: 30px !important;
+}
+
+.section-head .title {
+  margin-bottom: 10px !important;
+  font-size: 32px !important;
+}
+
+.section-sub-title {
+  margin-bottom: 8px !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .tmp-section-gap {
+    padding: 45px 0 !important;
+  }
+  .tmp-section-gapBottom {
+    padding-bottom: 45px !important;
+  }
+  .tmp-section-gapTop {
+    padding-top: 45px !important;
+  }
+  .lawrj-about-wrapper {
+    padding: 45px 0 !important;
+  }
+  .lawrj-hero-slide {
+    min-height: 520px !important;
+  }
 }
 
 /* Header Enhancements */

@@ -55,10 +55,10 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Updated automated test assertions for zero personal name, zero ENT-09 leak, and objective market truth metrics (28/28 passing). Re-exported static build (34/34 pages) and redeployed to Firebase preview channel dev ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
 * [ ] **`[2-4-0]` `TSK-UI-001` — WhatsApp Click-to-Chat Link Standardization & Audit (`»Spock, »Kirk`)** (`To Do` | `src/components/` | Est: `1.0h`)
   * *Notes:* Ensure all WhatsApp CTA links rigorously adhere to canonical standard (`https://wa.me/919327000022?text=...`) without hardcoded personal references.
-* [ ] **`[2-4-1]` `TSK-UI-002` — Excessive Margin & Space Optimization Audit (`»Sulu, »Kirk`)** (`To Do` | Global CSS / Component Paddings | Est: `2.0h`)
-  * *Notes:* Tighten oversized padding and margins across sections (Header, Banner, Services, Testimonials, Process, Contact) for maximum information density and clean modern layout.
-* [ ] **`[2-4-2]` `TSK-UI-003` — Button Background & Text Contrast Rectification (`»Sulu, »Spock`)** (`To Do` | UI Buttons / Micro-interactions | Est: `1.5h`)
-  * *Notes:* Audit hover/active states, transparent overlays, and background color conflicts making button labels unreadable or distracting. Verify with Chrome DevTools accessibility metrics.
+* [x] **`[2-4-1]` `TSK-UI-002` — Excessive Margin & Space Optimization Audit (`»Sulu, »Kirk`)** (`Completed` | `lawrj-custom.css` | Actual: `1.5h`)
+  * *Notes:* Reduced global section gap padding from 120px to 60px (and 45px on mobile). Scaled down about wrapper, hero banner content padding, and title bottom margins for maximum screen utility and modern information density.
+* [x] **`[2-4-2]` `TSK-UI-003` — Button Background & Text Contrast Rectification (`»Sulu, »Spock`)** (`Completed` | `lawrj-custom.css` | Actual: `1.0h`)
+  * *Notes:* Eradicated dark sliding hover overlays (`::after`) that caused button text unreadability; deployed crisp, high-contrast gold primary buttons (`#071126` text on `#D4AF37`) and deep navy secondary buttons with golden borders (`#ffffff` on `#0B1B3D`). Passed WCAG AA contrast standards.
 * [x] **`[2-4-3]` `TSK-UI-004` — Navigation Header Redesign (`»Sulu, »Kirk`)** (`Completed` | `HeaderOne.jsx` | Actual: `1.5h`)
   * *Notes:* Redesigned header into slim, sleek profile with high visual contrast, optimized height footprint, refined branding box, integrated helpline and direct consultation CTA.
 * [x] **`[2-4-4]` `TSK-UI-005` — Hero & Slide Background Image Opacity Enhancement (`»Sulu, »DeSalle`)** (`Completed` | `BannerOne.jsx` | Actual: `0.5h`)

@@ -13,7 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
-    "next": "14.2.15",
+    "next": "15.5.24",
     "react": "^18",
     "react-bootstrap": "^2.10.5",
     "react-countup": "^6.5.3",

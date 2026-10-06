@@ -4,30 +4,30 @@ import Link from 'next/link';
 const steps = [
   {
     num: "01",
-    phase: "INCEPTION & FORMATION",
-    title: "Global Entity Structuring",
-    desc: "We evaluate your market and investment strategy to incorporate in Delaware (US), London (UK), Singapore (SG), Sydney (AU), or Toronto (CA) with clean cap-tables and founder vesting.",
+    phase: "INCEPTION & DOMICILE",
+    title: "Entity Structuring Architecture",
+    desc: "Objective evaluation of international corporate domicile selection across Delaware (US), Singapore (SG), London (UK), or India with clean cap-table governance and founder vesting schedules.",
     icon: "fa-solid fa-compass-drafting",
   },
   {
     num: "02",
     phase: "BANKING & REGULATORY",
-    title: "Local Banking & Tax Numbers",
-    desc: "We secure direct corporate bank accounts (Mercury, Brex, DBS, Barclays), international EIN/VAT/GST registrations, and set up transfer-pricing agreements.",
+    title: "Commercial Banking & Tax Rails",
+    desc: "Operational integration of dedicated commercial banking rails (Mercury, Brex, DBS, Barclays), cross-border tax registrations (EIN/VAT/GST), and arm's-length transfer pricing protocols.",
     icon: "fa-solid fa-building-columns",
   },
   {
     num: "03",
-    phase: "COMMERCIAL & CAPITAL",
-    title: "Contracts & SAFE Financing",
-    desc: "We arm your product with battle-tested enterprise B2B SaaS MSAs, DPAs, and execute institutional YC SAFEs and Seed round documentation with international angels and VCs.",
+    phase: "CAPITAL & COMMERCIAL",
+    title: "SAFE Financing & Enterprise MSAs",
+    desc: "Deployment of standardized YC Post-Money SAFEs, 500 Global KISS notes, and enterprise B2B SaaS master services agreements with calibrated 99.9% uptime SLAs and statutory DPAs.",
     icon: "fa-solid fa-shield-halved",
   },
   {
     num: "04",
-    phase: "SCALE & LIQUIDITY",
-    title: "Global ESOP & Pre-IPO M&A",
-    desc: "We implement international employee stock options across multi-country teams and conduct full data-room sanitization to ensure maximum valuation at acquisition or IPO.",
+    phase: "GOVERNANCE & SCALE",
+    title: "Global ESOP Pools & Exit Readiness",
+    desc: "Cross-border equity incentive plan (ESOP) administration across multi-jurisdictional teams, proprietary IP assignment covenants, and structured virtual data-room audit trails.",
     icon: "fa-solid fa-chart-line",
   },
 ];
@@ -77,13 +77,13 @@ function ProcessOne() {
           <div className="col-lg-12">
             <div className="section-head text-center">
               <div className="section-sub-title center-title">
-                <span>FOUNDER PLAYBOOK</span>
+                <span>VENTURE LIFECYCLE ARCHITECTURE</span>
               </div>
               <h2 className="title" data-aos="fade-up">
-                How We Engineer Your Venture From Inception to Exit
+                Institutional Venture Roadmap: Inception to Scale
               </h2>
-              <p style={{ maxWidth: 600, margin: '0 auto', color: '#64748B', fontSize: 16 }}>
-                A systematic, predictable legal roadmap built specifically for founders expanding across English-speaking tech ecosystems.
+              <p style={{ maxWidth: 640, margin: '0 auto', color: '#64748B', fontSize: 16 }}>
+                A systematic, predictable legal architecture roadmap deployed across international technology corridors.
               </p>
             </div>
           </div>

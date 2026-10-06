@@ -135,7 +135,7 @@ const AboutOne = ({ id }) => {
                 Rather than forcing every startup into Delaware confirmation bias, we systematically evaluate founder tax residency, investor domiciles, and commercial footprints.
               </p>
               <p className="lawrj-about-body">
-                Founded by <strong>Advocate Viral Vyas</strong>, LawRJ delivers institutional legal engineering across <strong>Singapore, UAE (ADGM/DIFC), United Kingdom, United States, Netherlands, and India</strong>. We eliminate cross-border friction by aligning corporate governance, YC Post-Money SAFEs, commercial SaaS contracts, and bilateral engineering hubs.
+                Established as an institutional cross-border venture architecture practice, LawRJ delivers strategic legal engineering across <strong>Singapore, UAE (ADGM/DIFC), United Kingdom, United States, Netherlands, and India</strong>. We eliminate cross-border friction by aligning corporate governance, YC Post-Money SAFEs, commercial SaaS contracts, and bilateral engineering hubs.
               </p>
 
               {/* Bilateral Inbound / Outbound Tech Bridge Cards */}
@@ -188,7 +188,7 @@ const AboutOne = ({ id }) => {
                   Schedule Strategy Call
                 </Link>
                 <a 
-                  href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+                  href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing." 
                   className="tmp-btn btn-secondary" 
                   target="_blank" 
                   rel="noopener noreferrer"

@@ -122,7 +122,7 @@ export default function RootLayout({ children }) {
         {children}
         {/* Persistent Global Confidential WhatsApp Channel */}
         <a
-          href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ."
+          href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."
           className="lawrj-whatsapp-float"
           target="_blank"
           rel="noopener noreferrer"

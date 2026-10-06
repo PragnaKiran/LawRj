@@ -138,7 +138,7 @@ function ContactOne() {
               Schedule Your Confidential Founder Strategy Briefing
             </h2>
             <p style={{ color: '#64748B', fontSize: '16px', maxWidth: '680px', margin: '10px auto 0' }}>
-              Consult directly with Advocate Viral Vyas on multi-entity corporate structuring, YC Post-Money SAFEs, enterprise SaaS MSAs, and inbound India GCC engineering hubs.
+              Consult directly with our Cross-Border Legal Advisory Desk on multi-entity corporate structuring, YC Post-Money SAFEs, enterprise SaaS MSAs, and inbound India GCC engineering hubs.
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ function ContactOne() {
                 </h3>
 
                 <p style={{ color: '#94a3b8', fontSize: '14px', lineHeight: '1.7', marginBottom: '28px' }}>
-                  All intake submissions are received directly by Advocate Viral Vyas. We operate under strict professional privilege with zero automated third-party ad telemetry.
+                  All intake submissions are received directly by our Principal Contact Desk. We operate under strict professional privilege with zero automated third-party ad telemetry.
                 </p>
 
                 <div className="d-flex flex-column gap-3 mb-4">
@@ -187,7 +187,7 @@ function ContactOne() {
                         Confidential WhatsApp Advisory Line
                       </span>
                       <a
-                        href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ."
+                        href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."
                         target="_blank"
                         rel="noopener noreferrer"
                         style={{ color: '#ffffff', fontWeight: '700', fontSize: '15px', textDecoration: 'none' }}
@@ -217,10 +217,10 @@ function ContactOne() {
                     </div>
                     <div>
                       <span style={{ fontSize: '11px', color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '1px', display: 'block' }}>
-                        Principal Chambers & HQ
+                        Principal Contact & HQ
                       </span>
                       <p style={{ margin: 0, color: '#e2e8f0', fontSize: '13.5px', lineHeight: '1.6' }}>
-                        Advocate Viral Vyas • High Court of Gujarat<br />
+                        Principal Contact Desk • LawRJ Practice<br />
                         404, Devkuvar 7, Tragad, Ahmedabad-382470
                       </p>
                     </div>
@@ -237,7 +237,7 @@ function ContactOne() {
                   Closing an urgent SAFE round or require immediate M-NDA execution? Reach our desk directly via encrypted channel.
                 </p>
                 <a
-                  href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ."
+                  href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="tmp-btn btn-secondary w-100 justify-content-center"
@@ -277,10 +277,10 @@ function ContactOne() {
                     Briefing Received Successfully
                   </h4>
                   <p style={{ color: '#64748B', maxWidth: '480px', margin: '10px auto 20px', fontSize: '14.5px', lineHeight: '1.6' }}>
-                    Advocate Viral Vyas has received your founder scoping brief. Our desk will review your corporate parameters and respond within 12 business hours.
+                    Our Principal Contact Desk has received your founder scoping brief. We will review your corporate parameters and respond within 12 business hours.
                   </p>
                   <a
-                    href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20have%20submitted%20a%20Founder%20Strategy%20Briefing%20on%20LawRJ%20and%20would%20like%20to%20connect."
+                    href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20have%20submitted%20a%20Founder%20Strategy%20Briefing%20and%20would%20like%20to%20connect."
                     className="tmp-btn btn-primary"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -653,7 +653,7 @@ function ContactOne() {
                           DPDP Act 2023 Compliant • Zero Telemetry
                         </span>
                         <a
-                          href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ."
+                          href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."
                           target="_blank"
                           rel="noopener noreferrer"
                           style={{ fontSize: '13px', color: '#16a34a', fontWeight: '700', textDecoration: 'none' }}

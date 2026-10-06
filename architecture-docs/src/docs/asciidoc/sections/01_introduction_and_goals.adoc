@@ -11,6 +11,6 @@ LawRJ operates as a high-authority, jurisdiction-agnostic commercial venture arc
 |===
 
 === Stakeholders
-* **Fleet Admiral (Director Viral Vyas):** Principal Advocate & Venture Architect (Admin).
+* **Fleet Admiral (Director Viral Vyas):** Managing Director & Venture Architect (Admin).
 * **Cross-Border Founders:** Primary clients seeking multi-entity corporate structuring and SAFEs.
 * **Starfleet IT Fleet:** Bridge officers executing autonomous engineering lifecycle.

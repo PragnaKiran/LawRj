@@ -21,14 +21,14 @@ const bannerSlides = [
     primaryBtn: { text: "Schedule Strategy Call", href: "/Contact" },
     secondaryBtn: { 
       text: "Confidential WhatsApp Line", 
-      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+      href: "https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing." 
     },
     statNumber: "$150M+",
-    statLabel: "International Transactions",
-    trustHighlight: "Structured across premier international technology ecosystems and venture syndicates.",
-    cardRole: "PRINCIPAL COUNSEL",
-    cardTitle: "Advocate Viral Vyas",
-    cardCredential: "High Court of Gujarat • Global Venture Architect",
+    statLabel: "Cross-Border Market Flow",
+    trustHighlight: "Annual bilateral venture capital transaction flow across premier international innovation corridors.",
+    cardRole: "PRINCIPAL CONTACT",
+    cardTitle: "Principal Contact Desk",
+    cardCredential: "Cross-Border Venture Practice • LawRJ",
     cardFocus: "Objective, jurisdiction-agnostic entity architecture designed for investor diligence and international scale."
   },
   {
@@ -42,7 +42,7 @@ const bannerSlides = [
     primaryBtn: { text: "Review Financing Terms", href: "/ServiceDetails?service=financing" },
     secondaryBtn: { 
       text: "Confidential WhatsApp Line", 
-      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+      href: "https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing." 
     },
     statNumber: "Global Reach",
     statLabel: "Entity Domiciles Structured",
@@ -63,10 +63,10 @@ const bannerSlides = [
     primaryBtn: { text: "Explore Contract Suite", href: "/ServiceDetails?service=contracts" },
     secondaryBtn: { 
       text: "Confidential WhatsApp Line", 
-      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+      href: "https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing." 
     },
     statNumber: "300+",
-    statLabel: "Enterprise MSAs & Agreements",
+    statLabel: "Standard Contract Suites",
     trustHighlight: "Procurement-ready commercial contract architecture satisfying Tier-1 enterprise security reviews.",
     cardRole: "COMMERCIAL CONTRACTS",
     cardTitle: "Enterprise SaaS Enablement",
@@ -84,13 +84,13 @@ const bannerSlides = [
     primaryBtn: { text: "Explore Bilateral Bridge", href: "/ServiceDetails?service=india-bridge" },
     secondaryBtn: { 
       text: "Confidential WhatsApp Line", 
-      href: "https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." 
+      href: "https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing." 
     },
     statNumber: "Bilateral Hub",
     statLabel: "Inbound GCC & Outbound Flips",
     trustHighlight: "FEMA / FDI compliance, transfer pricing documentation, and seamless inward capital deployment.",
     cardRole: "CROSS-BORDER BRIDGE",
-    cardTitle: "Bilateral Tech Hub Lead",
+    cardTitle: "Bilateral Practice Desk",
     cardCredential: "India Tech Hubs • RBI / FEMA • Global Flips",
     cardFocus: "Guiding international founders and institutional investors through Indian regulatory corridors."
   }

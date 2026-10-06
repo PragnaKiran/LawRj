@@ -97,14 +97,14 @@ function Footer() {
               {/* Global Contact & HQ */}
               <div className="col-lg-3 col-md-6">
                 <div className="single-footer-wrapper">
-                  <h5 className="ft-title">Principal Chambers</h5>
+                  <h5 className="ft-title">Principal Contact</h5>
                   <ul className="ft-link">
                     <li>
                       <div className="d-flex align-items-start gap-2">
-                        <i className="fa-solid fa-scale-balanced mt-1" style={{ color: '#D4AF37' }}></i>
+                        <i className="fa-solid fa-briefcase mt-1" style={{ color: '#D4AF37' }}></i>
                         <div>
-                          <span style={{ color: '#e2e8f0', fontWeight: '600', fontSize: '14px', display: 'block' }}>Advocate Viral Vyas</span>
-                          <span style={{ color: '#94a3b8', fontSize: '12px' }}>High Court of Gujarat</span>
+                          <span style={{ color: '#e2e8f0', fontWeight: '600', fontSize: '14px', display: 'block' }}>Principal Contact Desk</span>
+                          <span style={{ color: '#94a3b8', fontSize: '12px' }}>Cross-Border Venture Practice</span>
                         </div>
                       </div>
                     </li>
@@ -144,7 +144,7 @@ function Footer() {
             </div>
             <div className="col-lg-4 text-lg-end">
               <p style={{ margin: 0, fontSize: '12.5px', color: '#94a3b8' }}>
-                © 2026 <strong style={{ color: '#F3C644' }}>LawRJ.COM</strong>. All Rights Reserved. Entity ID: ENT-09. DPDP Act 2023 Compliant.
+                © 2026 <strong style={{ color: '#F3C644' }}>LawRJ.COM</strong>. All Rights Reserved. DPDP Act 2023 Compliant.
               </p>
             </div>
           </div>

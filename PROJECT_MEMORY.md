@@ -45,6 +45,14 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Starfleet Diagnostic QA Test Suite passing 22/22 Gherkin test scenarios via `npm test`.
 * [x] **`[2-4-8]` `TSK-IT-008` — Firebase Hosting Preview Deployment (`»Uhura`)** (`Preview Deployed` | Channel URL: [`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app) | Actual: `0.5h`)
   * *Notes:* Deployed Next.js static build to isolated preview channel `dev` (`expires 2026-11-05`). Production channel (`https://law-rj.web.app`) preserved untouched pending Fleet Admiral review and sign-off. ZTNA headers and Tier-2 edge caching verified.
+* [x] **`[2-4-9]` `TSK-IT-009` — Identity Calibration & Personal Name Purge (`»Spock, »Cogley, »DeSalle`)** (`Completed` | `src/` UI Components | Actual: `1.5h`)
+  * *Notes:* Memory calibration: Director Viral Vyas is NOT an Advocate. Replaced 'Principal Chambers' with 'Principal Contact'. Purged personal name completely from public website copy, banners, contact cards, footers, and WhatsApp links.
+* [x] **`[2-4-10]` `TSK-IT-010` — Internal Data & Entity Identifier Sanitization (`»Daystrom, »DeSalle`)** (`Completed` | `src/` Public DOM | Actual: `0.5h`)
+  * *Notes:* Purged 'Entity ID: ENT-09' from footer and ensured zero internal operational/tracking tokens leak into public markup.
+* [x] **`[2-4-11]` `TSK-IT-011` — Global Market Truths & Objective Ecosystem Standards Refactor (`»Rand, »DeSalle`)** (`Completed` | `FunfactsOne`, `TestimonialsOne`, `ProcessOne` | Actual: `1.5h`)
+  * *Notes:* Converted first-person boasting ('we handled', '100% success', fake testimonials) into objective market realities, cross-border transaction archetypes, and global venture standards.
+* [x] **`[2-4-12]` `TSK-IT-012` — Starfleet Diagnostic QA Calibration & Preview Redeployment (`»Chapel, »Uhura`)** (`Completed` | `tests/diagnostic-qa.test.mjs` & Firebase | Actual: `1.0h`)
+  * *Notes:* Updated automated test assertions for zero personal name, zero ENT-09 leak, and objective market truth metrics (28/28 passing). Re-exported static build (34/34 pages) and redeployed to Firebase preview channel dev ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
 
 ### 🏛️ B. External Operational Legal Track (Preserved on Master Ledger | Offline Execution)
 * [ ] **`[2-1-1]` `TSK-035` — Chirag Patel Probate Public Notice** (`In Progress` | Scheduled: `2026-08-29` | Est: `1.5h`)
@@ -71,4 +79,4 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
 * [-] **`[2-1-2]` `TSK-023` — Chirag Patel Sync (Unit 104 & 201 Inheritance Cases)** (*Cancelled per instruction.*)
 * [-] **`[2-1-2]` `TSK-047` — Malav Parikh Follow-up Meeting on Bhanumatiben Units** (*Deemed non-viable; cancelled.*)
 * [-] **`[2-1-2]` `TSK-048` — Kushumben Hierarchy Succession Documents Follow-up** (*Deemed non-viable; cancelled.*)
-* [-] **`[2-2-4]` `TSK-013` — Removing Mortgage for Chirag Patel Flats** (*Advocate Vyas in-house handling.*)
+* [-] **`[2-2-4]` `TSK-013` — Removing Mortgage for Chirag Patel Flats** (*In-house legal counsel handling.*)

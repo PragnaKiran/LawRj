@@ -149,7 +149,7 @@ Feature: Structured Founder Scoping Intake Form
 * **Matrix:** `2-4-4` \| **Component:** `HeaderOne.jsx`, `ContactOne.jsx`, `FooterOne.jsx`
 * **Narrative:**
   * **As an** active venture founder in a fast-moving financing round,
-  * **I want to** initiate a direct WhatsApp chat with Advocate Viral Vyas,
+  * **I want to** initiate a direct WhatsApp chat with the LawRJ Cross-Border Practice Desk,
   * **So that** urgent time-sensitive terms (e.g. SAFE closing) can be escalated immediately.
 
 ```gherkin
@@ -159,7 +159,7 @@ Feature: Direct WhatsApp Advisory Routing
     Given a user on any page on mobile or desktop
     When the user clicks the "WhatsApp Advisory" badge
     Then a new window or app must open to "https://wa.me/919327000022"
-    And the pre-filled message must be URI-encoded: "Hello Adv. Vyas, I would like to schedule a confidential Founder Strategy Briefing with LawRJ."
+    And the pre-filled message must be URI-encoded: "Hello LawRJ Team, I would like to schedule a confidential Founder Strategy Briefing."
 
   Scenario: Security and referrer isolation
     When any WhatsApp anchor tag is rendered

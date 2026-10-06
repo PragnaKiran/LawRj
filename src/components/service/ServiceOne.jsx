@@ -272,13 +272,13 @@ function ServiceOne() {
                   Structuring an Institutional Round or International Tech Hub?
                 </h4>
                 <p style={{ color: '#cbd5e1', maxWidth: '640px', margin: '0 auto 18px', fontSize: '15px' }}>
-                  Speak directly with Advocate Viral Vyas. We engineer compliant multi-entity holding structures, YC SAFEs, and bilateral engineering GCCs.
+                  Connect directly with our Cross-Border Legal Advisory Desk. We engineer compliant multi-entity holding structures, YC SAFEs, and bilateral engineering GCCs.
                 </p>
                 <div className="d-flex justify-content-center gap-3 flex-wrap">
                   <Link href="/Contact" className="tmp-btn btn-primary">
                     Schedule Founder Strategy Call
                   </Link>
-                  <a href="https://wa.me/919327000022?text=Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ." className="tmp-btn btn-secondary" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing." className="tmp-btn btn-secondary" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-whatsapp" style={{ color: '#25D366', marginRight: '6px' }}></i>
                     Confidential WhatsApp Line
                   </a>

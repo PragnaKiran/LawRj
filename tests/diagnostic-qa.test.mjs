@@ -31,11 +31,11 @@ describe('Starfleet Diagnostic QA Acceptance Suite (»Chapel)', () => {
 
     it('Scenario 2: Display verified transaction and institutional metrics', () => {
       assert.ok(content.includes('$150M+'), 'Metric 1 must be $150M+');
-      assert.ok(content.includes('International Transactions'), 'Metric 1 label must be International Transactions');
+      assert.ok(content.includes('Cross-Border Market Flow'), 'Metric 1 label must be Cross-Border Market Flow');
       assert.ok(content.includes('Global Reach'), 'Metric 2 must be Global Reach');
       assert.ok(content.includes('Entity Domiciles Structured'), 'Metric 2 label must be Entity Domiciles Structured');
       assert.ok(content.includes('300+'), 'Metric 3 must be 300+');
-      assert.ok(content.includes('Enterprise MSAs & Agreements'), 'Metric 3 label must be Enterprise MSAs & Agreements');
+      assert.ok(content.includes('Standard Contract Suites'), 'Metric 3 label must be Standard Contract Suites');
     });
 
     it('Scenario 3: Verified primary and secondary conversion actions', () => {
@@ -47,11 +47,12 @@ describe('Starfleet Diagnostic QA Acceptance Suite (»Chapel)', () => {
       assert.ok(content.includes('target="_blank"'), 'Target blank isolation');
     });
 
-    it('Scenario 4: Removal of anonymous template filler', () => {
+    it('Scenario 4: Removal of anonymous template filler and personal names', () => {
       assert.ok(!content.includes('Techstars Alum'), 'Must eradicate Techstars Alum filler');
       assert.ok(!content.includes('Venture-Backed Founder'), 'Must eradicate Venture-Backed Founder filler');
-      assert.ok(content.includes('Advocate Viral Vyas'), 'Must highlight Advocate Viral Vyas');
-      assert.ok(content.includes('High Court of Gujarat'), 'Must highlight High Court of Gujarat credentials');
+      assert.ok(!content.includes('Viral'), 'Must NOT contain Viral');
+      assert.ok(!content.includes('Vyas'), 'Must NOT contain Vyas');
+      assert.ok(content.includes('Principal Contact Desk'), 'Must highlight Principal Contact Desk');
     });
   });
 
@@ -129,7 +130,7 @@ describe('Starfleet Diagnostic QA Acceptance Suite (»Chapel)', () => {
     const contactContent = fs.readFileSync(contactPath, 'utf8');
 
     it('Scenario 1: Pre-filled URI-encoded message presence', () => {
-      const expectedEncoded = 'Hello%20Adv.%20Vyas%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing%20with%20LawRJ.';
+      const expectedEncoded = 'Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing.';
       assert.ok(headerContent.includes(expectedEncoded), 'Header WhatsApp has pre-filled message');
       assert.ok(contactContent.includes(expectedEncoded), 'Contact WhatsApp has pre-filled message');
     });
@@ -242,6 +243,75 @@ describe('Starfleet Diagnostic QA Acceptance Suite (»Chapel)', () => {
       assert.ok(fs.existsSync(path.join(ROOT, 'public/sitemap.xml')), 'public/sitemap.xml must exist');
       const robots = fs.readFileSync(path.join(ROOT, 'public/robots.txt'), 'utf8');
       assert.ok(robots.includes('Sitemap: https://law-rj.web.app/sitemap.xml'), 'robots.txt references sitemap');
+    });
+  });
+
+  describe('US-IT-009: Strict Identity Calibration & Zero Personal Name Leakage', () => {
+    const bannerContent = fs.readFileSync(path.join(ROOT, 'src/components/banner/BannerOne.jsx'), 'utf8');
+    const aboutContent = fs.readFileSync(path.join(ROOT, 'src/components/about/AboutOne.jsx'), 'utf8');
+    const serviceContent = fs.readFileSync(path.join(ROOT, 'src/components/service/ServiceOne.jsx'), 'utf8');
+    const contactContent = fs.readFileSync(path.join(ROOT, 'src/components/contact/ContactOne.jsx'), 'utf8');
+    const footerContent = fs.readFileSync(path.join(ROOT, 'src/components/footer/FooterOne.jsx'), 'utf8');
+    const headerContent = fs.readFileSync(path.join(ROOT, 'src/components/header/HeaderOne.jsx'), 'utf8');
+    const layoutContent = fs.readFileSync(path.join(ROOT, 'src/app/layout.js'), 'utf8');
+
+    it('Scenario 1: Complete eradication of personal name from public markup', () => {
+      const allContent = [bannerContent, aboutContent, serviceContent, contactContent, footerContent, headerContent, layoutContent].join(' ');
+      assert.ok(!allContent.includes('Viral'), 'Must NOT contain Viral');
+      assert.ok(!allContent.includes('Vyas'), 'Must NOT contain Vyas');
+    });
+
+    it('Scenario 2: Principal Chambers replaced with Principal Contact', () => {
+      const allContent = [bannerContent, aboutContent, serviceContent, contactContent, footerContent, headerContent].join(' ');
+      assert.ok(!allContent.includes('Principal Chambers'), 'Must NOT contain Principal Chambers');
+      assert.ok(footerContent.includes('Principal Contact'), 'Footer must contain Principal Contact');
+      assert.ok(contactContent.includes('Principal Contact & HQ'), 'Contact must contain Principal Contact & HQ');
+      assert.ok(footerContent.includes('Principal Contact Desk'), 'Footer must contain Principal Contact Desk');
+      assert.ok(bannerContent.includes('Principal Contact Desk'), 'Banner must contain Principal Contact Desk');
+    });
+  });
+
+  describe('US-IT-010: Zero Internal Data Leakage (No ENT-09 or internal tokens)', () => {
+    const footerContent = fs.readFileSync(path.join(ROOT, 'src/components/footer/FooterOne.jsx'), 'utf8');
+    const contactContent = fs.readFileSync(path.join(ROOT, 'src/components/contact/ContactOne.jsx'), 'utf8');
+    const layoutContent = fs.readFileSync(path.join(ROOT, 'src/app/layout.js'), 'utf8');
+
+    it('Scenario 1: No Entity ID: ENT-09 in public footer or layout', () => {
+      assert.ok(!footerContent.includes('ENT-09'), 'Footer must NOT contain ENT-09');
+      assert.ok(!footerContent.includes('Entity ID:'), 'Footer must NOT contain Entity ID:');
+      assert.ok(!layoutContent.includes('ENT-09'), 'Layout must NOT contain ENT-09');
+    });
+  });
+
+  describe('US-IT-011: Global Market Truths & Objective Ecosystem Standards', () => {
+    const funfactsContent = fs.readFileSync(path.join(ROOT, 'src/components/funfacts/FunfactsOne.jsx'), 'utf8');
+    const blueprintsContent = fs.readFileSync(path.join(ROOT, 'src/components/testimonials/TestimonialsOne.jsx'), 'utf8');
+    const processContent = fs.readFileSync(path.join(ROOT, 'src/components/workingprocess/ProcessOne.jsx'), 'utf8');
+
+    it('Scenario 1: Funfacts states objective market flow without first-person boasting', () => {
+      assert.ok(funfactsContent.includes('GLOBAL VENTURE BENCHMARKS'), 'Must highlight GLOBAL VENTURE BENCHMARKS');
+      assert.ok(funfactsContent.includes('Bilateral Deal Volume ($)'), 'Must define Bilateral Deal Volume ($)');
+      assert.ok(funfactsContent.includes('Annual venture capital flow'), 'Factual explanation of deal flow');
+      assert.ok(!funfactsContent.includes('Handled Across'), 'Must NOT contain Handled Across');
+      assert.ok(!funfactsContent.includes('100% Local Banking Success'), 'Must NOT contain boastful 100% banking success');
+      assert.ok(!funfactsContent.includes('We have supported'), 'Must NOT contain We have supported');
+    });
+
+    it('Scenario 2: Testimonials replaced with objective structural blueprints', () => {
+      assert.ok(blueprintsContent.includes('STRUCTURAL BLUEPRINTS'), 'Must highlight STRUCTURAL BLUEPRINTS');
+      assert.ok(blueprintsContent.includes('Cross-Border Transaction Archetypes'), 'Must headline Cross-Border Transaction Archetypes');
+      assert.ok(blueprintsContent.includes('US Delaware Flip & YC SAFE Financing'), 'Blueprint 1 title');
+      assert.ok(blueprintsContent.includes('Tripartite Singapore & UK HoldCo Architecture'), 'Blueprint 2 title');
+      assert.ok(blueprintsContent.includes('Institutional Series A Equity Governance'), 'Blueprint 3 title');
+      assert.ok(blueprintsContent.includes('Inbound India Engineering GCC Hub Structure'), 'Blueprint 4 title');
+      assert.ok(blueprintsContent.includes('Enterprise B2B SaaS Contracting & Privacy'), 'Blueprint 5 title');
+      assert.ok(!blueprintsContent.includes('What Global Founders Say About LawRJ'), 'Must NOT contain fake review title');
+    });
+
+    it('Scenario 3: Working process states institutional venture lifecycle architecture', () => {
+      assert.ok(processContent.includes('VENTURE LIFECYCLE ARCHITECTURE'), 'Process badge');
+      assert.ok(processContent.includes('Institutional Venture Roadmap: Inception to Scale'), 'Process title');
+      assert.ok(!processContent.includes('How We Engineer'), 'Must NOT contain How We Engineer');
     });
   });
 

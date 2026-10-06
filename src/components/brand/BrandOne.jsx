@@ -10,7 +10,7 @@ function Brand() {
                 <div className="col-lg-12">
                 <div className="trusted-clients-agency-wrapper">
                     <p className="title">
-                    trusted By Over 3500 Of the Worlds Leading Companies
+                    Global Ecosystem Interoperability & Institutional Enterprise Rails
                     </p>
                     <div className="cilents-agency-wrapper">
                     <div className="single-clients">

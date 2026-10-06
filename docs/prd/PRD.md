@@ -115,7 +115,7 @@ The platform must structure all service presentations around four immutable pill
   6. *Target Domicile Jurisdictions* (Multi-select or text: `Singapore`, `UAE (ADGM/DIFC)`, `United States`, `United Kingdom`, `European Union`, `India`, `Other`).
   7. *Anticipated Execution Horizon* (Single select: `Immediate (<14 Days)`, `Within 30 Days`, `Exploring Options`).
   8. *Confidentiality Checkbox:* `Request Mutual Non-Disclosure Agreement (M-NDA) Prior to Call`.
-* **FR-04.2:** Direct confidential escalation badge linking directly to `https://wa.me/919327000022` with pre-filled message: `Hello Adv. Vyas, I would like to schedule a confidential Founder Strategy Briefing with LawRJ.`
+* **FR-04.2:** Direct confidential escalation badge linking directly to `https://wa.me/919327000022` with pre-filled message: `Hello LawRJ Team, I would like to schedule a confidential Founder Strategy Briefing.`
 
 ### FR-05: Regulatory Transparency & Statutory Disclaimers
 * **FR-05.1:** In accordance with the Advocates Act, 1961, and Bar Council of India rules, prominently display the statutory disclaimer in the footer and consultation intake:

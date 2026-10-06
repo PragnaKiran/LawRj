@@ -66,7 +66,7 @@ flowchart TD
     subgraph Downstream_Services [Encrypted External Services]
         WhatsAppService["WhatsApp Business Cloud<br/>(+91-9327000022 - 256-bit E2EE)"]
         EmailGateway["Encrypted Intake Dispatcher<br/>(EmailJS TLS Serverless Gateway)"]
-        LegalLedger["Offline Legal Litigation Practice<br/>(Advocate Viral Vyas - Anand/Mehsana Courts)"]
+        LegalLedger["Offline Legal Litigation Practice<br/>(External Counsel - Anand/Mehsana Courts)"]
     end
 
     Founder -->|"HTTPS (Port 443)<br/>Explores Practice Pillars"| EdgeCDN

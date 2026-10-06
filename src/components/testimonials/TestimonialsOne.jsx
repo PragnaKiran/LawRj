@@ -1,50 +1,49 @@
 "use client";
-import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-const testimonials = [
+const blueprints = [
   {
-    name: "Marcus Sterling",
-    role: "Founder & CEO, CloudForge AI",
-    location: "San Francisco, CA (USA)",
-    round: "Raised $3.2M Seed (SAFE)",
-    review: "LawRJ engineered our Delaware C-Corp flip and restructured our YC Post-Money SAFEs in record time. Having an advisory team with direct presence and local banking execution in the US saved us weeks of friction and tens of thousands in US legal fees.",
+    title: "US Delaware Flip & YC SAFE Financing",
+    category: "Venture Financing",
+    jurisdiction: "United States (Delaware)",
+    instrument: "YC Post-Money SAFE (Cap / Discount)",
+    overview: "Multi-entity flip structuring foreign operational entities into a Delaware parent corporation. Integration of standardized YC Post-Money SAFEs with explicit valuation caps, discount rights, and pro-rata investor side-letters.",
     flag: "🇺🇸",
   },
   {
-    name: "Alastair Vance",
-    role: "Co-Founder, PayFlow Global",
-    location: "London, UK",
-    round: "Expanded UK to US & Singapore",
-    review: "When expanding our B2B fintech from London into Singapore and the US, LawRJ handled the entire tripartite holding company structure, intercompany agreements, and commercial SaaS MSAs. They are true startup specialists from idea to scaling.",
-    flag: "🇬🇧",
-  },
-  {
-    name: "Jia-Wei Tan",
-    role: "Managing Director, BioSense Tech",
-    location: "Singapore",
-    round: "Priced Series A ($6.5M)",
-    review: "The LawRJ team knows cross-border venture capital inside out. Their expertise in Singapore ACRA holding setups, VIMA model contracts, and local corporate banking is second to none. An indispensable legal backbone for any high-growth Asian venture.",
+    title: "Tripartite Singapore & UK HoldCo Architecture",
+    category: "Corporate Structuring",
+    jurisdiction: "Singapore & United Kingdom",
+    instrument: "VIMA Model & ACRA HoldCo",
+    overview: "Bilateral holding company framework separating international intellectual property holdings from regional operational entities. Leverages double-taxation avoidance agreements (DTAA) and standardized Singapore VIMA investment documentation.",
     flag: "🇸🇬",
   },
   {
-    name: "Liam O'Connor",
-    role: "CTO, NextGen Robotics",
-    location: "Sydney, Australia",
-    round: "US Expansion & ESOP Setup",
-    review: "Setting up our US subsidiary while maintaining our Australian R&D tax incentives was a complex task. LawRJ structured our cross-border IP licensing and international employee stock option plan seamlessly. Exceptional clarity and execution.",
-    flag: "🇦🇺",
+    title: "Institutional Series A Equity Governance",
+    category: "Cap-Table Governance",
+    jurisdiction: "Global Venture Syndicates",
+    instrument: "Priced Equity (SHA / SSA)",
+    overview: "Formalization of institutional Shareholders' Agreements (SHA) and Share Subscription Agreements (SSA) including 1x non-participating liquidation preference, drag-along rights, and structured 4-year founder vesting with a 1-year cliff.",
+    flag: "🌐",
   },
   {
-    name: "Elena Rostova",
-    role: "Founder, QuantumLogistics",
-    location: "Toronto, Canada",
-    round: "Pre-Seed to Seed Expansion",
-    review: "LawRJ’s 'Idea to IPO' roadmap gave us absolute peace of mind. They handled our incorporation, founder vesting, cross-border corporate banking, and enterprise data privacy contracts. Highly recommended for ambitious tech founders.",
-    flag: "🇨🇦",
+    title: "Inbound India Engineering GCC Hub Structure",
+    category: "Bilateral Bridge",
+    jurisdiction: "India Technology Corridor",
+    instrument: "FEMA FDI (Automatic Route) & FC-GPR",
+    overview: "Wholly-owned Indian subsidiary (Pvt Ltd) setup under 100% automatic FDI clearance. Structured intercompany service agreements (transfer pricing arm's-length), proprietary IP assignment covenants, and regulatory RBI reporting compliance.",
+    flag: "🇮🇳",
+  },
+  {
+    title: "Enterprise B2B SaaS Contracting & Privacy",
+    category: "Commercial Contracts",
+    jurisdiction: "Global SaaS Markets",
+    instrument: "Enterprise MSAs & Statutory DPAs",
+    overview: "Procurement-ready enterprise Master Services Agreements with calibrated 99.9% uptime SLAs and multi-jurisdictional Data Processing Addenda aligned with India DPDP Act 2023, European GDPR, and California CCPA frameworks.",
+    flag: "🇪🇺",
   },
 ];
 
@@ -52,11 +51,11 @@ function TestimonialsOne() {
   return (
     <section className="tmp-testimonials-area tmp-section-gap" style={{ background: '#F8FAFC' }}>
       <style>{`
-        .lawrj-testimonial-card {
+        .lawrj-blueprint-card {
           background: #ffffff;
           border: 1px solid #E2E8F0;
           border-radius: 16px;
-          padding: 36px 30px;
+          padding: 32px 26px;
           box-shadow: 0 4px 20px rgba(11, 27, 61, 0.05);
           height: 100%;
           display: flex;
@@ -64,39 +63,44 @@ function TestimonialsOne() {
           justify-content: space-between;
           transition: all 0.3s ease;
         }
-        .lawrj-testimonial-card:hover {
+        .lawrj-blueprint-card:hover {
           border-color: #D4AF37;
           box-shadow: 0 16px 40px rgba(11, 27, 61, 0.08);
           transform: translateY(-4px);
         }
-        .lawrj-review-quote {
-          color: #334155;
-          font-size: 15px;
-          line-height: 1.8;
-          font-style: italic;
+        .lawrj-blueprint-overview {
+          color: #475569;
+          font-size: 14.5px;
+          line-height: 1.7;
           margin-bottom: 24px;
         }
-        .lawrj-client-name {
-          font-size: 17px;
+        .lawrj-blueprint-title {
+          font-size: 18px;
           font-weight: 700;
           color: #0B1B3D;
-          margin-bottom: 2px;
+          margin-bottom: 6px;
+          font-family: Georgia, serif;
         }
-        .lawrj-client-role {
-          font-size: 13px;
-          color: #64748B;
-          margin-bottom: 4px;
+        .lawrj-blueprint-category {
+          font-size: 11.5px;
+          color: #A9801A;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 700;
+          margin-bottom: 12px;
+          display: block;
         }
-        .lawrj-round-badge {
+        .lawrj-instrument-badge {
           display: inline-flex;
           align-items: center;
           gap: 6px;
-          background: rgba(16, 185, 129, 0.1);
-          color: #059669;
-          font-size: 12px;
+          background: rgba(11, 27, 61, 0.05);
+          color: #0B1B3D;
+          font-size: 11.5px;
           font-weight: 600;
-          padding: 3px 10px;
+          padding: 4px 10px;
           border-radius: 4px;
+          border: 1px solid rgba(11, 27, 61, 0.1);
         }
       `}</style>
 
@@ -105,13 +109,13 @@ function TestimonialsOne() {
           <div className="col-lg-12">
             <div className="section-head text-center">
               <div className="section-sub-title center-title">
-                <span>FOUNDER TESTIMONIALS</span>
+                <span>STRUCTURAL BLUEPRINTS</span>
               </div>
               <h2 className="title" data-aos="fade-up">
-                What Global Founders Say About LawRJ
+                Cross-Border Transaction Archetypes
               </h2>
-              <p style={{ maxWidth: 600, margin: '0 auto', color: '#64748B', fontSize: 16 }}>
-                Entrepreneurs across the US, UK, Canada, Australia, and Singapore who scaled their corporate and fundraising infrastructure with LawRJ.
+              <p style={{ maxWidth: 640, margin: '0 auto', color: '#64748B', fontSize: 16 }}>
+                Objective transaction structures and regulatory frameworks standardly deployed across international technology corridors.
               </p>
             </div>
           </div>
@@ -131,26 +135,26 @@ function TestimonialsOne() {
               }}
               style={{ paddingBottom: '48px' }}
             >
-              {testimonials.map((t, idx) => (
+              {blueprints.map((b, idx) => (
                 <SwiperSlide key={idx}>
-                  <div className="lawrj-testimonial-card">
+                  <div className="lawrj-blueprint-card">
                     <div>
                       <div className="d-flex justify-content-between align-items-center mb-3">
-                        <span style={{ fontSize: '28px' }}>{t.flag}</span>
-                        <div className="lawrj-round-badge">
-                          <i className="fa-solid fa-check"></i> {t.round}
+                        <span style={{ fontSize: '28px' }}>{b.flag}</span>
+                        <div className="lawrj-instrument-badge">
+                          <i className="fa-solid fa-file-contract" style={{ color: '#D4AF37' }}></i> {b.instrument}
                         </div>
                       </div>
-                      <p className="lawrj-review-quote">
-                        "{t.review}"
+                      <span className="lawrj-blueprint-category">{b.category}</span>
+                      <h4 className="lawrj-blueprint-title">{b.title}</h4>
+                      <p className="lawrj-blueprint-overview">
+                        {b.overview}
                       </p>
                     </div>
 
                     <div className="pt-3" style={{ borderTop: '1px solid #E2E8F0' }}>
-                      <div className="lawrj-client-name">{t.name}</div>
-                      <div className="lawrj-client-role">{t.role}</div>
-                      <div style={{ fontSize: '12px', color: '#A9801A', fontWeight: '600' }}>
-                        <i className="fa-solid fa-location-dot me-1"></i> {t.location}
+                      <div style={{ fontSize: '12px', color: '#64748B', fontWeight: '600' }}>
+                        <i className="fa-solid fa-location-dot me-1" style={{ color: '#D4AF37' }}></i> {b.jurisdiction}
                       </div>
                     </div>
                   </div>

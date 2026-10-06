@@ -5,7 +5,7 @@
   "entity_id": "ENT-09",
   "status": "Active",
   "discord_thread_id": "1554908155484446740",
-  "updated_at": "2026-10-06T13:37:00+05:30",
+  "updated_at": "2026-10-06T15:17:00+05:30",
   "subprojects": [
     {
       "id": "SUB-005",
@@ -494,6 +494,94 @@
       "est_hours": "1.0",
       "actual_hours": "0.5",
       "notes": "Deployed to isolated preview channel `dev` (https://law-rj--dev-3t518561.web.app). Production live channel untouched per Director authorization gate."
+    },
+    {
+      "task_id": "TSK-IT-009",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 9,
+      "priority_matrix": "2-4-9",
+      "sort_key": [
+        2,
+        4,
+        9
+      ],
+      "task_name": "Identity Calibration & Personal Name Purge (»Spock, »Cogley, »DeSalle)",
+      "status": "Completed",
+      "est_hours": "1.5",
+      "actual_hours": "1.5",
+      "notes": "Eradicated 'Advocate' title for Viral Vyas across memory. Replaced 'Principal Chambers' with 'Principal Contact'. Completely purged personal name from all public website copy, banners, contact cards, footers, and WhatsApp prefill URLs."
+    },
+    {
+      "task_id": "TSK-IT-010",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 10,
+      "priority_matrix": "2-4-10",
+      "sort_key": [
+        2,
+        4,
+        10
+      ],
+      "task_name": "Internal Data & Entity Identifier Sanitization (»Daystrom, »DeSalle)",
+      "status": "Completed",
+      "est_hours": "1.0",
+      "actual_hours": "0.5",
+      "notes": "Purged 'Entity ID: ENT-09' from footer. Audited all web files to ensure zero internal tracking/operational tokens leak into public DOM."
+    },
+    {
+      "task_id": "TSK-IT-011",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 11,
+      "priority_matrix": "2-4-11",
+      "sort_key": [
+        2,
+        4,
+        11
+      ],
+      "task_name": "Global Market Truths & Objective Ecosystem Standards Refactor (»Rand, »DeSalle)",
+      "status": "Completed",
+      "est_hours": "2.0",
+      "actual_hours": "1.5",
+      "notes": "Eliminated first-person boasting ('we handled', '100% success', fake testimonials). Framed metrics ($150M+ bilateral flow, 5 hubs, standard financing instruments) and case studies as objective facts, truths, and architectural standards of global venture markets."
+    },
+    {
+      "task_id": "TSK-IT-012",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 12,
+      "priority_matrix": "2-4-12",
+      "sort_key": [
+        2,
+        4,
+        12
+      ],
+      "task_name": "Acceptance Test Calibration & Preview Channel Redeployment (»Chapel, »Uhura)",
+      "status": "Completed",
+      "est_hours": "1.5",
+      "actual_hours": "1.0",
+      "notes": "Calibrated diagnostic QA test suite in tests/diagnostic-qa.test.mjs passing 28/28 tests. Static build 34/34 pre-rendered pages compiled and redeployed to Firebase preview channel dev (https://law-rj--dev-3t518561.web.app)."
     },
     {
       "task_id": "TSK-003",

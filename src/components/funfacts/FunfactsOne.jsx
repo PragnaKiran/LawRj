@@ -3,10 +3,10 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 
 const stats = [
-  { num: 5, suffix: " Hubs", label: "Premier Jurisdictions", sub: "US, UK, SG, AU & CA Local Registrations", icon: "fa-solid fa-earth-americas" },
-  { num: 100, suffix: "+", label: "Venture Financing Deals", sub: "SAFEs, Seed & Series A Rounds Structuring", icon: "fa-solid fa-file-invoice-dollar" },
-  { num: 100, suffix: "%", label: "Local Banking Success", sub: "Mercury, Brex, DBS & Barclays Bank Setup", icon: "fa-solid fa-building-columns" },
-  { num: 150, suffix: "M+", label: "Venture Deal Volume ($)", sub: "Handled Across Cross-Border Startup Ecosystems", icon: "fa-solid fa-chart-line" },
+  { num: 5, suffix: " Hubs", label: "Premier Venture Domiciles", sub: "Singapore, UAE (ADGM), United Kingdom, United States & India", icon: "fa-solid fa-earth-americas" },
+  { num: 100, suffix: "+", label: "Standardized Venture Formats", sub: "YC Post-Money SAFEs, 500 Global KISS & NVCA/VIMA Terms", icon: "fa-solid fa-file-invoice-dollar" },
+  { num: 24, suffix: "h", label: "Cross-Border Banking Protocol", sub: "Commercial banking clearing across international financial corridors", icon: "fa-solid fa-building-columns" },
+  { num: 150, suffix: "M+", label: "Bilateral Deal Volume ($)", sub: "Annual venture capital flow across cross-border startup ecosystems", icon: "fa-solid fa-chart-line" },
 ];
 
 function FunfactsOne() {
@@ -28,13 +28,13 @@ function FunfactsOne() {
         <div className="row">
           <div className="col-12 text-center mb-5">
             <span style={{ color: '#F3C644', fontSize: '13px', fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' }}>
-              GLOBAL PROVEN TRACK RECORD
+              GLOBAL VENTURE BENCHMARKS
             </span>
             <h2 style={{ color: '#ffffff', fontSize: '38px', fontWeight: '800', marginTop: '10px', fontFamily: 'Georgia, serif' }}>
-              Trusted by Ambitious Tech Founders Worldwide
+              Venture Architecture & Market Realities
             </h2>
-            <p style={{ color: '#94a3b8', maxWidth: '600px', margin: '10px auto 0', fontSize: '16px' }}>
-              We have supported startup clients securing winning corporate setups and investor rounds across the US, UK, Canada, Australia, and Singapore.
+            <p style={{ color: '#94a3b8', maxWidth: '640px', margin: '10px auto 0', fontSize: '16px' }}>
+              Standard transaction parameters, cross-border corporate frameworks, and institutional capital mechanics across premier innovation corridors.
             </p>
           </div>
         </div>

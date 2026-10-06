@@ -67,6 +67,16 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Eradicated redundant middle badge cards ('VENTURE LEGAL ARCHITECTURE' and 'DIRECT HELPLINE'), lifted primary navigation (`<Nav />`) and right-side action buttons directly into the white header bar alongside the LawRJ logo, and eliminated the secondary lower nav row completely. Verified with 28/28 tests and deployed to preview channel dev ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
 * [ ] **`[2-4-6]` `TSK-UI-007` — Deduplicate Corporate Presence Badges in Hero Banner (`»Sulu, »DeSalle`)** (`In Progress` | `src/components/banner/BannerOne.jsx` | Est: `1.0h`)
   * *Notes:* Resolve duplicate/stacked 'LOCAL CORPORATE PRESENCE' flag badge row beneath the CTA buttons in the hero slider, ensuring a single clean bottom presence row renders cleanly across all slides and device sizes.
+* [ ] **`[2-4-7]` `TSK-UI-008` — Global Vertical Spacing Compression by 50% (`»Sulu, »Kirk`)** (`To Do` | `public/assets/css/lawrj-custom.css` | Est: `2.0h`)
+  * *Notes:* Halve all section gaps, margins, and transition padding globally across all home page sections per image 1 feedback. [GitHub Issue #16](https://github.com/PragnaKiran/LawRj/issues/16).
+* [ ] **`[2-4-8]` `TSK-UI-009` — Extract Statutory Notice into Floating Cookie/Regulatory Consent Modal (`»DeSalle, »Cogley`)** (`To Do` | `src/components/` & new modal | Est: `2.0h`)
+  * *Notes:* Remove inline static disclaimers from About and Footer; implement floating cookie/consent banner with acknowledgement button per image 2 feedback. [GitHub Issue #17](https://github.com/PragnaKiran/LawRj/issues/17).
+* [ ] **`[2-4-9]` `TSK-UI-010` — Relocate Floating Action Trigger to Left Side (`»Sulu`)** (`To Do` | `src/components/footer/BackToTop.jsx` | Est: `0.5h`)
+  * *Notes:* Move floating trigger button from bottom-right to bottom-left (`left: 30px`) per image 2 feedback. [GitHub Issue #18](https://github.com/PragnaKiran/LawRj/issues/18).
+* [ ] **`[2-4-10]` `TSK-UI-011` — Redesign Footer & Compact Horizontal Newsletter Subscription Box (`»Sulu, »DeSalle`)** (`To Do` | `src/components/footer/FooterOne.jsx` | Est: `1.5h`)
+  * *Notes:* Refactor newsletter into sleek 2-column horizontal box, eradicate redundant footer disclaimer text, and compress footer padding per images 3 & 4 feedback. [GitHub Issue #19](https://github.com/PragnaKiran/LawRj/issues/19).
+* [ ] **`[2-4-11]` `TSK-UI-012` — Eliminate Dead Space in Contact Section Left Column (`»Sulu, »DeSalle`)** (`To Do` | `src/components/contact/ContactOne.jsx` | Est: `1.0h`)
+  * *Notes:* Optimize ContactOne left column card height to eliminate empty dark blue space per image 5 feedback. [GitHub Issue #20](https://github.com/PragnaKiran/LawRj/issues/20).
 
 ### 🏛️ B. External Operational Legal Track (Preserved on Master Ledger | Offline Execution)
 * [ ] **`[2-1-1]` `TSK-035` — Chirag Patel Probate Public Notice** (`In Progress` | Scheduled: `2026-08-29` | Est: `1.5h`)

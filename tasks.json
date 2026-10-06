@@ -695,6 +695,42 @@
       "est_hours": "1.0",
       "actual_hours": "0.5",
       "notes": "Lowered dark gradient backdrop density (0.82/0.68/0.52); background architecture imagery clearly visible while maintaining typography readability. Deployed to preview channel dev."
+    },
+    {
+      "task_id": "TSK-UI-006",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 5,
+      "priority_matrix": "2-4-5",
+      "sort_key": [2,4,5],
+      "task_name": "Implement Single-Row Unified Header Layout",
+      "status": "Completed",
+      "est_hours": "1.5",
+      "actual_hours": "1.0",
+      "notes": "Consolidated into a clean single-row header bar: removed middle cards ('VENTURE LEGAL ARCHITECTURE' & 'DIRECT HELPLINE'), lifted Nav into primary header row alongside LawRJ logo and action triggers, eliminated secondary lower bar. Verified with 28/28 test suite and deployed to preview channel dev."
+    },
+    {
+      "task_id": "TSK-UI-007",
+      "scheduled_date": "2026-10-06",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 6,
+      "priority_matrix": "2-4-6",
+      "sort_key": [2,4,6],
+      "task_name": "Deduplicate and Refine Corporate Presence Badges in Hero Banner",
+      "status": "In Progress",
+      "est_hours": "1.0",
+      "actual_hours": "",
+      "notes": "Eradicate duplicate/stacked Corporate Presence row in hero banner, keeping single clean bottom bar across all slides; assigned to @Sulu and @DeSalle."
     }
   ]
 }

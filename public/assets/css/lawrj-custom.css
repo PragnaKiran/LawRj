@@ -156,29 +156,46 @@ body {
   color: var(--color-primary-gold) !important;
 }
 
-.header-mida-area {
-  padding: 18px 0;
+/* Unified Single-Row Header */
+.lawrj-unified-header-wrapper {
+  background: #ffffff;
+  transition: all 0.25s ease-in-out;
 }
 
-.header--sticky.sticky {
-  background: rgba(11, 27, 61, 0.95) !important;
-  backdrop-filter: blur(16px) !important;
-  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-  box-shadow: 0 10px 30px rgba(7, 17, 38, 0.3);
+.lawrj-unified-header-wrapper.sticky-header-active {
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(12px) !important;
+  box-shadow: 0 8px 24px rgba(7, 17, 38, 0.1) !important;
+  border-bottom: 2px solid var(--color-primary) !important;
 }
 
-.header-nav.main-nav-one ul.parent-nav > li > a {
-  color: #0f172a;
-  font-weight: 600;
+.lawrj-header-single-row {
+  min-height: 68px;
 }
 
-.header--sticky.sticky .header-nav.main-nav-one ul.parent-nav > li > a {
-  color: #f8fafc;
+.lawrj-header-single-row .header-nav.main-nav-one {
+  margin: 0;
 }
 
-.header-nav.main-nav-one ul.parent-nav > li > a:hover,
+.lawrj-header-single-row .header-nav.main-nav-one ul.parent-nav > li {
+  margin: 0 10px;
+}
+
+.lawrj-header-single-row .header-nav.main-nav-one ul.parent-nav > li > a.nav-link {
+  color: #071126 !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+  letter-spacing: 0.5px !important;
+  padding: 20px 8px !important;
+  transition: color 0.2s ease;
+}
+
+.lawrj-header-single-row .header-nav.main-nav-one ul.parent-nav > li > a.nav-link:hover {
+  color: var(--color-primary-dark) !important;
+}
+
 .header-nav.main-nav-one ul.parent-nav > li.active > a {
-  color: var(--color-primary-gold) !important;
+  color: var(--color-primary-dark) !important;
 }
 
 .submenu {

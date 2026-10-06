@@ -63,6 +63,10 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Redesigned header into slim, sleek profile with high visual contrast, optimized height footprint, refined branding box, integrated helpline and direct consultation CTA.
 * [x] **`[2-4-4]` `TSK-UI-005` — Hero & Slide Background Image Opacity Enhancement (`»Sulu, »DeSalle`)** (`Completed` | `BannerOne.jsx` | Actual: `0.5h`)
   * *Notes:* Lowered dark gradient backdrop density (from 0.94/0.88 down to 0.82/0.68/0.52); background architecture and corridor imagery now clearly discernible while retaining crystal-clear text readability. Re-exported static build and deployed to dev preview channel ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
+* [x] **`[2-4-5]` `TSK-UI-006` — Single-Row Unified Header Layout Consolidation (`»Sulu, »Kirk`)** (`Completed` | `src/components/header/HeaderOne.jsx` | Actual: `1.0h`)
+  * *Notes:* Eradicated redundant middle badge cards ('VENTURE LEGAL ARCHITECTURE' and 'DIRECT HELPLINE'), lifted primary navigation (`<Nav />`) and right-side action buttons directly into the white header bar alongside the LawRJ logo, and eliminated the secondary lower nav row completely. Verified with 28/28 tests and deployed to preview channel dev ([`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app)).
+* [ ] **`[2-4-6]` `TSK-UI-007` — Deduplicate Corporate Presence Badges in Hero Banner (`»Sulu, »DeSalle`)** (`In Progress` | `src/components/banner/BannerOne.jsx` | Est: `1.0h`)
+  * *Notes:* Resolve duplicate/stacked 'LOCAL CORPORATE PRESENCE' flag badge row beneath the CTA buttons in the hero slider, ensuring a single clean bottom presence row renders cleanly across all slides and device sizes.
 
 ### 🏛️ B. External Operational Legal Track (Preserved on Master Ledger | Offline Execution)
 * [ ] **`[2-1-1]` `TSK-035` — Chirag Patel Probate Public Notice** (`In Progress` | Scheduled: `2026-08-29` | Est: `1.5h`)

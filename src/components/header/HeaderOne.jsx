@@ -59,96 +59,73 @@ function Header() {
           </div>
         </div>
 
-        {/* Main Header Bar - Redesigned Slim Modern Profile */}
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="main-header-one-wrapper">
-                <div className="header-mida-area d-flex align-items-center justify-content-between py-2" style={{ borderBottom: '1px solid rgba(226, 232, 240, 0.8)' }}>
+        {/* Unified Single-Row Main Header Bar */}
+        <div className={`lawrj-unified-header-wrapper ${isSticky ? 'sticky-header-active' : ''}`} style={{
+          background: '#ffffff',
+          boxShadow: isSticky ? '0 10px 30px rgba(7, 17, 38, 0.15)' : '0 2px 10px rgba(11, 27, 61, 0.05)',
+          borderBottom: '1px solid rgba(226, 232, 240, 0.8)',
+          position: isSticky ? 'fixed' : 'relative',
+          top: isSticky ? 0 : 'auto',
+          left: 0,
+          right: 0,
+          zIndex: 999,
+          transition: 'all 0.3s ease'
+        }}>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="lawrj-header-single-row d-flex align-items-center justify-content-between py-2">
+                  {/* Left: Brand Logo */}
                   <div className="logo-area-start">
                     <Link className="logo d-flex align-items-center" href="/">
-                      <div style={{ background: '#ffffff', padding: '6px 14px', borderRadius: '8px', boxShadow: '0 2px 10px rgba(11, 27, 61, 0.06)', display: 'inline-flex', alignItems: 'center' }}>
+                      <div style={{ background: '#ffffff', padding: '4px 10px', borderRadius: '8px', display: 'inline-flex', alignItems: 'center' }}>
                         <Image
                           width={190}
                           height={58}
                           alt="LawRJ - Law Rights Justice"
                           src="/assets/images/logo/lawrj-logo.png"
                           priority
-                          style={{ height: 'auto', width: '165px', objectFit: 'contain' }}
+                          style={{ height: 'auto', width: '160px', objectFit: 'contain' }}
                         />
                       </div>
                     </Link>
                   </div>
                   
-                  <div className="mid-header-center d-none d-lg-flex align-items-center gap-3">
-                    <div className="d-flex align-items-center gap-2 px-3 py-1 rounded-3" style={{ background: 'rgba(212, 175, 55, 0.08)', border: '1px solid rgba(212, 175, 55, 0.25)' }}>
-                      <div style={{ width: '30px', height: '30px', borderRadius: '50%', background: 'rgba(212, 175, 55, 0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#D4AF37', fontSize: '13px' }}>
-                        <i className="fa-solid fa-briefcase"></i>
-                      </div>
-                      <div>
-                        <span style={{ fontSize: '10.5px', color: '#855E0E', display: 'block', fontWeight: '800', letterSpacing: '0.6px', textTransform: 'uppercase' }}>
-                          VENTURE LEGAL ARCHITECTURE
-                        </span>
-                        <span style={{ fontSize: '12.5px', color: '#0B1B3D', fontWeight: '700' }}>
-                          Idea to IPO Counsel
-                        </span>
-                      </div>
-                    </div>
-
-                    <div className="d-flex align-items-center gap-2 px-3 py-1 rounded-3" style={{ background: '#F8FAFC', border: '1px solid #E2E8F0' }}>
-                      <div style={{ width: '30px', height: '30px', borderRadius: '50%', background: 'rgba(16, 185, 129, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#10b981', fontSize: '13px' }}>
-                        <i className="fa-solid fa-headset"></i>
-                      </div>
-                      <div>
-                        <span style={{ fontSize: '10.5px', color: '#64748B', display: 'block', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                          Direct Helpline
-                        </span>
-                        <a href="tel:+919327000022" style={{ fontSize: '12.5px', color: '#0B1B3D', fontWeight: '700', textDecoration: 'none' }}>
-                          +91 93270 00022
-                        </a>
-                      </div>
-                    </div>
+                  {/* Center: Navigation Menu */}
+                  <div className="d-none d-lg-block">
+                    <Nav />
                   </div>
 
-                  <div className="d-flex align-items-center gap-2">
-                    <Link className="tmp-btn btn-primary" href="/Contact" style={{ padding: '9px 18px', fontSize: '13px', fontWeight: '700' }}>
-                      Schedule Consultation
-                    </Link>
-                  </div>
-                </div>
-
-                {/* Sticky Navbar */}
-                <div className={`tmp-nav-area-one header--sticky ${isSticky ? 'sticky' : ''}`}>
-                  <div className="logo-md-sm-device">
-                    <Link className="logo" href="/">
-                      <div style={{ background: '#ffffff', padding: '6px 14px', borderRadius: '8px', display: 'inline-flex', alignItems: 'center' }}>
-                        <Image
-                          width={160}
-                          height={50}
-                          alt="LawRJ Logo"
-                          src="/assets/images/logo/lawrj-logo.png"
-                          style={{ height: 'auto', width: '130px' }}
-                        />
-                      </div>
-                    </Link>
-                  </div>
-                  <Nav />
-                  <div className="actions-area d-flex align-items-center gap-3">
+                  {/* Right: Actions (WhatsApp, Consultation CTA & Mobile Toggle) */}
+                  <div className="d-flex align-items-center gap-2 gap-sm-3">
                     <a
                       href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="d-none d-md-flex align-items-center gap-2 px-3 py-2 rounded text-decoration-none"
-                      style={{ background: 'rgba(37, 211, 102, 0.15)', border: '1px solid rgba(37, 211, 102, 0.4)', color: '#16a34a', fontSize: '13px', fontWeight: '700' }}
+                      className="d-none d-xl-flex align-items-center gap-2 px-3 py-2 rounded text-decoration-none"
+                      style={{ background: 'rgba(37, 211, 102, 0.12)', border: '1px solid rgba(37, 211, 102, 0.35)', color: '#15803d', fontSize: '12.5px', fontWeight: '700' }}
                     >
-                      <i className="fa-brands fa-whatsapp" style={{ fontSize: '16px' }}></i>
+                      <i className="fa-brands fa-whatsapp" style={{ fontSize: '15px', color: '#25D366' }}></i>
                       WhatsApp Line
                     </a>
-                    <div className="tmp-side-collups-area" id="side-collups" onClick={handleMenuToggle} style={{ cursor: 'pointer' }}>
+
+                    <Link className="tmp-btn btn-primary" href="/Contact" style={{ padding: '8px 18px', fontSize: '13px', fontWeight: '700' }}>
+                      Schedule Consultation
+                    </Link>
+
+                    <div className="tmp-side-collups-area d-flex align-items-center justify-content-center" id="side-collups" onClick={handleMenuToggle} style={{
+                      cursor: 'pointer',
+                      width: '40px',
+                      height: '40px',
+                      borderRadius: '8px',
+                      background: '#F8FAFC',
+                      border: '1px solid #E2E8F0',
+                      marginLeft: '4px'
+                    }}>
                       <svg fill="none" height="18" viewBox="0 0 20 16" width="22" xmlns="http://www.w3.org/2000/svg">
-                        <rect fill="#D4AF37" height="2.5" width="20" y="13.5" rx="1" />
+                        <rect fill="#0B1B3D" height="2.5" width="20" y="13.5" rx="1" />
                         <rect fill="#D4AF37" height="2.5" width="20" y="6.75" rx="1" />
-                        <rect fill="#D4AF37" height="2.5" width="20" rx="1" />
+                        <rect fill="#0B1B3D" height="2.5" width="20" rx="1" />
                       </svg>
                     </div>
                   </div>

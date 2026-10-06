@@ -43,8 +43,8 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Injected Schema.org LegalService JSON-LD and OpenGraph metadata.
 * [x] **`[2-4-7]` `TSK-IT-007` — Diagnostic Test Suites Compilation (`»Chapel`)** (`Completed` | `tests/diagnostic-qa.test.mjs` | Actual: `1.5h`)
   * *Notes:* Starfleet Diagnostic QA Test Suite passing 22/22 Gherkin test scenarios via `npm test`.
-* [ ] **`[2-4-8]` `TSK-IT-008` — Firebase Hosting Production Deployment (`»Uhura`)** (`Ready for Deployment` | Firebase CDN | Est: `1.0h`)
-  * *Notes:* Static export compilation verified (34/34 pre-rendered HTML pages in `out/`), ZTNA security headers and Tier-2 edge caching configured in `firebase.json`.
+* [x] **`[2-4-8]` `TSK-IT-008` — Firebase Hosting Preview Deployment (`»Uhura`)** (`Preview Deployed` | Channel URL: [`https://law-rj--dev-3t518561.web.app`](https://law-rj--dev-3t518561.web.app) | Actual: `0.5h`)
+  * *Notes:* Deployed Next.js static build to isolated preview channel `dev` (`expires 2026-11-05`). Production channel (`https://law-rj.web.app`) preserved untouched pending Fleet Admiral review and sign-off. ZTNA headers and Tier-2 edge caching verified.
 
 ### 🏛️ B. External Operational Legal Track (Preserved on Master Ledger | Offline Execution)
 * [ ] **`[2-1-1]` `TSK-035` — Chirag Patel Probate Public Notice** (`In Progress` | Scheduled: `2026-08-29` | Est: `1.5h`)

@@ -95,8 +95,8 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Pre-rendered actual benchmark numbers during SSR instead of initial '0', preventing layout jumps before viewport intersection. Closed [GitHub Issue #28](https://github.com/PragnaKiran/LawRj/issues/28).
 * [x] **`[2-4-20]` `TSK-UI-021` — Eliminate Scroll Event Layout Thrashing & Forced Reflow in Header/BackToTop (`»Daystrom, »DeSalle`)** (`Completed` | `src/components/footer/BackToTop.jsx`, `src/components/header/HeaderOne.jsx` | Actual: `1.0h`)
   * *Notes:* Replaced un-throttled scroll listeners with `requestAnimationFrame` + `{ passive: true }` + cached DOM refs, eradicating forced reflows and scroll stutters. Closed [GitHub Issue #29](https://github.com/PragnaKiran/LawRj/issues/29).
-* [ ] **`[2-4-21]` `TSK-UI-022` — Calibrate Inner Page Heading Order & Sidebar Contrast on ServiceDetails & About (`»Sulu, »DeSalle`)** (`To Do` | Scheduled: `2026-10-07` | Est: `1.5h`)
-  * *Notes:* Logged from live production multi-page Chrome DevTools MCP audit. Ensure sequential heading order and 4.5:1 contrast on inner templates. [GitHub Issue #30](https://github.com/PragnaKiran/LawRj/issues/30).
+* [x] **`[2-4-21]` `TSK-UI-022` — Calibrate Inner Page Heading Order & Sidebar Contrast on ServiceDetails & About (`»Sulu, »DeSalle`)** (`Completed` | `src/app/(inner-page)/ServiceDetails/page.js`, `src/app/(inner-page)/About/page.js` | Actual: `1.0h`)
+  * *Notes:* Calibrated heading order (H1->H2->H3) across `/About` and `/ServiceDetails`, and guaranteed 4.5:1 WCAG AA contrast on sidebar navigation. Closed [GitHub Issue #30](https://github.com/PragnaKiran/LawRj/issues/30).
 
 ### 🏛️ B. External Operational Legal Track (Preserved on Master Ledger | Offline Execution)
 * [ ] **`[2-1-1]` `TSK-035` — Chirag Patel Probate Public Notice** (`In Progress` | Scheduled: `2026-08-29` | Est: `1.5h`)

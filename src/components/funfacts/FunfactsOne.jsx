@@ -69,7 +69,9 @@ function FunfactsOne() {
                 <div style={{ fontSize: '42px', fontWeight: '800', color: '#ffffff', fontFamily: 'Georgia, serif', lineHeight: 1 }}>
                   {inView ? (
                     <CountUp end={stat.num} duration={2.5} separator="," />
-                  ) : '0'}
+                  ) : (
+                    <span>{stat.num}</span>
+                  )}
                   <span style={{ color: '#F3C644' }}>{stat.suffix}</span>
                 </div>
                 <div style={{ color: '#ffffff', fontWeight: '700', fontSize: '16px', marginTop: '12px' }}>

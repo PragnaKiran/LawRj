@@ -146,7 +146,7 @@ function TestimonialsOne() {
                         </div>
                       </div>
                       <span className="lawrj-blueprint-category">{b.category}</span>
-                      <h4 className="lawrj-blueprint-title">{b.title}</h4>
+                      <h3 className="lawrj-blueprint-title">{b.title}</h3>
                       <p className="lawrj-blueprint-overview">
                         {b.overview}
                       </p>

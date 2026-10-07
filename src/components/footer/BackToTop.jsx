@@ -4,50 +4,55 @@ import React, { useEffect } from 'react';
 
 function BackTop() {
     useEffect(() => {
-        const progressPath = document.querySelector('.progress-wrap path');
-        const pathLength = progressPath.getTotalLength();
+        const progressWrap = document.querySelector('.progress-wrap');
+        if (!progressWrap) return;
+        const progressPath = progressWrap.querySelector('path');
+        if (!progressPath) return;
 
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+        const pathLength = progressPath.getTotalLength();
+        progressPath.style.transition = 'stroke-dashoffset 10ms linear';
         progressPath.style.strokeDasharray = `${pathLength} ${pathLength}`;
         progressPath.style.strokeDashoffset = pathLength;
-        progressPath.getBoundingClientRect();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
 
-        const updateProgress = () => {
-        const scroll = window.scrollY;
-        const height = document.documentElement.scrollHeight - window.innerHeight;
-        const progress = pathLength - (scroll * pathLength / height);
-        progressPath.style.strokeDashoffset = progress;
+        let ticking = false;
+        let lastActive = false;
+
+        const onScroll = () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    const scroll = window.scrollY;
+                    const height = document.documentElement.scrollHeight - window.innerHeight;
+                    if (height > 0) {
+                        const progress = pathLength - (scroll * pathLength / height);
+                        progressPath.style.strokeDashoffset = progress;
+                    }
+                    const shouldBeActive = scroll > 50;
+                    if (shouldBeActive !== lastActive) {
+                        lastActive = shouldBeActive;
+                        if (shouldBeActive) {
+                            progressWrap.classList.add('active-progress');
+                        } else {
+                            progressWrap.classList.remove('active-progress');
+                        }
+                    }
+                    ticking = false;
+                });
+                ticking = true;
+            }
         };
 
-        updateProgress();
-        window.addEventListener('scroll', updateProgress);
-
-        const handleScroll = () => {
-        const offset = 50;
-        const progressWrap = document.querySelector('.progress-wrap');
-        if (window.scrollY > offset) {
-            progressWrap.classList.add('active-progress');
-        } else {
-            progressWrap.classList.remove('active-progress');
-        }
-        };
-
-        window.addEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
 
         const handleClick = (event) => {
-        event.preventDefault();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         };
-
-        const progressWrap = document.querySelector('.progress-wrap');
         progressWrap.addEventListener('click', handleClick);
 
-        // Cleanup event listeners on component unmount
         return () => {
-        window.removeEventListener('scroll', updateProgress);
-        window.removeEventListener('scroll', handleScroll);
-        progressWrap.removeEventListener('click', handleClick);
+            window.removeEventListener('scroll', onScroll);
+            progressWrap.removeEventListener('click', handleClick);
         };
     }, []);
 

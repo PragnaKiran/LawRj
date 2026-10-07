@@ -81,7 +81,7 @@ function FaqOne() {
                   overflow: 'hidden',
                   background: openIndex === idx ? '#F8FAFC' : '#ffffff',
                 }}>
-                  <h2 className="accordion-header">
+                  <h3 className="accordion-header">
                     <button
                       className={`accordion-button ${openIndex !== idx ? 'collapsed' : ''}`}
                       type="button"
@@ -98,7 +98,7 @@ function FaqOne() {
                     >
                       {item.q}
                     </button>
-                  </h2>
+                  </h3>
                   <div className={`accordion-collapse collapse ${openIndex === idx ? 'show' : ''}`}>
                     <div className="accordion-body" style={{ padding: '20px 24px', color: '#475569', lineHeight: '1.8', fontSize: '14.5px' }}>
                       {item.a}

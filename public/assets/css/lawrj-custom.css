@@ -365,3 +365,61 @@ body {
   font-weight: 600;
   color: #D4AF37;
 }
+
+/* =====================================================
+   WCAG AA COLOR CONTRAST & TOUCH TARGET OPTIMIZATION
+   ===================================================== */
+.section-sub-title span {
+  color: #071126 !important;
+  background: rgba(212, 175, 55, 0.22) !important;
+  border: 1px solid rgba(169, 128, 26, 0.45) !important;
+  padding: 4px 14px !important;
+  border-radius: 20px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.5px !important;
+  display: inline-block !important;
+}
+
+.lawrj-about-badge {
+  background: #0B1B3D !important;
+  color: #F3C644 !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  padding: 5px 14px !important;
+  border-radius: 6px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  font-weight: 800 !important;
+}
+
+.lawrj-blueprint-category {
+  color: #0B1B3D !important;
+  background: rgba(212, 175, 55, 0.18) !important;
+  border: 1px solid rgba(212, 175, 55, 0.35) !important;
+  padding: 3px 10px !important;
+  border-radius: 4px !important;
+  display: inline-block !important;
+  font-weight: 800 !important;
+}
+
+/* Touch target sizing for pagination bullets */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 8px !important;
+  position: relative !important;
+  cursor: pointer !important;
+}
+
+.swiper-pagination-bullet::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+}
+

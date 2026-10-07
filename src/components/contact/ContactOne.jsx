@@ -335,6 +335,7 @@ function ContactOne() {
                       <input
                         id="founder_name"
                         name="founder_name"
+                        autoComplete="name"
                         value={formData.founder_name}
                         onChange={handleTextChange}
                         aria-invalid={errors.founder_name ? "true" : "false"}
@@ -364,6 +365,7 @@ function ContactOne() {
                       <input
                         id="company_name"
                         name="company_name"
+                        autoComplete="organization"
                         value={formData.company_name}
                         onChange={handleTextChange}
                         aria-invalid={errors.company_name ? "true" : "false"}
@@ -393,6 +395,7 @@ function ContactOne() {
                       <input
                         id="work_email"
                         name="work_email"
+                        autoComplete="email"
                         value={formData.work_email}
                         onChange={handleTextChange}
                         aria-invalid={errors.work_email ? "true" : "false"}
@@ -422,6 +425,7 @@ function ContactOne() {
                       <input
                         id="phone"
                         name="phone"
+                        autoComplete="tel"
                         value={formData.phone}
                         onChange={handleTextChange}
                         aria-invalid={errors.phone ? "true" : "false"}
@@ -516,10 +520,10 @@ function ContactOne() {
                                 padding: '6px 14px',
                                 borderRadius: '20px',
                                 fontSize: '12.5px',
-                                fontWeight: '600',
-                                border: isSelected ? '1.5px solid #D4AF37' : '1.5px solid #E2E8F0',
-                                background: isSelected ? 'rgba(212, 175, 55, 0.15)' : '#F8FAFC',
-                                color: isSelected ? '#A9801A' : '#475569',
+                                fontWeight: '700',
+                                border: isSelected ? '1.5px solid #D4AF37' : '1.5px solid #CBD5E1',
+                                background: isSelected ? '#0B1B3D' : '#F8FAFC',
+                                color: isSelected ? '#F3C644' : '#1E293B',
                                 cursor: 'pointer',
                                 transition: 'all 0.2s ease',
                               }}
@@ -677,7 +681,7 @@ function ContactOne() {
                           href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."
                           target="_blank"
                           rel="noopener noreferrer"
-                          style={{ fontSize: '13px', color: '#16a34a', fontWeight: '700', textDecoration: 'none' }}
+                          style={{ fontSize: '13px', color: '#15803d', fontWeight: '800', textDecoration: 'none' }}
                         >
                           <i className="fa-brands fa-whatsapp me-1"></i>
                           Urgent Round? Open WhatsApp

@@ -232,11 +232,19 @@ const BannerOne = () => {
                         <i className={slide.badgeIcon}></i> {slide.badge}
                       </div>
                       
-                      <h1 className="lawrj-hero-title">
-                        {slide.titleStart}
-                        <span className="gold-gradient-text">{slide.titleHighlight}</span>
-                        {slide.titleEnd}
-                      </h1>
+                      {idx === 0 ? (
+                        <h1 className="lawrj-hero-title">
+                          {slide.titleStart}
+                          <span className="gold-gradient-text">{slide.titleHighlight}</span>
+                          {slide.titleEnd}
+                        </h1>
+                      ) : (
+                        <h2 className="lawrj-hero-title">
+                          {slide.titleStart}
+                          <span className="gold-gradient-text">{slide.titleHighlight}</span>
+                          {slide.titleEnd}
+                        </h2>
+                      )}
                       
                       <p className="lawrj-hero-desc">
                         {slide.desc}

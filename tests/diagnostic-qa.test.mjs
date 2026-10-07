@@ -318,4 +318,58 @@ describe('Starfleet Diagnostic QA Acceptance Suite (»Chapel)', () => {
     });
   });
 
+  describe('US-IT-012: Semantic Landmark & Heading Hierarchy Standards', () => {
+    const layoutContent = fs.readFileSync(path.join(ROOT, 'src/app/layout.js'), 'utf8');
+    const bannerContent = fs.readFileSync(path.join(ROOT, 'src/components/banner/BannerOne.jsx'), 'utf8');
+    const navContent = fs.readFileSync(path.join(ROOT, 'src/components/header/Nav.jsx'), 'utf8');
+
+    it('Scenario 1: Layout contains semantic main landmark', () => {
+      assert.ok(layoutContent.includes('<main id="main-content"'), 'Must contain <main id="main-content">');
+    });
+
+    it('Scenario 2: Single H1 enforced in BannerOne', () => {
+      assert.ok(bannerContent.includes('idx === 0 ?'), 'BannerOne conditionally renders H1 only on slide 0');
+      assert.ok(bannerContent.includes('<h2 className="lawrj-hero-title">'), 'BannerOne renders H2 on subsequent slides');
+    });
+
+    it('Scenario 3: Navigation rolling-text sanitized with aria-label & aria-hidden', () => {
+      assert.ok(navContent.includes('aria-label="Home"'), 'Nav link has aria-label="Home"');
+      assert.ok(navContent.includes('aria-hidden="true"'), 'Duplicate rolling block has aria-hidden="true"');
+    });
+  });
+
+  describe('US-IT-013: Form Accessibility & Autocomplete Standards', () => {
+    const footerContent = fs.readFileSync(path.join(ROOT, 'src/components/footer/FooterOne.jsx'), 'utf8');
+    const contactContent = fs.readFileSync(path.join(ROOT, 'src/components/contact/ContactOne.jsx'), 'utf8');
+
+    it('Scenario 1: Newsletter input has ID, name, autoComplete, and aria-label', () => {
+      assert.ok(footerContent.includes('id="newsletter_email"'), 'Newsletter has explicit ID');
+      assert.ok(footerContent.includes('name="newsletter_email"'), 'Newsletter has explicit name');
+      assert.ok(footerContent.includes('autoComplete="email"'), 'Newsletter has autoComplete');
+      assert.ok(footerContent.includes('aria-label="Enter your work email address"'), 'Newsletter has aria-label');
+    });
+
+    it('Scenario 2: Contact form inputs contain standard HTML5 autocomplete tokens', () => {
+      assert.ok(contactContent.includes('autoComplete="name"'), 'founder_name has autoComplete="name"');
+      assert.ok(contactContent.includes('autoComplete="organization"'), 'company_name has autoComplete="organization"');
+      assert.ok(contactContent.includes('autoComplete="email"'), 'work_email has autoComplete="email"');
+      assert.ok(contactContent.includes('autoComplete="tel"'), 'phone has autoComplete="tel"');
+    });
+  });
+
+  describe('US-IT-014: Scroll Performance & Forced Reflow Elimination', () => {
+    const backToTopContent = fs.readFileSync(path.join(ROOT, 'src/components/footer/BackToTop.jsx'), 'utf8');
+    const headerContent = fs.readFileSync(path.join(ROOT, 'src/components/header/HeaderOne.jsx'), 'utf8');
+
+    it('Scenario 1: BackToTop uses requestAnimationFrame throttling & passive listener', () => {
+      assert.ok(backToTopContent.includes('window.requestAnimationFrame'), 'BackToTop throttles via rAF');
+      assert.ok(backToTopContent.includes('{ passive: true }'), 'BackToTop uses passive scroll listener');
+    });
+
+    it('Scenario 2: HeaderOne throttles sticky scroll handler via requestAnimationFrame', () => {
+      assert.ok(headerContent.includes('window.requestAnimationFrame'), 'HeaderOne throttles via rAF');
+      assert.ok(headerContent.includes('{ passive: true }'), 'HeaderOne uses passive scroll listener');
+    });
+  });
+
 });

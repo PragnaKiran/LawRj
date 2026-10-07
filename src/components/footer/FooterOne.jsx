@@ -27,8 +27,15 @@ function Footer() {
                   </div>
                   <div className="col-lg-6">
                     <form action="#" className="d-flex align-items-center gap-2 flex-wrap flex-sm-nowrap">
+                      <label htmlFor="newsletter_email" className="visually-hidden">
+                        Work Email Address for Briefings
+                      </label>
                       <input
+                        id="newsletter_email"
+                        name="newsletter_email"
                         type="email"
+                        autoComplete="email"
+                        aria-label="Enter your work email address"
                         placeholder="Enter your work email address"
                         required
                         style={{

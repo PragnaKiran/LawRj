@@ -119,7 +119,9 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
+        <main id="main-content" role="main">
+          {children}
+        </main>
         {/* Persistent Global Confidential WhatsApp Channel */}
         <a
           href="https://wa.me/919327000022?text=Hello%20LawRJ%20Team%2C%20I%20would%20like%20to%20schedule%20a%20confidential%20Founder%20Strategy%20Briefing."

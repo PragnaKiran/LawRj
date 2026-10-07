@@ -105,9 +105,9 @@ function IndiaBridgeOne() {
                     <div style={{ width: '46px', height: '46px', borderRadius: '12px', background: 'rgba(212, 175, 55, 0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#F3C644', fontSize: '20px', marginBottom: '16px' }}>
                       <i className={feat.icon}></i>
                     </div>
-                    <h5 style={{ fontSize: '16px', fontWeight: '700', color: '#ffffff', marginBottom: '8px' }}>
+                    <h3 style={{ fontSize: '16px', fontWeight: '700', color: '#ffffff', marginBottom: '8px' }}>
                       {feat.title}
-                    </h5>
+                    </h3>
                     <p style={{ fontSize: '13px', color: '#94a3b8', lineHeight: '1.6', margin: 0 }}>
                       {feat.desc}
                     </p>

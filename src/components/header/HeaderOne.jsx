@@ -8,8 +8,22 @@ import Image from 'next/image';
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
   useEffect(() => {
-    const handleScroll = () => setIsSticky(window.scrollY > 120);
-    window.addEventListener('scroll', handleScroll);
+    let ticking = false;
+    let lastSticky = false;
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const sticky = window.scrollY > 120;
+          if (sticky !== lastSticky) {
+            lastSticky = sticky;
+            setIsSticky(sticky);
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 

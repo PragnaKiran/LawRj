@@ -96,13 +96,13 @@ const AboutOne = ({ id }) => {
                     style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
                   />
                   <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, transparent 60%, rgba(7, 17, 38, 0.75) 100%)' }}></div>
-                  <div style={{ position: 'absolute', bottom: '20px', left: '24px', color: '#fff' }}>
+                    <div style={{ position: 'absolute', bottom: '20px', left: '24px', color: '#fff' }}>
                     <span className="badge" style={{ background: 'rgba(212, 175, 55, 0.25)', border: '1px solid #D4AF37', color: '#F3C644', marginBottom: '6px', padding: '5px 12px' }}>
                       FOUNDER & COUNSEL COLLABORATION
                     </span>
-                    <h5 style={{ color: '#ffffff', margin: 0, fontSize: '18px', fontWeight: '700' }}>
+                    <div style={{ color: '#ffffff', margin: 0, fontSize: '18px', fontWeight: '700' }}>
                       Cross-Border Venture Structuring
-                    </h5>
+                    </div>
                   </div>
                 </div>
 
@@ -146,9 +146,9 @@ const AboutOne = ({ id }) => {
                       <i className="fa-solid fa-arrow-right-to-bracket"></i>
                     </div>
                     <div>
-                      <h6 style={{ margin: 0, fontSize: '14.5px', color: '#0B1B3D', fontWeight: '700' }}>
+                      <h3 style={{ margin: 0, fontSize: '14.5px', color: '#0B1B3D', fontWeight: '700' }}>
                         Inbound to India: Engineering GCCs & FEMA Inflow
-                      </h6>
+                      </h3>
                       <span style={{ fontSize: '12.5px', color: '#64748B', lineHeight: '1.5', display: 'block', marginTop: '2px' }}>
                         We assist US, UK, European and Singapore tech ventures establishing wholly-owned engineering Global Capability Centers (GCCs) in India, ensuring RBI FEMA compliance, transfer pricing documentation, and inward capital structuring.
                       </span>
@@ -162,9 +162,9 @@ const AboutOne = ({ id }) => {
                       <i className="fa-solid fa-arrow-up-right-from-square"></i>
                     </div>
                     <div>
-                      <h6 style={{ margin: 0, fontSize: '14.5px', color: '#0B1B3D', fontWeight: '700' }}>
+                      <h3 style={{ margin: 0, fontSize: '14.5px', color: '#0B1B3D', fontWeight: '700' }}>
                         Outbound to World: Cap-Table Flips & Global Funding
-                      </h6>
+                      </h3>
                       <span style={{ fontSize: '12.5px', color: '#64748B', lineHeight: '1.5', display: 'block', marginTop: '2px' }}>
                         We structure cross-border holding company flips, international IP consolidations, and YC Post-Money SAFE financings across Delaware, Singapore, and London for high-growth tech scale-ups.
                       </span>

@@ -100,9 +100,9 @@ function ProcessOne() {
                   </div>
                 </div>
                 <span className="lawrj-process-phase">{item.phase}</span>
-                <h4 style={{ fontSize: '18px', fontWeight: '700', color: '#0B1B3D', marginBottom: '12px' }}>
+                <h3 style={{ fontSize: '18px', fontWeight: '700', color: '#0B1B3D', marginBottom: '12px' }}>
                   {item.title}
-                </h4>
+                </h3>
                 <p style={{ fontSize: '14px', color: '#64748B', lineHeight: '1.7', margin: 0 }}>
                   {item.desc}
                 </p>

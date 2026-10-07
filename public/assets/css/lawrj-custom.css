@@ -135,10 +135,26 @@ body {
   }
 }
 
-/* Floating Action Trigger Relocation to Left Side */
+/* Floating Action Trigger Relocation to Left Side (Opposite to WhatsApp on Right) */
 .progress-wrap {
   left: 30px !important;
   right: auto !important;
+  bottom: 30px !important;
+  z-index: 9990 !important;
+}
+
+@media (max-width: 768px) {
+  .progress-wrap {
+    left: 20px !important;
+    bottom: 25px !important;
+  }
+  .lawrj-whatsapp-float {
+    right: 20px !important;
+    bottom: 25px !important;
+    width: 52px !important;
+    height: 52px !important;
+    font-size: 26px !important;
+  }
 }
 
 /* Header Enhancements */

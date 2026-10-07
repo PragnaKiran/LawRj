@@ -38,8 +38,9 @@ function AboutPage() {
       <AboutOne />
 
       {/* Media & Global Practice Showcase */}
-      <section className="py-5" style={{ background: '#F8FAFC' }}>
+      <section className="py-5" style={{ background: '#F8FAFC' }} aria-labelledby="showcase-heading">
         <div className="container">
+          <h2 id="showcase-heading" className="visually-hidden">Global Venture Practice Engagements</h2>
           <div className="row g-4 align-items-center">
             <div className="col-lg-4">
               <div style={{ borderRadius: '16px', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.06)', position: 'relative', height: '280px' }}>

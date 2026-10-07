@@ -7,6 +7,7 @@ import { Navigation, Scrollbar, A11y, EffectFade, Autoplay, Pagination } from 's
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 import Image from 'next/image';
 
 const bannerSlides = [
@@ -195,6 +196,16 @@ const BannerOne = () => {
           background: #D4AF37 !important;
           width: 26px;
           border-radius: 6px;
+        }
+        .mySwiper-banner-one .swiper-slide {
+          opacity: 0 !important;
+          pointer-events: none !important;
+          transition: opacity 800ms ease-in-out !important;
+        }
+        .mySwiper-banner-one .swiper-slide.swiper-slide-active {
+          opacity: 1 !important;
+          pointer-events: auto !important;
+          z-index: 10 !important;
         }
         @media(max-width: 991px) {
           .lawrj-hero-title { font-size: 32px; }

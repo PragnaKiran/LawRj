@@ -311,9 +311,9 @@ function ServiceDetailsContent() {
                 boxShadow: '0 16px 40px rgba(0,0,0,0.15)',
                 marginBottom: 24
               }}>
-                <h4 style={{ fontWeight: 700, color: '#F3C644', marginBottom: 20, fontSize: 18 }}>
+                <h2 style={{ fontWeight: 700, color: '#F3C644', marginBottom: 20, fontSize: 18 }}>
                   Execution Timeline
-                </h4>
+                </h2>
                 
                 <div className="d-flex justify-content-between align-items-center py-3" style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
                   <span style={{ color: '#94a3b8', fontSize: 14 }}>Turnaround Time</span>
@@ -348,9 +348,9 @@ function ServiceDetailsContent() {
 
               {/* Navigation Menu for All Stages */}
               <div style={{ background: 'white', borderRadius: 16, padding: '28px', border: '1px solid #E2E8F0' }}>
-                <h5 style={{ color: '#0B1B3D', fontWeight: 700, marginBottom: 18, fontSize: 16 }}>
+                <h2 style={{ color: '#0B1B3D', fontWeight: 700, marginBottom: 18, fontSize: 16 }}>
                   Venture Services & Hubs
-                </h5>
+                </h2>
                 <div className="d-flex flex-column gap-2">
                   <span style={{ fontSize: '11px', color: '#A9801A', fontWeight: '800', letterSpacing: '1px', textTransform: 'uppercase' }}>Venture Services</span>
                   <Link href="/ServiceDetails?service=inception" style={{ padding: '8px 12px', borderRadius: '6px', background: serviceKey === 'inception' ? '#0B1B3D' : '#F8FAFC', color: serviceKey === 'inception' ? '#fff' : '#334155', textDecoration: 'none', fontSize: '13px', fontWeight: serviceKey === 'inception' ? '700' : '500' }}>

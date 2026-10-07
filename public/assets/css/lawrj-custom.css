@@ -329,17 +329,107 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Side navigation panel */
+/* Side navigation panel (Hamburger Menu) High-Contrast Styling */
 #side-hide {
-  background: #0B1B3D !important;
+  background: #071126 !important;
+  color: #ffffff !important;
 }
 
 #side-hide .title {
   color: #ffffff !important;
+  font-family: Georgia, serif !important;
+  font-weight: 700 !important;
 }
 
 #side-hide .disc {
+  color: #cbd5e1 !important;
+  font-size: 13.5px !important;
+  line-height: 1.6 !important;
+}
+
+#side-hide .short-contact-area-side-collups .single-contact-information-side {
+  margin-bottom: 18px !important;
+}
+
+#side-hide .short-contact-area-side-collups .single-contact-information-side i {
+  background: rgba(212, 175, 55, 0.15) !important;
+  color: #F3C644 !important;
+  border: 1px solid rgba(212, 175, 55, 0.35) !important;
+  border-radius: 8px !important;
+}
+
+#side-hide .short-contact-area-side-collups .single-contact-information-side .information span {
   color: #94a3b8 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  display: block !important;
+  margin-bottom: 3px !important;
+}
+
+#side-hide .short-contact-area-side-collups .single-contact-information-side .information a.number,
+#side-hide .short-contact-area-side-collups .single-contact-information-side .information p.number {
+  color: #ffffff !important;
+  font-size: 14.5px !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+}
+
+#side-hide .short-contact-area-side-collups .single-contact-information-side .information a.number:hover {
+  color: #F3C644 !important;
+}
+
+/* Mobile Nav Menu inside #side-hide */
+#side-hide .mobile-menu-main nav ul li a.main {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 14px 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+#side-hide .mobile-menu-main nav ul li a.main:hover {
+  color: #F3C644 !important;
+}
+
+#side-hide .mobile-menu-main nav ul li.has-droupdown::after {
+  background: transparent !important;
+  color: #D4AF37 !important;
+  right: 0 !important;
+  top: 12px !important;
+}
+
+#side-hide .mobile-menu-main nav ul li.has-droupdown ul {
+  background: rgba(11, 27, 61, 0.6) !important;
+  border-radius: 8px !important;
+  padding: 6px 14px !important;
+  margin: 8px 0 12px !important;
+}
+
+#side-hide .mobile-menu-main nav ul li.has-droupdown ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+#side-hide .mobile-menu-main nav ul li.has-droupdown ul li:last-child {
+  border-bottom: none !important;
+}
+
+#side-hide .mobile-menu-main nav ul li.has-droupdown ul a.mobile-menu-link {
+  color: #cbd5e1 !important;
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+  padding: 10px 0 !important;
+  display: block !important;
+}
+
+#side-hide .mobile-menu-main nav ul li.has-droupdown ul a.mobile-menu-link:hover {
+  color: #F3C644 !important;
+  padding-left: 6px !important;
+  transition: all 0.2s ease !important;
 }
 
 /* Global Floating WhatsApp Contact */

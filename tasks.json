@@ -983,6 +983,24 @@
       "est_hours": "2.0",
       "actual_hours": "1.0",
       "notes": "Replaced un-throttled scroll listeners with requestAnimationFrame throttling, passive event listeners, and cached DOM references, eliminating forced reflow stutters. Closed GitHub Issue #29."
+    },
+    {
+      "task_id": "TSK-UI-022",
+      "scheduled_date": "2026-10-07",
+      "project_id": "PRJ-02",
+      "project_name": "LawRJ",
+      "sub_project_id": "SUB-014",
+      "sub_project_name": "LawRJ Web Platform & Legal Tech Infrastructure",
+      "project_priority": 2,
+      "sub_project_priority": 4,
+      "task_priority": 21,
+      "priority_matrix": "2-4-21",
+      "sort_key": [2, 4, 21],
+      "task_name": "Calibrate Inner Page Heading Order & Sidebar Contrast on ServiceDetails & About",
+      "status": "To Do",
+      "est_hours": "1.5",
+      "actual_hours": "",
+      "notes": "Logged from live production multi-page Chrome DevTools MCP audit. Ensure sequential heading order and 4.5:1 contrast on inner templates. GitHub Issue #30."
     }
   ]
 }

@@ -13,7 +13,7 @@ const serviceData = {
     stage: "VENTURE FORMATION",
     title: "Entity Incorporation & Founder Equity",
     subtitle: "US, UK, SG, AU & CA Entity Setup & Vesting Schedules",
-    image: "/assets/images/editorial/pillar-01-holding.jpg",
+    image: "/assets/images/editorial/service-inception.jpg",
     description: "Launch your venture on institutional foundations. We incorporate Delaware C-Corps, UK Private Limiteds, Singapore Pte Ltds, and Australian Pty Ltds. We architect founder equity vesting, IP assignments, 83(b) elections, and cap-table structuring tailored for top global accelerators (YC, Techstars) and angel syndicates.",
     deliverables: [
       "Delaware C-Corp, UK Ltd or Singapore Pte Ltd Registration",
@@ -31,7 +31,7 @@ const serviceData = {
     stage: "VENTURE FINANCING",
     title: "Seed & Venture Capital Financing",
     subtitle: "SAFE Notes, KISS Agreements & Priced Equity Rounds",
-    image: "/assets/images/editorial/pillar-02-financing.jpg",
+    image: "/assets/images/editorial/service-financing.jpg",
     description: "Structure, draft, and negotiate venture capital financing rounds without dilutive traps. We handle Y-Combinator Post-Money SAFEs (with Valuation Caps and MFN provisions), 500-Startups KISS notes, Convertible Promissory Notes, and institutional Series Seed / Series A documentation.",
     deliverables: [
       "Y-Combinator Standard Post-Money SAFE Note Drafting",
@@ -49,7 +49,7 @@ const serviceData = {
     stage: "COMMERCIAL ARCHITECTURE",
     title: "Commercial SaaS & Tech Architecture",
     subtitle: "Enterprise Contracts, MSAs, SLAs & Global DPAs",
-    image: "/assets/images/editorial/pillar-03-contracts.jpg",
+    image: "/assets/images/editorial/service-contracts.jpg",
     description: "Equip your software and technology products with enterprise-ready commercial contracts that close sales. We build robust Master Services Agreements (MSA), Data Processing Addendums (DPA) compliant with GDPR, CCPA, and Singapore PDPA, Service Level Agreements (SLA), and acceptable use policies.",
     deliverables: [
       "B2B Enterprise Master Services Agreement (MSA)",
@@ -85,7 +85,7 @@ const serviceData = {
     stage: "TALENT & IP SHIELD",
     title: "Global Talent, ESOPs & IP Protection",
     subtitle: "International Stock Options & Global Team Shielding",
-    image: "/assets/images/about/about-4.jpg",
+    image: "/assets/images/editorial/service-esop.jpg",
     description: "Attract and retain world-class engineering, product, and sales talent across borders. We structure multi-jurisdiction Employee Stock Option Plans (ESOP) and Phantom Stock / RSU programs, contractor-to-employee compliance shielding (EOR integration), and ironclad non-compete/non-solicit assignments.",
     deliverables: [
       "Comprehensive Global Employee Stock Option Plan (ESOP)",
@@ -103,7 +103,7 @@ const serviceData = {
     stage: "GOVERNANCE & LIQUIDITY",
     title: "M&A, Governance & Pre-IPO Readiness",
     subtitle: "Strategic Liquidity, Secondary Sales & Exit Architecture",
-    image: "/assets/images/about/about-5.jpg",
+    image: "/assets/images/editorial/service-preipo.jpg",
     description: "Prepare your enterprise for transformative liquidity. We conduct full virtual data room sanitization, audit corporate governance records, structure secondary share sales, and advise founders through strategic acquisition term sheets, acqui-hires, and dual-listing IPO pathways.",
     deliverables: [
       "Virtual Data Room (VDR) Structuring & Sanitization",
@@ -121,7 +121,7 @@ const serviceData = {
     stage: "INDIA MARKET CORRIDOR",
     title: "Western Startups Entering India (GCC & FDI)",
     subtitle: "Global Capability Centers, Inward Remittance & Indian Tech Hubs",
-    image: "/assets/images/editorial/pillar-04-bridge.jpg",
+    image: "/assets/images/editorial/service-bridge.jpg",
     description: "Expand into India's booming digital market and engineering ecosystem with complete legal certainty. We incorporate wholly-owned Indian subsidiaries, structure Global Capability Centers (GCCs), navigate RBI foreign exchange (FEMA/FDI) approvals, and draft ironclad US-standard IP assignments for Indian tech talent.",
     deliverables: [
       "Indian Wholly-Owned Subsidiary / Private Ltd Incorporation",
@@ -139,7 +139,7 @@ const serviceData = {
     stage: "MARKET DEEP DIVE",
     title: "🇺🇸 United States Market (Delaware C-Corp)",
     subtitle: "The Gold Standard for Global Venture Capital",
-    image: "/assets/images/banner/04.jpg",
+    image: "/assets/images/editorial/service-hub-us.jpg",
     description: "Delaware is the undisputed capital of venture-backed technology. We handle your complete Delaware C-Corp formation, IRS EIN procurement, Silicon Valley YC SAFEs, founder vesting with 83(b) tax elections, and Mercury/Brex US banking setup.",
     deliverables: [
       "Delaware C-Corp Articles of Incorporation & Expedited Filing",
@@ -155,7 +155,7 @@ const serviceData = {
     stage: "MARKET DEEP DIVE",
     title: "🇬🇧 United Kingdom Market (London Tech Ltd)",
     subtitle: "Europe's Leading Fintech & Venture Ecosystem",
-    image: "/assets/images/banner/05.jpg",
+    image: "/assets/images/editorial/service-hub-uk.jpg",
     description: "London is the fintech and technology hub of Europe. We incorporate your UK Private Limited company, secure Companies House and HMRC tax credentials, and structure Advance Subscription Agreements (ASA) and SEIS/EIS investor qualification frameworks.",
     deliverables: [
       "UK Companies House Ltd Incorporation & Articles of Association",
@@ -171,7 +171,7 @@ const serviceData = {
     stage: "MARKET DEEP DIVE",
     title: "🇸🇬 Singapore Market (ACRA Holding Co)",
     subtitle: "Gateway to Southeast Asia & Premier Asian HoldCo",
-    image: "/assets/images/product/04.jpg",
+    image: "/assets/images/editorial/service-hub-sg.jpg",
     description: "Singapore provides tax efficiency, rock-solid common law governance, and an unmatched gateway to Southeast Asia. We establish ACRA Pte Ltd holding entities, implement Singapore VIMA venture financing contracts, and coordinate DBS/OCBC institutional corporate accounts.",
     deliverables: [
       "ACRA Singapore Pte Ltd Company Incorporation",
@@ -187,7 +187,7 @@ const serviceData = {
     stage: "MARKET DEEP DIVE",
     title: "🇦🇺 Australia Market (Sydney / Melbourne Pty Ltd)",
     subtitle: "Thriving Innovation Hub with R&D Tax Incentives",
-    image: "/assets/images/product/05.jpg",
+    image: "/assets/images/editorial/service-hub-au.jpg",
     description: "Australia boasts world-class technology talent and generous government R&D tax incentives. We incorporate ASIC Proprietary Limited (Pty Ltd) entities, handle Australian Business Numbers (ABN/TFN), structure employee share schemes (ESS), and set up corporate banking with CommBank.",
     deliverables: [
       "ASIC Australian Pty Ltd Company Registration",
@@ -203,7 +203,7 @@ const serviceData = {
     stage: "MARKET DEEP DIVE",
     title: "🇨🇦 Canada Market (Federal & Provincial Tech Corp)",
     subtitle: "North American Tech Hub with SR&ED Benefits",
-    image: "/assets/images/product/06.jpg",
+    image: "/assets/images/editorial/service-hub-ca.jpg",
     description: "Canada offers direct access to the North American market combined with lucrative SR&ED scientific research tax credits. We incorporate Federal or Provincial corporations (Ontario/BC), arrange Canadian corporate banking, and prepare enterprise SaaS contracts.",
     deliverables: [
       "Federal / Ontario / British Columbia Corporation Registration",

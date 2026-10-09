@@ -1015,10 +1015,10 @@
       "priority_matrix": "2-4-22",
       "sort_key": [2, 4, 22],
       "task_name": "Standardize Hero Slider Height to 640px Equal-Height Flex Layout",
-      "status": "In Progress",
+      "status": "Completed",
       "est_hours": "1.0",
-      "actual_hours": "",
-      "notes": "Harmonize the height of all 4 hero banner slider slides on the Home page to eliminate vertical jumps during slide transitions. GitHub Issue #31."
+      "actual_hours": "1.0",
+      "notes": "Harmonized all 4 hero banner slider slides on the Home page to a standardized 640px equal-height flex container, completely eradicating vertical jumps during slide transitions. Closed GitHub Issue #31."
     },
     {
       "task_id": "TSK-UI-024",
@@ -1033,10 +1033,10 @@
       "priority_matrix": "2-4-23",
       "sort_key": [2, 4, 23],
       "task_name": "Enrich /Service Page with Architectural Practice Cards & Visual Grid",
-      "status": "To Do",
+      "status": "Completed",
       "est_hours": "1.5",
-      "actual_hours": "",
-      "notes": "Add visual preview cards with authentic editorial imagery to each of the 4 practice pillars on /Service. GitHub Issue #32."
+      "actual_hours": "1.0",
+      "notes": "Enriched the /Service page with authentic editorial visual cards for all four core venture practice pillars, complete with next/image responsive optimization. Closed GitHub Issue #32."
     },
     {
       "task_id": "TSK-UI-025",
@@ -1051,10 +1051,10 @@
       "priority_matrix": "2-4-24",
       "sort_key": [2, 4, 24],
       "task_name": "Audit & Replace Generic Stock Photos with Authentic Editorial Workspace Imagery",
-      "status": "To Do",
+      "status": "In Progress",
       "est_hours": "2.5",
-      "actual_hours": "",
-      "notes": "Systematically replace legacy generic stock photos with authentic editorial luxury tech compositions with no identifiable human faces and zero brand logos. GitHub Issue #33."
+      "actual_hours": "1.5",
+      "notes": "Replaced legacy stock images across /About and /ServiceDetails with authentic editorial luxury tech compositions (no recognizable human faces, zero brand logos). Scheduled next generation batch for banner hero backgrounds. GitHub Issue #33."
     }
   ]
 }

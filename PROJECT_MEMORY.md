@@ -97,12 +97,12 @@ Per strict directive of Fleet Admiral Viral Vyas, the USS Enterprise (NCC-1701) 
   * *Notes:* Replaced un-throttled scroll listeners with `requestAnimationFrame` + `{ passive: true }` + cached DOM refs, eradicating forced reflows and scroll stutters. Closed [GitHub Issue #29](https://github.com/PragnaKiran/LawRj/issues/29).
 * [x] **`[2-4-21]` `TSK-UI-022` — Calibrate Inner Page Heading Order & Sidebar Contrast on ServiceDetails & About (`»Sulu, »DeSalle`)** (`Completed` | `src/app/(inner-page)/ServiceDetails/page.js`, `src/app/(inner-page)/About/page.js` | Actual: `1.0h`)
   * *Notes:* Calibrated heading order (H1->H2->H3) across `/About` and `/ServiceDetails`, and guaranteed 4.5:1 WCAG AA contrast on sidebar navigation. Closed [GitHub Issue #30](https://github.com/PragnaKiran/LawRj/issues/30).
-* [ ] **`[2-4-22]` `TSK-UI-023` — Standardize Hero Slider Height to 640px Equal-Height Flex Layout (`»Daystrom, »DeSalle`)** (`In Progress` | Scheduled: `2026-10-09` | Est: `1.0h`)
-  * *Notes:* Harmonize all 4 hero banner slider slides on the Home page to a standardized 640px equal-height flex container. [GitHub Issue #31](https://github.com/PragnaKiran/LawRj/issues/31).
-* [ ] **`[2-4-23]` `TSK-UI-024` — Enrich /Service Page with Architectural Practice Cards & Visual Grid (`»Sulu, »DeSalle`)** (`To Do` | Scheduled: `2026-10-09` | Est: `1.5h`)
-  * *Notes:* Add authentic editorial visuals, architectural diagrams, and structured showcase media for the 4 core venture pillars on /Service. [GitHub Issue #32](https://github.com/PragnaKiran/LawRj/issues/32).
-* [ ] **`[2-4-24]` `TSK-UI-025` — Audit & Replace Generic Stock Photos with Authentic Editorial Workspace Imagery (`»Sulu, »Rand`)** (`To Do` | Scheduled: `2026-10-09` | Est: `2.5h`)
-  * *Notes:* Replace legacy stock photos with authentic editorial compositions featuring clean desk setups, unbranded hardware, and open source code editors with zero recognizable faces. [GitHub Issue #33](https://github.com/PragnaKiran/LawRj/issues/33).
+* [x] **`[2-4-22]` `TSK-UI-023` — Standardize Hero Slider Height to 640px Equal-Height Flex Layout (`»Daystrom, »DeSalle`)** (`Completed` | `src/components/banner/BannerOne.jsx`, `public/assets/css/lawrj-custom.css` | Actual: `1.0h`)
+  * *Notes:* Harmonized all 4 hero banner slider slides on the Home page to a standardized 640px equal-height flex container, completely eradicating vertical jumps during slide transitions. Closed [GitHub Issue #31](https://github.com/PragnaKiran/LawRj/issues/31).
+* [x] **`[2-4-23]` `TSK-UI-024` — Enrich /Service Page with Architectural Practice Cards & Visual Grid (`»Sulu, »DeSalle`)** (`Completed` | `src/components/service/ServiceOne.jsx` | Actual: `1.0h`)
+  * *Notes:* Enriched the /Service page with authentic editorial visual cards for all four core venture practice pillars, complete with next/image responsive optimization. Closed [GitHub Issue #32](https://github.com/PragnaKiran/LawRj/issues/32).
+* [ ] **`[2-4-24]` `TSK-UI-025` — Audit & Replace Generic Stock Photos with Authentic Editorial Workspace Imagery (`»Sulu, »Rand`)** (`In Progress` | Scheduled: `2026-10-09` | Est: `2.5h` | Actual: `1.5h`)
+  * *Notes:* Replaced legacy stock photos across /About and /ServiceDetails with authentic editorial luxury tech compositions (no recognizable human faces, zero brand logos). Scheduled next generation batch for banner hero backgrounds. [GitHub Issue #33](https://github.com/PragnaKiran/LawRj/issues/33).
 
 ### 🏛️ B. External Operational Legal Track (Preserved on Master Ledger | Offline Execution)
 * [ ] **`[2-1-1]` `TSK-035` — Chirag Patel Probate Public Notice** (`In Progress` | Scheduled: `2026-08-29` | Est: `1.5h`)

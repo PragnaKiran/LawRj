@@ -102,7 +102,10 @@ const BannerOne = () => {
     <div className="tmp-banner-swiper-one-area" style={{ position: 'relative' }}>
       <style>{`
         .lawrj-hero-slide {
-          min-height: 740px;
+          min-height: 640px;
+          height: 100%;
+          width: 100%;
+          flex: 1 1 auto;
           display: flex;
           align-items: center;
           position: relative;
@@ -197,7 +200,14 @@ const BannerOne = () => {
           width: 26px;
           border-radius: 6px;
         }
+        .mySwiper-banner-one,
+        .mySwiper-banner-one .swiper-wrapper {
+          display: flex !important;
+          align-items: stretch !important;
+        }
         .mySwiper-banner-one .swiper-slide {
+          height: auto !important;
+          display: flex !important;
           opacity: 0 !important;
           pointer-events: none !important;
           transition: opacity 800ms ease-in-out !important;
@@ -207,9 +217,21 @@ const BannerOne = () => {
           pointer-events: auto !important;
           z-index: 10 !important;
         }
+        .lawrj-hero-slide {
+          min-height: 640px !important;
+          height: 100% !important;
+          width: 100% !important;
+          flex: 1 1 auto !important;
+          display: flex !important;
+          align-items: center !important;
+          position: relative;
+          background-size: cover;
+          background-position: center;
+          overflow: hidden;
+        }
         @media(max-width: 991px) {
           .lawrj-hero-title { font-size: 32px; }
-          .lawrj-hero-slide { min-height: 500px; }
+          .lawrj-hero-slide { min-height: 540px !important; }
           .lawrj-glass-feature-card { margin-top: 24px; padding: 22px; }
         }
       `}</style>

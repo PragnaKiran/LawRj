@@ -13,7 +13,7 @@ const serviceData = {
     stage: "VENTURE FORMATION",
     title: "Entity Incorporation & Founder Equity",
     subtitle: "US, UK, SG, AU & CA Entity Setup & Vesting Schedules",
-    image: "/assets/images/banner/construction-01.jpg",
+    image: "/assets/images/editorial/pillar-01-holding.jpg",
     description: "Launch your venture on institutional foundations. We incorporate Delaware C-Corps, UK Private Limiteds, Singapore Pte Ltds, and Australian Pty Ltds. We architect founder equity vesting, IP assignments, 83(b) elections, and cap-table structuring tailored for top global accelerators (YC, Techstars) and angel syndicates.",
     deliverables: [
       "Delaware C-Corp, UK Ltd or Singapore Pte Ltd Registration",
@@ -31,7 +31,7 @@ const serviceData = {
     stage: "VENTURE FINANCING",
     title: "Seed & Venture Capital Financing",
     subtitle: "SAFE Notes, KISS Agreements & Priced Equity Rounds",
-    image: "/assets/images/banner/startup-1.jpg",
+    image: "/assets/images/editorial/pillar-02-financing.jpg",
     description: "Structure, draft, and negotiate venture capital financing rounds without dilutive traps. We handle Y-Combinator Post-Money SAFEs (with Valuation Caps and MFN provisions), 500-Startups KISS notes, Convertible Promissory Notes, and institutional Series Seed / Series A documentation.",
     deliverables: [
       "Y-Combinator Standard Post-Money SAFE Note Drafting",
@@ -49,7 +49,7 @@ const serviceData = {
     stage: "COMMERCIAL ARCHITECTURE",
     title: "Commercial SaaS & Tech Architecture",
     subtitle: "Enterprise Contracts, MSAs, SLAs & Global DPAs",
-    image: "/assets/images/banner/construction-02.jpg",
+    image: "/assets/images/editorial/pillar-03-contracts.jpg",
     description: "Equip your software and technology products with enterprise-ready commercial contracts that close sales. We build robust Master Services Agreements (MSA), Data Processing Addendums (DPA) compliant with GDPR, CCPA, and Singapore PDPA, Service Level Agreements (SLA), and acceptable use policies.",
     deliverables: [
       "B2B Enterprise Master Services Agreement (MSA)",
@@ -67,7 +67,7 @@ const serviceData = {
     stage: "CROSS-BORDER OPERATIONS",
     title: "Cross-Border Structuring & Local Corporate Banking",
     subtitle: "Local Business Registrations & Direct Bank Accounts",
-    image: "/assets/images/banner/construction-03.jpg",
+    image: "/assets/images/editorial/workspace-overview.jpg",
     description: "Overcome international banking friction. Leveraging our verified corporate presence and established networks, we facilitate local corporate bank accounts in the US (Mercury, Brex), UK (Barclays, Wise Business), Singapore (DBS, OCBC), and Australia (CommBank). We also draft intercompany transfer pricing agreements and foreign subsidiary governance.",
     deliverables: [
       "Direct Corporate Bank Account Opening (US, UK, SG, AU, CA)",
@@ -85,7 +85,7 @@ const serviceData = {
     stage: "TALENT & IP SHIELD",
     title: "Global Talent, ESOPs & IP Protection",
     subtitle: "International Stock Options & Global Team Shielding",
-    image: "/assets/images/about/about-2.jpg",
+    image: "/assets/images/about/about-4.jpg",
     description: "Attract and retain world-class engineering, product, and sales talent across borders. We structure multi-jurisdiction Employee Stock Option Plans (ESOP) and Phantom Stock / RSU programs, contractor-to-employee compliance shielding (EOR integration), and ironclad non-compete/non-solicit assignments.",
     deliverables: [
       "Comprehensive Global Employee Stock Option Plan (ESOP)",
@@ -103,7 +103,7 @@ const serviceData = {
     stage: "GOVERNANCE & LIQUIDITY",
     title: "M&A, Governance & Pre-IPO Readiness",
     subtitle: "Strategic Liquidity, Secondary Sales & Exit Architecture",
-    image: "/assets/images/banner/construction-04.jpg",
+    image: "/assets/images/about/about-5.jpg",
     description: "Prepare your enterprise for transformative liquidity. We conduct full virtual data room sanitization, audit corporate governance records, structure secondary share sales, and advise founders through strategic acquisition term sheets, acqui-hires, and dual-listing IPO pathways.",
     deliverables: [
       "Virtual Data Room (VDR) Structuring & Sanitization",
@@ -121,7 +121,7 @@ const serviceData = {
     stage: "INDIA MARKET CORRIDOR",
     title: "Western Startups Entering India (GCC & FDI)",
     subtitle: "Global Capability Centers, Inward Remittance & Indian Tech Hubs",
-    image: "/assets/images/banner/startup-3.jpg",
+    image: "/assets/images/editorial/pillar-04-bridge.jpg",
     description: "Expand into India's booming digital market and engineering ecosystem with complete legal certainty. We incorporate wholly-owned Indian subsidiaries, structure Global Capability Centers (GCCs), navigate RBI foreign exchange (FEMA/FDI) approvals, and draft ironclad US-standard IP assignments for Indian tech talent.",
     deliverables: [
       "Indian Wholly-Owned Subsidiary / Private Ltd Incorporation",

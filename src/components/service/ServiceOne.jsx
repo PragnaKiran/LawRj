@@ -1,11 +1,13 @@
 "use client";
 import Link from 'next/link';
+import Image from 'next/image';
 
 const pillars = [
   {
     id: "inception",
     pillarId: "PIL-01",
     badge: "PILLAR 01",
+    image: "/assets/images/editorial/pillar-01-holding.jpg",
     title: "Global Corporate Structuring & Holding Architecture",
     subtitle: "Multi-Jurisdiction Holding & Subsidiary Formations",
     desc: "Objective corporate architecture tailored to founder residency and international capital requirements. We engineer holding and operating entities across Singapore, UAE (ADGM/DIFC), United Kingdom, United States (Delaware C-Corp), Netherlands, and Cayman Islands.",
@@ -23,6 +25,7 @@ const pillars = [
     id: "financing",
     pillarId: "PIL-02",
     badge: "PILLAR 02",
+    image: "/assets/images/editorial/pillar-02-financing.jpg",
     title: "Venture Capital Financing & Cap-Table Governance",
     subtitle: "YC Post-Money SAFEs, KISS Notes & Priced Rounds",
     desc: "Protect founder control and eliminate cap-table dilution traps. We structure Y-Combinator Post-Money SAFEs (with Valuation Caps and Discounts), 500 Global KISS notes, convertible bridge debt, and institutional priced Seed & Series A rounds.",
@@ -40,6 +43,7 @@ const pillars = [
     id: "contracts",
     pillarId: "PIL-03",
     badge: "PILLAR 03",
+    image: "/assets/images/editorial/pillar-03-contracts.jpg",
     title: "Enterprise B2B SaaS Contracts & Global Privacy",
     subtitle: "Sales-Enabling MSAs, 99.9% SLAs & DPDP / GDPR",
     desc: "Production-grade commercial contracting suites designed to navigate Fortune 500 procurement smoothly. We draft sales-enabling Master Services Agreements (MSAs), Service Level Agreements (SLAs), and global Data Processing Addenda (DPAs).",
@@ -57,6 +61,7 @@ const pillars = [
     id: "india-bridge",
     pillarId: "PIL-04",
     badge: "PILLAR 04",
+    image: "/assets/images/editorial/pillar-04-bridge.jpg",
     title: "Cross-Border Market Expansion & Inbound Tech Hubs",
     subtitle: "India Engineering GCC Hubs & FEMA Inbound FDI",
     desc: "The bilateral corridor bridging global technology companies and the Indian ecosystem. We structure engineering Global Capability Centers (GCCs), navigate RBI/FEMA inbound FDI compliance, and assist Indian technology scale-ups expanding into Western markets.",
@@ -106,6 +111,30 @@ function ServiceOne() {
         .lawrj-service-card:hover::before {
           height: 100%;
         }
+        .lawrj-service-media {
+          border-radius: 12px;
+          overflow: hidden;
+          position: relative;
+          height: 180px;
+          margin-bottom: 22px;
+          border: 1px solid rgba(212, 175, 55, 0.2);
+          box-shadow: 0 8px 20px rgba(11, 27, 61, 0.06);
+        }
+        .lawrj-service-media img {
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+        .lawrj-service-card:hover .lawrj-service-media img {
+          transform: scale(1.04);
+        }
+        .lawrj-service-media-overlay {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(180deg, transparent 40%, rgba(7, 17, 38, 0.75) 100%);
+          display: flex;
+          align-items: flex-end;
+          padding: 14px 16px;
+        }
         .lawrj-stage-badge {
           font-size: 11px;
           font-weight: 800;
@@ -118,16 +147,16 @@ function ServiceOne() {
           margin-bottom: 16px;
         }
         .lawrj-service-icon-box {
-          width: 54px;
-          height: 54px;
-          border-radius: 12px;
+          width: 50px;
+          height: 50px;
+          border-radius: 10px;
           background: #0B1B3D;
           color: #F3C644;
           display: flex;
           align-items: center;
           justify-content: center;
-          font-size: 22px;
-          margin-bottom: 20px;
+          font-size: 20px;
+          margin-bottom: 18px;
           transition: all 0.3s ease;
         }
         .lawrj-service-card:hover .lawrj-service-icon-box {
@@ -229,17 +258,31 @@ function ServiceOne() {
             {pillars.map((item) => (
               <div key={item.id} className="col-lg-6" data-aos="fade-up" data-aos-delay={item.delay}>
                 <div className="lawrj-service-card">
-                  <div className="d-flex align-items-center justify-content-between mb-2">
-                    <span className="lawrj-stage-badge">{item.badge}</span>
+                  <div className="d-flex align-items-center justify-content-between mb-3">
+                    <span className="lawrj-stage-badge mb-0">{item.badge}</span>
                     <span style={{ fontSize: '12px', fontWeight: '700', color: '#94A3B8' }}>{item.pillarId}</span>
                   </div>
 
-                  <div className="lawrj-service-icon-box">
-                    <i className={item.iconClass}></i>
+                  <div className="lawrj-service-media">
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                    <div className="lawrj-service-media-overlay">
+                      <div className="d-flex align-items-center gap-2">
+                        <div style={{ width: '32px', height: '32px', borderRadius: '8px', background: 'rgba(212, 175, 55, 0.25)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#F3C644', fontSize: '14px' }}>
+                          <i className={item.iconClass}></i>
+                        </div>
+                        <span style={{ color: '#ffffff', fontSize: '12.5px', fontWeight: '700', letterSpacing: '0.5px' }}>
+                          {item.subtitle}
+                        </span>
+                      </div>
+                    </div>
                   </div>
                   
                   <h3 className="lawrj-service-title">{item.title}</h3>
-                  <span className="lawrj-service-sub">{item.subtitle}</span>
                   <p className="lawrj-service-desc">{item.desc}</p>
 
                   <ul className="lawrj-service-highlights">

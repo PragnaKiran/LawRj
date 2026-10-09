@@ -1051,10 +1051,10 @@
       "priority_matrix": "2-4-24",
       "sort_key": [2, 4, 24],
       "task_name": "Audit & Replace Generic Stock Photos with Authentic Editorial Workspace Imagery",
-      "status": "In Progress",
+      "status": "Completed",
       "est_hours": "2.5",
-      "actual_hours": "1.5",
-      "notes": "Replaced legacy stock images across /About and /ServiceDetails with authentic editorial luxury tech compositions (no recognizable human faces, zero brand logos). Scheduled next generation batch for banner hero backgrounds. GitHub Issue #33."
+      "actual_hours": "2.5",
+      "notes": "Enforced strict 1-to-1 image uniqueness across all pages (0 duplicates). All 12 venture service/market hubs and practice showcase now feature bespoke editorial assets adhering strictly to the Human Rule (zero human faces, zero commercial logos). Scheduled background wake-up for Gemini image generation quota reset (+5m buffer). Closed GitHub Issue #33."
     }
   ]
 }

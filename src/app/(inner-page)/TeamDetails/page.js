@@ -80,7 +80,7 @@ function page() {
                             </div>
                             <div className="single-info">
                                 <span>E-mail:</span>
-                                <a href="#">supportjony@gmail.com</a>
+                                <a href="mailto:i@lawrj.com">i@lawrj.com</a>
                             </div>
                             </div>
                             <div className="info-right">
